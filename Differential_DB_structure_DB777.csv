@@ -1,0 +1,5205 @@
+Level 1,,
+Name,Data Type,Offset
+Battery Stacks,"Array[1..5] of ""Battery Stack""",0
+,,
+,,
+,,
+,,
+,,
+,,
+Level 2,,
+Name,Data Type,Offset
+Battery Stacks,"Array[1..5] of ""Battery Stack""",0
+Battery Stacks[1],Battery Stack,0
+Battery Stacks[2],Battery Stack,504
+Battery Stacks[3],Battery Stack,1008
+Battery Stacks[4],Battery Stack,1512
+Battery Stacks[5],Battery Stack,2016
+,,
+,,
+,,
+,,
+,,
+Level 3,,
+Name,Data Type,Offset
+Battery Stacks,"Array[1..5] of ""Battery Stack""",0
+Battery Stacks[1],Battery Stack,0
+BMS,"Array[1..4] of ""BMS(Xerotech)""",0
+BTMS,BTMS(Grayson),456
+Battery Stacks[2],Battery Stack,504
+BMS,"Array[1..4] of ""BMS(Xerotech)""",504
+BTMS,BTMS(Grayson),960
+Battery Stacks[3],Battery Stack,1008
+BMS,"Array[1..4] of ""BMS(Xerotech)""",1008
+BTMS,BTMS(Grayson),1464
+Battery Stacks[4],Battery Stack,1512
+BMS,"Array[1..4] of ""BMS(Xerotech)""",1512
+BTMS,BTMS(Grayson),1968
+Battery Stacks[5],Battery Stack,2016
+BMS,"Array[1..4] of ""BMS(Xerotech)""",2016
+BTMS,BTMS(Grayson),2472
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+Level 4,,
+Name,Data Type,Offset
+Battery Stacks,"Array[1..5] of ""Battery Stack""",0
+Battery Stacks[1],Battery Stack,0
+BMS,"Array[1..4] of ""BMS(Xerotech)""",0
+BMS[1],BMS(Xerotech),0
+BMS[2],BMS(Xerotech),114
+BMS[3],BMS(Xerotech),228
+BMS[4],BMS(Xerotech),342
+BTMS,BTMS(Grayson),456
+Device ID,USInt,456
+Rx,BTMS_receive,458
+Tx,BTMS_transmit,498
+Battery Stacks[2],Battery Stack,504
+BMS,"Array[1..4] of ""BMS(Xerotech)""",504
+BMS[1],BMS(Xerotech),504
+BMS[2],BMS(Xerotech),618
+BMS[3],BMS(Xerotech),732
+BMS[4],BMS(Xerotech),846
+BTMS,BTMS(Grayson),960
+Device ID,USInt,960
+Rx,BTMS_receive,962
+Tx,BTMS_transmit,1002
+Battery Stacks[3],Battery Stack,1008
+BMS,"Array[1..4] of ""BMS(Xerotech)""",1008
+BMS[1],BMS(Xerotech),1008
+BMS[2],BMS(Xerotech),1122
+BMS[3],BMS(Xerotech),1236
+BMS[4],BMS(Xerotech),1350
+BTMS,BTMS(Grayson),1464
+Device ID,USInt,1464
+Rx,BTMS_receive,1466
+Tx,BTMS_transmit,1506
+Battery Stacks[4],Battery Stack,1512
+BMS,"Array[1..4] of ""BMS(Xerotech)""",1512
+BMS[1],BMS(Xerotech),1512
+BMS[2],BMS(Xerotech),1626
+BMS[3],BMS(Xerotech),1740
+BMS[4],BMS(Xerotech),1854
+BTMS,BTMS(Grayson),1968
+Device ID,USInt,1968
+Rx,BTMS_receive,1970
+Tx,BTMS_transmit,2010
+Battery Stacks[5],Battery Stack,2016
+BMS,"Array[1..4] of ""BMS(Xerotech)""",2016
+BMS[1],BMS(Xerotech),2016
+BMS[2],BMS(Xerotech),2130
+BMS[3],BMS(Xerotech),2244
+BMS[4],BMS(Xerotech),2358
+BTMS,BTMS(Grayson),2472
+Device ID,USInt,2472
+Rx,BTMS_receive,2474
+Tx,BTMS_transmit,2514
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+Level 5,,
+Name,Data Type,Offset
+Battery Stacks,"Array[1..5] of ""Battery Stack""",0
+Battery Stacks[1],Battery Stack,0
+BMS,"Array[1..4] of ""BMS(Xerotech)""",0
+BMS[1],BMS(Xerotech),0
+CAN interface,USInt,0
+Device ID,USInt,1
+Rx,BMS_receive,2
+Tx,BMS_transmit,102
+BMS[2],BMS(Xerotech),114
+CAN interface,USInt,114
+Device ID,USInt,115
+Rx,BMS_receive,116
+Tx,BMS_transmit,216
+BMS[3],BMS(Xerotech),228
+CAN interface,USInt,228
+Device ID,USInt,229
+Rx,BMS_receive,230
+Tx,BMS_transmit,330
+BMS[4],BMS(Xerotech),342
+CAN interface,USInt,342
+Device ID,USInt,343
+Rx,BMS_receive,344
+Tx,BMS_transmit,444
+BTMS,BTMS(Grayson),456
+Device ID,USInt,456
+Rx,BTMS_receive,458
+Operating Mode,USInt,458
+Pump Speed,USInt,459
+Fan Speed,USInt,460
+Inlet Temperature,Int,462
+Outlet Temperature,Int,464
+Target Temperature,Int,466
+Compressor Timer,USInt,468
+Protect Lock State,USInt,469
+Protect Timer,USInt,470
+Lock Timer,USInt,471
+Software Version,USInt,472
+Compressor HTCO State,USInt,473
+LPCO State,USInt,474
+HPCO State,USInt,475
+CPS State,USInt,476
+Fan1 HTCO State,USInt,477
+Heater HTCO State,USInt,478
+Level Sensor Switch State,USInt,479
+Fan1 MCB State,USInt,480
+Heater MCB State,USInt,481
+Compressor MCB State,USInt,482
+Pump MCB State,USInt,483
+Fan2 MCB State,USInt,484
+Fan2 HTCO State,USInt,485
+Pump Pressure Flow Switch,USInt,486
+Pump State,USInt,487
+Fan State,USInt,488
+Heater State,USInt,489
+Compressor State,USInt,490
+Inlet Temp Sensor State,USInt,491
+Outlet Temp Sensor State,USInt,492
+Temp Plausibility Error,USInt,493
+F1 Refrigerant circuit over-pressure,Bool,494
+F2 Refrigerant circuit under-pressure,Bool,494.1
+F3 Compressor over-temperature,Bool,494.2
+F4 Heater over-temperature,Bool,494.3
+F5 Fan 1 over-temperature,Bool,494.4
+F6 Inlet temperature sensor open circuit,Bool,494.5
+F7 Inlet temperature sensor short circuit,Bool,494.6
+F8 Outlet temperature sensor open circuit,Bool,494.7
+F9 Outlet temperature sensor short circuit,Bool,495
+F10 Temperatures disagree (not plausible),Bool,495.1
+F11 Cooling prohibited due to low temperature,Bool,495.2
+F12 Heating prohibited due to high temperature,Bool,495.3
+F13 Pump incorrect speed,Bool,495.4
+F14 Pump communications fault,Bool,495.5
+F15 Pump fault (CAN),Bool,495.6
+F16 Compressor circuit breaker,Bool,495.7
+F17 Heater circuit breaker,Bool,496
+F18 Fan 1 circuit breaker,Bool,496.1
+F19 Not implemented,Bool,496.2
+F20 Coolant level fault (Level sensor switch),Bool,496.3
+F21 Fan 2 Over-temperature,Bool,496.4
+F22 Fan 2 circuit breaker,Bool,496.5
+F23 Not implemented,Bool,496.6
+F24 Pump circuit breaker,Bool,496.7
+F25 Flow rate fault (Pump Pressure_Flow Switch Fault),Bool,497
+F26 Not implemented,Bool,497.1
+Tx,BTMS_transmit,498
+ModeRequest,USInt,498
+SetpointRequestDegC,Int,500
+PumpSpeedRequestPercent,Int,502
+Battery Stacks[2],Battery Stack,504
+BMS,"Array[1..4] of ""BMS(Xerotech)""",504
+BMS[1],BMS(Xerotech),504
+CAN interface,USInt,504
+Device ID,USInt,505
+Rx,BMS_receive,506
+Tx,BMS_transmit,606
+BMS[2],BMS(Xerotech),618
+CAN interface,USInt,618
+Device ID,USInt,619
+Rx,BMS_receive,620
+Tx,BMS_transmit,720
+BMS[3],BMS(Xerotech),732
+CAN interface,USInt,732
+Device ID,USInt,733
+Rx,BMS_receive,734
+Tx,BMS_transmit,834
+BMS[4],BMS(Xerotech),846
+CAN interface,USInt,846
+Device ID,USInt,847
+Rx,BMS_receive,848
+Tx,BMS_transmit,948
+BTMS,BTMS(Grayson),960
+Device ID,USInt,960
+Rx,BTMS_receive,962
+Operating Mode,USInt,962
+Pump Speed,USInt,963
+Fan Speed,USInt,964
+Inlet Temperature,Int,966
+Outlet Temperature,Int,968
+Target Temperature,Int,970
+Compressor Timer,USInt,972
+Protect Lock State,USInt,973
+Protect Timer,USInt,974
+Lock Timer,USInt,975
+Software Version,USInt,976
+Compressor HTCO State,USInt,977
+LPCO State,USInt,978
+HPCO State,USInt,979
+CPS State,USInt,980
+Fan1 HTCO State,USInt,981
+Heater HTCO State,USInt,982
+Level Sensor Switch State,USInt,983
+Fan1 MCB State,USInt,984
+Heater MCB State,USInt,985
+Compressor MCB State,USInt,986
+Pump MCB State,USInt,987
+Fan2 MCB State,USInt,988
+Fan2 HTCO State,USInt,989
+Pump Pressure Flow Switch,USInt,990
+Pump State,USInt,991
+Fan State,USInt,992
+Heater State,USInt,993
+Compressor State,USInt,994
+Inlet Temp Sensor State,USInt,995
+Outlet Temp Sensor State,USInt,996
+Temp Plausibility Error,USInt,997
+F1 Refrigerant circuit over-pressure,Bool,998
+F2 Refrigerant circuit under-pressure,Bool,998.1
+F3 Compressor over-temperature,Bool,998.2
+F4 Heater over-temperature,Bool,998.3
+F5 Fan 1 over-temperature,Bool,998.4
+F6 Inlet temperature sensor open circuit,Bool,998.5
+F7 Inlet temperature sensor short circuit,Bool,998.6
+F8 Outlet temperature sensor open circuit,Bool,998.7
+F9 Outlet temperature sensor short circuit,Bool,999
+F10 Temperatures disagree (not plausible),Bool,999.1
+F11 Cooling prohibited due to low temperature,Bool,999.2
+F12 Heating prohibited due to high temperature,Bool,999.3
+F13 Pump incorrect speed,Bool,999.4
+F14 Pump communications fault,Bool,999.5
+F15 Pump fault (CAN),Bool,999.6
+F16 Compressor circuit breaker,Bool,999.7
+F17 Heater circuit breaker,Bool,1000
+F18 Fan 1 circuit breaker,Bool,1000.1
+F19 Not implemented,Bool,1000.2
+F20 Coolant level fault (Level sensor switch),Bool,1000.3
+F21 Fan 2 Over-temperature,Bool,1000.4
+F22 Fan 2 circuit breaker,Bool,1000.5
+F23 Not implemented,Bool,1000.6
+F24 Pump circuit breaker,Bool,1000.7
+F25 Flow rate fault (Pump Pressure_Flow Switch Fault),Bool,1001
+F26 Not implemented,Bool,1001.1
+Tx,BTMS_transmit,1002
+ModeRequest,USInt,1002
+SetpointRequestDegC,Int,1004
+PumpSpeedRequestPercent,Int,1006
+Battery Stacks[3],Battery Stack,1008
+BMS,"Array[1..4] of ""BMS(Xerotech)""",1008
+BMS[1],BMS(Xerotech),1008
+CAN interface,USInt,1008
+Device ID,USInt,1009
+Rx,BMS_receive,1010
+Tx,BMS_transmit,1110
+BMS[2],BMS(Xerotech),1122
+CAN interface,USInt,1122
+Device ID,USInt,1123
+Rx,BMS_receive,1124
+Tx,BMS_transmit,1224
+BMS[3],BMS(Xerotech),1236
+CAN interface,USInt,1236
+Device ID,USInt,1237
+Rx,BMS_receive,1238
+Tx,BMS_transmit,1338
+BMS[4],BMS(Xerotech),1350
+CAN interface,USInt,1350
+Device ID,USInt,1351
+Rx,BMS_receive,1352
+Tx,BMS_transmit,1452
+BTMS,BTMS(Grayson),1464
+Device ID,USInt,1464
+Rx,BTMS_receive,1466
+Operating Mode,USInt,1466
+Pump Speed,USInt,1467
+Fan Speed,USInt,1468
+Inlet Temperature,Int,1470
+Outlet Temperature,Int,1472
+Target Temperature,Int,1474
+Compressor Timer,USInt,1476
+Protect Lock State,USInt,1477
+Protect Timer,USInt,1478
+Lock Timer,USInt,1479
+Software Version,USInt,1480
+Compressor HTCO State,USInt,1481
+LPCO State,USInt,1482
+HPCO State,USInt,1483
+CPS State,USInt,1484
+Fan1 HTCO State,USInt,1485
+Heater HTCO State,USInt,1486
+Level Sensor Switch State,USInt,1487
+Fan1 MCB State,USInt,1488
+Heater MCB State,USInt,1489
+Compressor MCB State,USInt,1490
+Pump MCB State,USInt,1491
+Fan2 MCB State,USInt,1492
+Fan2 HTCO State,USInt,1493
+Pump Pressure Flow Switch,USInt,1494
+Pump State,USInt,1495
+Fan State,USInt,1496
+Heater State,USInt,1497
+Compressor State,USInt,1498
+Inlet Temp Sensor State,USInt,1499
+Outlet Temp Sensor State,USInt,1500
+Temp Plausibility Error,USInt,1501
+F1 Refrigerant circuit over-pressure,Bool,1502
+F2 Refrigerant circuit under-pressure,Bool,1502.1
+F3 Compressor over-temperature,Bool,1502.2
+F4 Heater over-temperature,Bool,1502.3
+F5 Fan 1 over-temperature,Bool,1502.4
+F6 Inlet temperature sensor open circuit,Bool,1502.5
+F7 Inlet temperature sensor short circuit,Bool,1502.6
+F8 Outlet temperature sensor open circuit,Bool,1502.7
+F9 Outlet temperature sensor short circuit,Bool,1503
+F10 Temperatures disagree (not plausible),Bool,1503.1
+F11 Cooling prohibited due to low temperature,Bool,1503.2
+F12 Heating prohibited due to high temperature,Bool,1503.3
+F13 Pump incorrect speed,Bool,1503.4
+F14 Pump communications fault,Bool,1503.5
+F15 Pump fault (CAN),Bool,1503.6
+F16 Compressor circuit breaker,Bool,1503.7
+F17 Heater circuit breaker,Bool,1504
+F18 Fan 1 circuit breaker,Bool,1504.1
+F19 Not implemented,Bool,1504.2
+F20 Coolant level fault (Level sensor switch),Bool,1504.3
+F21 Fan 2 Over-temperature,Bool,1504.4
+F22 Fan 2 circuit breaker,Bool,1504.5
+F23 Not implemented,Bool,1504.6
+F24 Pump circuit breaker,Bool,1504.7
+F25 Flow rate fault (Pump Pressure_Flow Switch Fault),Bool,1505
+F26 Not implemented,Bool,1505.1
+Tx,BTMS_transmit,1506
+ModeRequest,USInt,1506
+SetpointRequestDegC,Int,1508
+PumpSpeedRequestPercent,Int,1510
+Battery Stacks[4],Battery Stack,1512
+BMS,"Array[1..4] of ""BMS(Xerotech)""",1512
+BMS[1],BMS(Xerotech),1512
+CAN interface,USInt,1512
+Device ID,USInt,1513
+Rx,BMS_receive,1514
+Tx,BMS_transmit,1614
+BMS[2],BMS(Xerotech),1626
+CAN interface,USInt,1626
+Device ID,USInt,1627
+Rx,BMS_receive,1628
+Tx,BMS_transmit,1728
+BMS[3],BMS(Xerotech),1740
+CAN interface,USInt,1740
+Device ID,USInt,1741
+Rx,BMS_receive,1742
+Tx,BMS_transmit,1842
+BMS[4],BMS(Xerotech),1854
+CAN interface,USInt,1854
+Device ID,USInt,1855
+Rx,BMS_receive,1856
+Tx,BMS_transmit,1956
+BTMS,BTMS(Grayson),1968
+Device ID,USInt,1968
+Rx,BTMS_receive,1970
+Operating Mode,USInt,1970
+Pump Speed,USInt,1971
+Fan Speed,USInt,1972
+Inlet Temperature,Int,1974
+Outlet Temperature,Int,1976
+Target Temperature,Int,1978
+Compressor Timer,USInt,1980
+Protect Lock State,USInt,1981
+Protect Timer,USInt,1982
+Lock Timer,USInt,1983
+Software Version,USInt,1984
+Compressor HTCO State,USInt,1985
+LPCO State,USInt,1986
+HPCO State,USInt,1987
+CPS State,USInt,1988
+Fan1 HTCO State,USInt,1989
+Heater HTCO State,USInt,1990
+Level Sensor Switch State,USInt,1991
+Fan1 MCB State,USInt,1992
+Heater MCB State,USInt,1993
+Compressor MCB State,USInt,1994
+Pump MCB State,USInt,1995
+Fan2 MCB State,USInt,1996
+Fan2 HTCO State,USInt,1997
+Pump Pressure Flow Switch,USInt,1998
+Pump State,USInt,1999
+Fan State,USInt,2000
+Heater State,USInt,2001
+Compressor State,USInt,2002
+Inlet Temp Sensor State,USInt,2003
+Outlet Temp Sensor State,USInt,2004
+Temp Plausibility Error,USInt,2005
+F1 Refrigerant circuit over-pressure,Bool,2006
+F2 Refrigerant circuit under-pressure,Bool,2006.1
+F3 Compressor over-temperature,Bool,2006.2
+F4 Heater over-temperature,Bool,2006.3
+F5 Fan 1 over-temperature,Bool,2006.4
+F6 Inlet temperature sensor open circuit,Bool,2006.5
+F7 Inlet temperature sensor short circuit,Bool,2006.6
+F8 Outlet temperature sensor open circuit,Bool,2006.7
+F9 Outlet temperature sensor short circuit,Bool,2007
+F10 Temperatures disagree (not plausible),Bool,2007.1
+F11 Cooling prohibited due to low temperature,Bool,2007.2
+F12 Heating prohibited due to high temperature,Bool,2007.3
+F13 Pump incorrect speed,Bool,2007.4
+F14 Pump communications fault,Bool,2007.5
+F15 Pump fault (CAN),Bool,2007.6
+F16 Compressor circuit breaker,Bool,2007.7
+F17 Heater circuit breaker,Bool,2008
+F18 Fan 1 circuit breaker,Bool,2008.1
+F19 Not implemented,Bool,2008.2
+F20 Coolant level fault (Level sensor switch),Bool,2008.3
+F21 Fan 2 Over-temperature,Bool,2008.4
+F22 Fan 2 circuit breaker,Bool,2008.5
+F23 Not implemented,Bool,2008.6
+F24 Pump circuit breaker,Bool,2008.7
+F25 Flow rate fault (Pump Pressure_Flow Switch Fault),Bool,2009
+F26 Not implemented,Bool,2009.1
+Tx,BTMS_transmit,2010
+ModeRequest,USInt,2010
+SetpointRequestDegC,Int,2012
+PumpSpeedRequestPercent,Int,2014
+Battery Stacks[5],Battery Stack,2016
+BMS,"Array[1..4] of ""BMS(Xerotech)""",2016
+BMS[1],BMS(Xerotech),2016
+CAN interface,USInt,2016
+Device ID,USInt,2017
+Rx,BMS_receive,2018
+Tx,BMS_transmit,2118
+BMS[2],BMS(Xerotech),2130
+CAN interface,USInt,2130
+Device ID,USInt,2131
+Rx,BMS_receive,2132
+Tx,BMS_transmit,2232
+BMS[3],BMS(Xerotech),2244
+CAN interface,USInt,2244
+Device ID,USInt,2245
+Rx,BMS_receive,2246
+Tx,BMS_transmit,2346
+BMS[4],BMS(Xerotech),2358
+CAN interface,USInt,2358
+Device ID,USInt,2359
+Rx,BMS_receive,2360
+Tx,BMS_transmit,2460
+BTMS,BTMS(Grayson),2472
+Device ID,USInt,2472
+Rx,BTMS_receive,2474
+Operating Mode,USInt,2474
+Pump Speed,USInt,2475
+Fan Speed,USInt,2476
+Inlet Temperature,Int,2478
+Outlet Temperature,Int,2480
+Target Temperature,Int,2482
+Compressor Timer,USInt,2484
+Protect Lock State,USInt,2485
+Protect Timer,USInt,2486
+Lock Timer,USInt,2487
+Software Version,USInt,2488
+Compressor HTCO State,USInt,2489
+LPCO State,USInt,2490
+HPCO State,USInt,2491
+CPS State,USInt,2492
+Fan1 HTCO State,USInt,2493
+Heater HTCO State,USInt,2494
+Level Sensor Switch State,USInt,2495
+Fan1 MCB State,USInt,2496
+Heater MCB State,USInt,2497
+Compressor MCB State,USInt,2498
+Pump MCB State,USInt,2499
+Fan2 MCB State,USInt,2500
+Fan2 HTCO State,USInt,2501
+Pump Pressure Flow Switch,USInt,2502
+Pump State,USInt,2503
+Fan State,USInt,2504
+Heater State,USInt,2505
+Compressor State,USInt,2506
+Inlet Temp Sensor State,USInt,2507
+Outlet Temp Sensor State,USInt,2508
+Temp Plausibility Error,USInt,2509
+F1 Refrigerant circuit over-pressure,Bool,2510
+F2 Refrigerant circuit under-pressure,Bool,2510.1
+F3 Compressor over-temperature,Bool,2510.2
+F4 Heater over-temperature,Bool,2510.3
+F5 Fan 1 over-temperature,Bool,2510.4
+F6 Inlet temperature sensor open circuit,Bool,2510.5
+F7 Inlet temperature sensor short circuit,Bool,2510.6
+F8 Outlet temperature sensor open circuit,Bool,2510.7
+F9 Outlet temperature sensor short circuit,Bool,2511
+F10 Temperatures disagree (not plausible),Bool,2511.1
+F11 Cooling prohibited due to low temperature,Bool,2511.2
+F12 Heating prohibited due to high temperature,Bool,2511.3
+F13 Pump incorrect speed,Bool,2511.4
+F14 Pump communications fault,Bool,2511.5
+F15 Pump fault (CAN),Bool,2511.6
+F16 Compressor circuit breaker,Bool,2511.7
+F17 Heater circuit breaker,Bool,2512
+F18 Fan 1 circuit breaker,Bool,2512.1
+F19 Not implemented,Bool,2512.2
+F20 Coolant level fault (Level sensor switch),Bool,2512.3
+F21 Fan 2 Over-temperature,Bool,2512.4
+F22 Fan 2 circuit breaker,Bool,2512.5
+F23 Not implemented,Bool,2512.6
+F24 Pump circuit breaker,Bool,2512.7
+F25 Flow rate fault (Pump Pressure_Flow Switch Fault),Bool,2513
+F26 Not implemented,Bool,2513.1
+Tx,BTMS_transmit,2514
+ModeRequest,USInt,2514
+SetpointRequestDegC,Int,2516
+PumpSpeedRequestPercent,Int,2518
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+Level 6,,
+Name,Data Type,Offset
+Battery Stacks,"Array[1..5] of ""Battery Stack""",0
+Battery Stacks[1],Battery Stack,0
+BMS,"Array[1..4] of ""BMS(Xerotech)""",0
+BMS[1],BMS(Xerotech),0
+CAN interface,USInt,0
+Device ID,USInt,1
+Rx,BMS_receive,2
+Hardware Version,UInt,2
+Software Version,Array[0..5] of Byte,4
+CAN ID of the device,USInt,10
+Maximum number of BMS per stack,USInt,11
+Number of active BMS per stack,USInt,12
+BMS System State,USInt,13
+System Fault,USInt,14
+CAN1 Status,USInt,15
+CAN3 Status,USInt,16
+Contactor State (neg bus bar),USInt,17
+Contactor State (pos bus bar),USInt,18
+Contactor State (pre-charge contactor),USInt,19
+Battery Health in percent,USInt,20
+State of Charge,Real,22
+DC Bus Voltage in V,Real,26
+Total Pack Current in A,Real,30
+Pack Voltage in V,Real,34
+Average Cell Temperature in C,Real,38
+Highest Cell Temperature in C,Real,42
+Lowest Cell Temperature in C,Real,46
+Inlet Coolant Pressure in PSI,Real,50
+Outlet Coolant Pressure in PSI,Real,54
+Remaining Energy in kWh,Real,58
+Maximum Charge Current (Motoring),Real,62
+Maximum Discharge Current (Motoring),Real,66
+Maximum Charge Power (Plug-in Charging),Real,70
+Maximum Charge Current (Plug-in Charging),Real,74
+Maximum Charge Power (Motoring),Real,78
+Maximum Discharge Power (Motoring),Real,82
+Battery in Charge State accumulator in minutes,UInt,86
+Expected time to empty in minutes,UInt,88
+Full Charge cycle counter,UInt,90
+Battery in Operational State accumulator in minutes,UInt,92
+Expected time to fully charged in minutes,UInt,94
+Request for heating,Bool,96
+Request for cooling,Bool,96.1
+Charging complete,Bool,96.2
+ISO active,Bool,96.3
+LED active,Bool,96.4
+CAN3 baud rate reduction,Bool,96.5
+Heartbeat,Bool,96.6
+Cell overvoltage fault,Bool,96.7
+Cell overvoltage warning,Bool,97
+Cell undervoltage fault,Bool,97.1
+Cell undervoltage warning,Bool,97.2
+End-of-life fault,Bool,97.3
+End-of-life warning,Bool,97.4
+HVIL fault,Bool,97.5
+BMS 24V supply overvoltage fault,Bool,97.6
+BMS 24V supply undervoltage fault,Bool,97.7
+Pack overcurrent fault while charging,Bool,98
+Pack overcurrent warning while charging,Bool,98.1
+Pack overcurrent fault while discharging,Bool,98.2
+Pack overcurrent warning while discharging,Bool,98.3
+Pack overtemperature fault,Bool,98.4
+Pack overtemperature warning,Bool,98.5
+Pack undertemperature warning,Bool,98.6
+Pack overvoltage fault,Bool,98.7
+Pack overvoltage warning,Bool,99
+Pack undervoltage fault,Bool,99.1
+Pack undervoltage warning,Bool,99.2
+Temperature difference fault,Bool,99.3
+Loss of power control fault,Bool,99.4
+Loss of power control warning,Bool,99.5
+Isolation fault,Bool,99.6
+Isolation warning,Bool,99.7
+Pack overcharge fault,Bool,100
+Pack overdischarge fault,Bool,100.1
+Inlet coolant overpressure warning,Bool,100.2
+Inlet coolant overpressure fault,Bool,100.3
+Outlet coolant overpressure warning,Bool,100.4
+Outlet coolant overpressure fault,Bool,100.5
+Tx,BMS_transmit,102
+Ambient Temperature in C,SInt,102
+State of Charge setpoint in percent,SInt,103
+Pack Voltage setpoint in V,Int,104
+Command BMS sleep mode,Bool,106
+Command BMS power up,Bool,106.1
+Command BMS power down,Bool,106.2
+Command BMS emergency,Bool,106.3
+Command BMS plug-in charge,Bool,106.4
+Command BMS stop charging,Bool,106.5
+Isolation disable,Bool,106.6
+LED mode,Bool,106.7
+Change LED mode,Bool,107
+New pack ID,USInt,108
+Change pack ID,Bool,109
+CAN3 baud rate reduction,Bool,109.1
+Change baud rate,Bool,109.2
+Maximum number of packs per stack,USInt,110
+Change max number of packs per stack,Bool,111
+Passcode,USInt,112
+BMS[2],BMS(Xerotech),114
+CAN interface,USInt,114
+Device ID,USInt,115
+Rx,BMS_receive,116
+Hardware Version,UInt,116
+Software Version,Array[0..5] of Byte,118
+CAN ID of the device,USInt,124
+Maximum number of BMS per stack,USInt,125
+Number of active BMS per stack,USInt,126
+BMS System State,USInt,127
+System Fault,USInt,128
+CAN1 Status,USInt,129
+CAN3 Status,USInt,130
+Contactor State (neg bus bar),USInt,131
+Contactor State (pos bus bar),USInt,132
+Contactor State (pre-charge contactor),USInt,133
+Battery Health in percent,USInt,134
+State of Charge,Real,136
+DC Bus Voltage in V,Real,140
+Total Pack Current in A,Real,144
+Pack Voltage in V,Real,148
+Average Cell Temperature in C,Real,152
+Highest Cell Temperature in C,Real,156
+Lowest Cell Temperature in C,Real,160
+Inlet Coolant Pressure in PSI,Real,164
+Outlet Coolant Pressure in PSI,Real,168
+Remaining Energy in kWh,Real,172
+Maximum Charge Current (Motoring),Real,176
+Maximum Discharge Current (Motoring),Real,180
+Maximum Charge Power (Plug-in Charging),Real,184
+Maximum Charge Current (Plug-in Charging),Real,188
+Maximum Charge Power (Motoring),Real,192
+Maximum Discharge Power (Motoring),Real,196
+Battery in Charge State accumulator in minutes,UInt,200
+Expected time to empty in minutes,UInt,202
+Full Charge cycle counter,UInt,204
+Battery in Operational State accumulator in minutes,UInt,206
+Expected time to fully charged in minutes,UInt,208
+Request for heating,Bool,210
+Request for cooling,Bool,210.1
+Charging complete,Bool,210.2
+ISO active,Bool,210.3
+LED active,Bool,210.4
+CAN3 baud rate reduction,Bool,210.5
+Heartbeat,Bool,210.6
+Cell overvoltage fault,Bool,210.7
+Cell overvoltage warning,Bool,211
+Cell undervoltage fault,Bool,211.1
+Cell undervoltage warning,Bool,211.2
+End-of-life fault,Bool,211.3
+End-of-life warning,Bool,211.4
+HVIL fault,Bool,211.5
+BMS 24V supply overvoltage fault,Bool,211.6
+BMS 24V supply undervoltage fault,Bool,211.7
+Pack overcurrent fault while charging,Bool,212
+Pack overcurrent warning while charging,Bool,212.1
+Pack overcurrent fault while discharging,Bool,212.2
+Pack overcurrent warning while discharging,Bool,212.3
+Pack overtemperature fault,Bool,212.4
+Pack overtemperature warning,Bool,212.5
+Pack undertemperature warning,Bool,212.6
+Pack overvoltage fault,Bool,212.7
+Pack overvoltage warning,Bool,213
+Pack undervoltage fault,Bool,213.1
+Pack undervoltage warning,Bool,213.2
+Temperature difference fault,Bool,213.3
+Loss of power control fault,Bool,213.4
+Loss of power control warning,Bool,213.5
+Isolation fault,Bool,213.6
+Isolation warning,Bool,213.7
+Pack overcharge fault,Bool,214
+Pack overdischarge fault,Bool,214.1
+Inlet coolant overpressure warning,Bool,214.2
+Inlet coolant overpressure fault,Bool,214.3
+Outlet coolant overpressure warning,Bool,214.4
+Outlet coolant overpressure fault,Bool,214.5
+Tx,BMS_transmit,216
+Ambient Temperature in C,SInt,216
+State of Charge setpoint in percent,SInt,217
+Pack Voltage setpoint in V,Int,218
+Command BMS sleep mode,Bool,220
+Command BMS power up,Bool,220.1
+Command BMS power down,Bool,220.2
+Command BMS emergency,Bool,220.3
+Command BMS plug-in charge,Bool,220.4
+Command BMS stop charging,Bool,220.5
+Isolation disable,Bool,220.6
+LED mode,Bool,220.7
+Change LED mode,Bool,221
+New pack ID,USInt,222
+Change pack ID,Bool,223
+CAN3 baud rate reduction,Bool,223.1
+Change baud rate,Bool,223.2
+Maximum number of packs per stack,USInt,224
+Change max number of packs per stack,Bool,225
+Passcode,USInt,226
+BMS[3],BMS(Xerotech),228
+CAN interface,USInt,228
+Device ID,USInt,229
+Rx,BMS_receive,230
+Hardware Version,UInt,230
+Software Version,Array[0..5] of Byte,232
+CAN ID of the device,USInt,238
+Maximum number of BMS per stack,USInt,239
+Number of active BMS per stack,USInt,240
+BMS System State,USInt,241
+System Fault,USInt,242
+CAN1 Status,USInt,243
+CAN3 Status,USInt,244
+Contactor State (neg bus bar),USInt,245
+Contactor State (pos bus bar),USInt,246
+Contactor State (pre-charge contactor),USInt,247
+Battery Health in percent,USInt,248
+State of Charge,Real,250
+DC Bus Voltage in V,Real,254
+Total Pack Current in A,Real,258
+Pack Voltage in V,Real,262
+Average Cell Temperature in C,Real,266
+Highest Cell Temperature in C,Real,270
+Lowest Cell Temperature in C,Real,274
+Inlet Coolant Pressure in PSI,Real,278
+Outlet Coolant Pressure in PSI,Real,282
+Remaining Energy in kWh,Real,286
+Maximum Charge Current (Motoring),Real,290
+Maximum Discharge Current (Motoring),Real,294
+Maximum Charge Power (Plug-in Charging),Real,298
+Maximum Charge Current (Plug-in Charging),Real,302
+Maximum Charge Power (Motoring),Real,306
+Maximum Discharge Power (Motoring),Real,310
+Battery in Charge State accumulator in minutes,UInt,314
+Expected time to empty in minutes,UInt,316
+Full Charge cycle counter,UInt,318
+Battery in Operational State accumulator in minutes,UInt,320
+Expected time to fully charged in minutes,UInt,322
+Request for heating,Bool,324
+Request for cooling,Bool,324.1
+Charging complete,Bool,324.2
+ISO active,Bool,324.3
+LED active,Bool,324.4
+CAN3 baud rate reduction,Bool,324.5
+Heartbeat,Bool,324.6
+Cell overvoltage fault,Bool,324.7
+Cell overvoltage warning,Bool,325
+Cell undervoltage fault,Bool,325.1
+Cell undervoltage warning,Bool,325.2
+End-of-life fault,Bool,325.3
+End-of-life warning,Bool,325.4
+HVIL fault,Bool,325.5
+BMS 24V supply overvoltage fault,Bool,325.6
+BMS 24V supply undervoltage fault,Bool,325.7
+Pack overcurrent fault while charging,Bool,326
+Pack overcurrent warning while charging,Bool,326.1
+Pack overcurrent fault while discharging,Bool,326.2
+Pack overcurrent warning while discharging,Bool,326.3
+Pack overtemperature fault,Bool,326.4
+Pack overtemperature warning,Bool,326.5
+Pack undertemperature warning,Bool,326.6
+Pack overvoltage fault,Bool,326.7
+Pack overvoltage warning,Bool,327
+Pack undervoltage fault,Bool,327.1
+Pack undervoltage warning,Bool,327.2
+Temperature difference fault,Bool,327.3
+Loss of power control fault,Bool,327.4
+Loss of power control warning,Bool,327.5
+Isolation fault,Bool,327.6
+Isolation warning,Bool,327.7
+Pack overcharge fault,Bool,328
+Pack overdischarge fault,Bool,328.1
+Inlet coolant overpressure warning,Bool,328.2
+Inlet coolant overpressure fault,Bool,328.3
+Outlet coolant overpressure warning,Bool,328.4
+Outlet coolant overpressure fault,Bool,328.5
+Tx,BMS_transmit,330
+Ambient Temperature in C,SInt,330
+State of Charge setpoint in percent,SInt,331
+Pack Voltage setpoint in V,Int,332
+Command BMS sleep mode,Bool,334
+Command BMS power up,Bool,334.1
+Command BMS power down,Bool,334.2
+Command BMS emergency,Bool,334.3
+Command BMS plug-in charge,Bool,334.4
+Command BMS stop charging,Bool,334.5
+Isolation disable,Bool,334.6
+LED mode,Bool,334.7
+Change LED mode,Bool,335
+New pack ID,USInt,336
+Change pack ID,Bool,337
+CAN3 baud rate reduction,Bool,337.1
+Change baud rate,Bool,337.2
+Maximum number of packs per stack,USInt,338
+Change max number of packs per stack,Bool,339
+Passcode,USInt,340
+BMS[4],BMS(Xerotech),342
+CAN interface,USInt,342
+Device ID,USInt,343
+Rx,BMS_receive,344
+Hardware Version,UInt,344
+Software Version,Array[0..5] of Byte,346
+CAN ID of the device,USInt,352
+Maximum number of BMS per stack,USInt,353
+Number of active BMS per stack,USInt,354
+BMS System State,USInt,355
+System Fault,USInt,356
+CAN1 Status,USInt,357
+CAN3 Status,USInt,358
+Contactor State (neg bus bar),USInt,359
+Contactor State (pos bus bar),USInt,360
+Contactor State (pre-charge contactor),USInt,361
+Battery Health in percent,USInt,362
+State of Charge,Real,364
+DC Bus Voltage in V,Real,368
+Total Pack Current in A,Real,372
+Pack Voltage in V,Real,376
+Average Cell Temperature in C,Real,380
+Highest Cell Temperature in C,Real,384
+Lowest Cell Temperature in C,Real,388
+Inlet Coolant Pressure in PSI,Real,392
+Outlet Coolant Pressure in PSI,Real,396
+Remaining Energy in kWh,Real,400
+Maximum Charge Current (Motoring),Real,404
+Maximum Discharge Current (Motoring),Real,408
+Maximum Charge Power (Plug-in Charging),Real,412
+Maximum Charge Current (Plug-in Charging),Real,416
+Maximum Charge Power (Motoring),Real,420
+Maximum Discharge Power (Motoring),Real,424
+Battery in Charge State accumulator in minutes,UInt,428
+Expected time to empty in minutes,UInt,430
+Full Charge cycle counter,UInt,432
+Battery in Operational State accumulator in minutes,UInt,434
+Expected time to fully charged in minutes,UInt,436
+Request for heating,Bool,438
+Request for cooling,Bool,438.1
+Charging complete,Bool,438.2
+ISO active,Bool,438.3
+LED active,Bool,438.4
+CAN3 baud rate reduction,Bool,438.5
+Heartbeat,Bool,438.6
+Cell overvoltage fault,Bool,438.7
+Cell overvoltage warning,Bool,439
+Cell undervoltage fault,Bool,439.1
+Cell undervoltage warning,Bool,439.2
+End-of-life fault,Bool,439.3
+End-of-life warning,Bool,439.4
+HVIL fault,Bool,439.5
+BMS 24V supply overvoltage fault,Bool,439.6
+BMS 24V supply undervoltage fault,Bool,439.7
+Pack overcurrent fault while charging,Bool,440
+Pack overcurrent warning while charging,Bool,440.1
+Pack overcurrent fault while discharging,Bool,440.2
+Pack overcurrent warning while discharging,Bool,440.3
+Pack overtemperature fault,Bool,440.4
+Pack overtemperature warning,Bool,440.5
+Pack undertemperature warning,Bool,440.6
+Pack overvoltage fault,Bool,440.7
+Pack overvoltage warning,Bool,441
+Pack undervoltage fault,Bool,441.1
+Pack undervoltage warning,Bool,441.2
+Temperature difference fault,Bool,441.3
+Loss of power control fault,Bool,441.4
+Loss of power control warning,Bool,441.5
+Isolation fault,Bool,441.6
+Isolation warning,Bool,441.7
+Pack overcharge fault,Bool,442
+Pack overdischarge fault,Bool,442.1
+Inlet coolant overpressure warning,Bool,442.2
+Inlet coolant overpressure fault,Bool,442.3
+Outlet coolant overpressure warning,Bool,442.4
+Outlet coolant overpressure fault,Bool,442.5
+Tx,BMS_transmit,444
+Ambient Temperature in C,SInt,444
+State of Charge setpoint in percent,SInt,445
+Pack Voltage setpoint in V,Int,446
+Command BMS sleep mode,Bool,448
+Command BMS power up,Bool,448.1
+Command BMS power down,Bool,448.2
+Command BMS emergency,Bool,448.3
+Command BMS plug-in charge,Bool,448.4
+Command BMS stop charging,Bool,448.5
+Isolation disable,Bool,448.6
+LED mode,Bool,448.7
+Change LED mode,Bool,449
+New pack ID,USInt,450
+Change pack ID,Bool,451
+CAN3 baud rate reduction,Bool,451.1
+Change baud rate,Bool,451.2
+Maximum number of packs per stack,USInt,452
+Change max number of packs per stack,Bool,453
+Passcode,USInt,454
+BTMS,BTMS(Grayson),456
+Device ID,USInt,456
+Rx,BTMS_receive,458
+Operating Mode,USInt,458
+Pump Speed,USInt,459
+Fan Speed,USInt,460
+Inlet Temperature,Int,462
+Outlet Temperature,Int,464
+Target Temperature,Int,466
+Compressor Timer,USInt,468
+Protect Lock State,USInt,469
+Protect Timer,USInt,470
+Lock Timer,USInt,471
+Software Version,USInt,472
+Compressor HTCO State,USInt,473
+LPCO State,USInt,474
+HPCO State,USInt,475
+CPS State,USInt,476
+Fan1 HTCO State,USInt,477
+Heater HTCO State,USInt,478
+Level Sensor Switch State,USInt,479
+Fan1 MCB State,USInt,480
+Heater MCB State,USInt,481
+Compressor MCB State,USInt,482
+Pump MCB State,USInt,483
+Fan2 MCB State,USInt,484
+Fan2 HTCO State,USInt,485
+Pump Pressure Flow Switch,USInt,486
+Pump State,USInt,487
+Fan State,USInt,488
+Heater State,USInt,489
+Compressor State,USInt,490
+Inlet Temp Sensor State,USInt,491
+Outlet Temp Sensor State,USInt,492
+Temp Plausibility Error,USInt,493
+F1 Refrigerant circuit over-pressure,Bool,494
+F2 Refrigerant circuit under-pressure,Bool,494.1
+F3 Compressor over-temperature,Bool,494.2
+F4 Heater over-temperature,Bool,494.3
+F5 Fan 1 over-temperature,Bool,494.4
+F6 Inlet temperature sensor open circuit,Bool,494.5
+F7 Inlet temperature sensor short circuit,Bool,494.6
+F8 Outlet temperature sensor open circuit,Bool,494.7
+F9 Outlet temperature sensor short circuit,Bool,495
+F10 Temperatures disagree (not plausible),Bool,495.1
+F11 Cooling prohibited due to low temperature,Bool,495.2
+F12 Heating prohibited due to high temperature,Bool,495.3
+F13 Pump incorrect speed,Bool,495.4
+F14 Pump communications fault,Bool,495.5
+F15 Pump fault (CAN),Bool,495.6
+F16 Compressor circuit breaker,Bool,495.7
+F17 Heater circuit breaker,Bool,496
+F18 Fan 1 circuit breaker,Bool,496.1
+F19 Not implemented,Bool,496.2
+F20 Coolant level fault (Level sensor switch),Bool,496.3
+F21 Fan 2 Over-temperature,Bool,496.4
+F22 Fan 2 circuit breaker,Bool,496.5
+F23 Not implemented,Bool,496.6
+F24 Pump circuit breaker,Bool,496.7
+F25 Flow rate fault (Pump Pressure_Flow Switch Fault),Bool,497
+F26 Not implemented,Bool,497.1
+Tx,BTMS_transmit,498
+ModeRequest,USInt,498
+SetpointRequestDegC,Int,500
+PumpSpeedRequestPercent,Int,502
+Battery Stacks[2],Battery Stack,504
+BMS,"Array[1..4] of ""BMS(Xerotech)""",504
+BMS[1],BMS(Xerotech),504
+CAN interface,USInt,504
+Device ID,USInt,505
+Rx,BMS_receive,506
+Hardware Version,UInt,506
+Software Version,Array[0..5] of Byte,508
+CAN ID of the device,USInt,514
+Maximum number of BMS per stack,USInt,515
+Number of active BMS per stack,USInt,516
+BMS System State,USInt,517
+System Fault,USInt,518
+CAN1 Status,USInt,519
+CAN3 Status,USInt,520
+Contactor State (neg bus bar),USInt,521
+Contactor State (pos bus bar),USInt,522
+Contactor State (pre-charge contactor),USInt,523
+Battery Health in percent,USInt,524
+State of Charge,Real,526
+DC Bus Voltage in V,Real,530
+Total Pack Current in A,Real,534
+Pack Voltage in V,Real,538
+Average Cell Temperature in C,Real,542
+Highest Cell Temperature in C,Real,546
+Lowest Cell Temperature in C,Real,550
+Inlet Coolant Pressure in PSI,Real,554
+Outlet Coolant Pressure in PSI,Real,558
+Remaining Energy in kWh,Real,562
+Maximum Charge Current (Motoring),Real,566
+Maximum Discharge Current (Motoring),Real,570
+Maximum Charge Power (Plug-in Charging),Real,574
+Maximum Charge Current (Plug-in Charging),Real,578
+Maximum Charge Power (Motoring),Real,582
+Maximum Discharge Power (Motoring),Real,586
+Battery in Charge State accumulator in minutes,UInt,590
+Expected time to empty in minutes,UInt,592
+Full Charge cycle counter,UInt,594
+Battery in Operational State accumulator in minutes,UInt,596
+Expected time to fully charged in minutes,UInt,598
+Request for heating,Bool,600
+Request for cooling,Bool,600.1
+Charging complete,Bool,600.2
+ISO active,Bool,600.3
+LED active,Bool,600.4
+CAN3 baud rate reduction,Bool,600.5
+Heartbeat,Bool,600.6
+Cell overvoltage fault,Bool,600.7
+Cell overvoltage warning,Bool,601
+Cell undervoltage fault,Bool,601.1
+Cell undervoltage warning,Bool,601.2
+End-of-life fault,Bool,601.3
+End-of-life warning,Bool,601.4
+HVIL fault,Bool,601.5
+BMS 24V supply overvoltage fault,Bool,601.6
+BMS 24V supply undervoltage fault,Bool,601.7
+Pack overcurrent fault while charging,Bool,602
+Pack overcurrent warning while charging,Bool,602.1
+Pack overcurrent fault while discharging,Bool,602.2
+Pack overcurrent warning while discharging,Bool,602.3
+Pack overtemperature fault,Bool,602.4
+Pack overtemperature warning,Bool,602.5
+Pack undertemperature warning,Bool,602.6
+Pack overvoltage fault,Bool,602.7
+Pack overvoltage warning,Bool,603
+Pack undervoltage fault,Bool,603.1
+Pack undervoltage warning,Bool,603.2
+Temperature difference fault,Bool,603.3
+Loss of power control fault,Bool,603.4
+Loss of power control warning,Bool,603.5
+Isolation fault,Bool,603.6
+Isolation warning,Bool,603.7
+Pack overcharge fault,Bool,604
+Pack overdischarge fault,Bool,604.1
+Inlet coolant overpressure warning,Bool,604.2
+Inlet coolant overpressure fault,Bool,604.3
+Outlet coolant overpressure warning,Bool,604.4
+Outlet coolant overpressure fault,Bool,604.5
+Tx,BMS_transmit,606
+Ambient Temperature in C,SInt,606
+State of Charge setpoint in percent,SInt,607
+Pack Voltage setpoint in V,Int,608
+Command BMS sleep mode,Bool,610
+Command BMS power up,Bool,610.1
+Command BMS power down,Bool,610.2
+Command BMS emergency,Bool,610.3
+Command BMS plug-in charge,Bool,610.4
+Command BMS stop charging,Bool,610.5
+Isolation disable,Bool,610.6
+LED mode,Bool,610.7
+Change LED mode,Bool,611
+New pack ID,USInt,612
+Change pack ID,Bool,613
+CAN3 baud rate reduction,Bool,613.1
+Change baud rate,Bool,613.2
+Maximum number of packs per stack,USInt,614
+Change max number of packs per stack,Bool,615
+Passcode,USInt,616
+BMS[2],BMS(Xerotech),618
+CAN interface,USInt,618
+Device ID,USInt,619
+Rx,BMS_receive,620
+Hardware Version,UInt,620
+Software Version,Array[0..5] of Byte,622
+CAN ID of the device,USInt,628
+Maximum number of BMS per stack,USInt,629
+Number of active BMS per stack,USInt,630
+BMS System State,USInt,631
+System Fault,USInt,632
+CAN1 Status,USInt,633
+CAN3 Status,USInt,634
+Contactor State (neg bus bar),USInt,635
+Contactor State (pos bus bar),USInt,636
+Contactor State (pre-charge contactor),USInt,637
+Battery Health in percent,USInt,638
+State of Charge,Real,640
+DC Bus Voltage in V,Real,644
+Total Pack Current in A,Real,648
+Pack Voltage in V,Real,652
+Average Cell Temperature in C,Real,656
+Highest Cell Temperature in C,Real,660
+Lowest Cell Temperature in C,Real,664
+Inlet Coolant Pressure in PSI,Real,668
+Outlet Coolant Pressure in PSI,Real,672
+Remaining Energy in kWh,Real,676
+Maximum Charge Current (Motoring),Real,680
+Maximum Discharge Current (Motoring),Real,684
+Maximum Charge Power (Plug-in Charging),Real,688
+Maximum Charge Current (Plug-in Charging),Real,692
+Maximum Charge Power (Motoring),Real,696
+Maximum Discharge Power (Motoring),Real,700
+Battery in Charge State accumulator in minutes,UInt,704
+Expected time to empty in minutes,UInt,706
+Full Charge cycle counter,UInt,708
+Battery in Operational State accumulator in minutes,UInt,710
+Expected time to fully charged in minutes,UInt,712
+Request for heating,Bool,714
+Request for cooling,Bool,714.1
+Charging complete,Bool,714.2
+ISO active,Bool,714.3
+LED active,Bool,714.4
+CAN3 baud rate reduction,Bool,714.5
+Heartbeat,Bool,714.6
+Cell overvoltage fault,Bool,714.7
+Cell overvoltage warning,Bool,715
+Cell undervoltage fault,Bool,715.1
+Cell undervoltage warning,Bool,715.2
+End-of-life fault,Bool,715.3
+End-of-life warning,Bool,715.4
+HVIL fault,Bool,715.5
+BMS 24V supply overvoltage fault,Bool,715.6
+BMS 24V supply undervoltage fault,Bool,715.7
+Pack overcurrent fault while charging,Bool,716
+Pack overcurrent warning while charging,Bool,716.1
+Pack overcurrent fault while discharging,Bool,716.2
+Pack overcurrent warning while discharging,Bool,716.3
+Pack overtemperature fault,Bool,716.4
+Pack overtemperature warning,Bool,716.5
+Pack undertemperature warning,Bool,716.6
+Pack overvoltage fault,Bool,716.7
+Pack overvoltage warning,Bool,717
+Pack undervoltage fault,Bool,717.1
+Pack undervoltage warning,Bool,717.2
+Temperature difference fault,Bool,717.3
+Loss of power control fault,Bool,717.4
+Loss of power control warning,Bool,717.5
+Isolation fault,Bool,717.6
+Isolation warning,Bool,717.7
+Pack overcharge fault,Bool,718
+Pack overdischarge fault,Bool,718.1
+Inlet coolant overpressure warning,Bool,718.2
+Inlet coolant overpressure fault,Bool,718.3
+Outlet coolant overpressure warning,Bool,718.4
+Outlet coolant overpressure fault,Bool,718.5
+Tx,BMS_transmit,720
+Ambient Temperature in C,SInt,720
+State of Charge setpoint in percent,SInt,721
+Pack Voltage setpoint in V,Int,722
+Command BMS sleep mode,Bool,724
+Command BMS power up,Bool,724.1
+Command BMS power down,Bool,724.2
+Command BMS emergency,Bool,724.3
+Command BMS plug-in charge,Bool,724.4
+Command BMS stop charging,Bool,724.5
+Isolation disable,Bool,724.6
+LED mode,Bool,724.7
+Change LED mode,Bool,725
+New pack ID,USInt,726
+Change pack ID,Bool,727
+CAN3 baud rate reduction,Bool,727.1
+Change baud rate,Bool,727.2
+Maximum number of packs per stack,USInt,728
+Change max number of packs per stack,Bool,729
+Passcode,USInt,730
+BMS[3],BMS(Xerotech),732
+CAN interface,USInt,732
+Device ID,USInt,733
+Rx,BMS_receive,734
+Hardware Version,UInt,734
+Software Version,Array[0..5] of Byte,736
+CAN ID of the device,USInt,742
+Maximum number of BMS per stack,USInt,743
+Number of active BMS per stack,USInt,744
+BMS System State,USInt,745
+System Fault,USInt,746
+CAN1 Status,USInt,747
+CAN3 Status,USInt,748
+Contactor State (neg bus bar),USInt,749
+Contactor State (pos bus bar),USInt,750
+Contactor State (pre-charge contactor),USInt,751
+Battery Health in percent,USInt,752
+State of Charge,Real,754
+DC Bus Voltage in V,Real,758
+Total Pack Current in A,Real,762
+Pack Voltage in V,Real,766
+Average Cell Temperature in C,Real,770
+Highest Cell Temperature in C,Real,774
+Lowest Cell Temperature in C,Real,778
+Inlet Coolant Pressure in PSI,Real,782
+Outlet Coolant Pressure in PSI,Real,786
+Remaining Energy in kWh,Real,790
+Maximum Charge Current (Motoring),Real,794
+Maximum Discharge Current (Motoring),Real,798
+Maximum Charge Power (Plug-in Charging),Real,802
+Maximum Charge Current (Plug-in Charging),Real,806
+Maximum Charge Power (Motoring),Real,810
+Maximum Discharge Power (Motoring),Real,814
+Battery in Charge State accumulator in minutes,UInt,818
+Expected time to empty in minutes,UInt,820
+Full Charge cycle counter,UInt,822
+Battery in Operational State accumulator in minutes,UInt,824
+Expected time to fully charged in minutes,UInt,826
+Request for heating,Bool,828
+Request for cooling,Bool,828.1
+Charging complete,Bool,828.2
+ISO active,Bool,828.3
+LED active,Bool,828.4
+CAN3 baud rate reduction,Bool,828.5
+Heartbeat,Bool,828.6
+Cell overvoltage fault,Bool,828.7
+Cell overvoltage warning,Bool,829
+Cell undervoltage fault,Bool,829.1
+Cell undervoltage warning,Bool,829.2
+End-of-life fault,Bool,829.3
+End-of-life warning,Bool,829.4
+HVIL fault,Bool,829.5
+BMS 24V supply overvoltage fault,Bool,829.6
+BMS 24V supply undervoltage fault,Bool,829.7
+Pack overcurrent fault while charging,Bool,830
+Pack overcurrent warning while charging,Bool,830.1
+Pack overcurrent fault while discharging,Bool,830.2
+Pack overcurrent warning while discharging,Bool,830.3
+Pack overtemperature fault,Bool,830.4
+Pack overtemperature warning,Bool,830.5
+Pack undertemperature warning,Bool,830.6
+Pack overvoltage fault,Bool,830.7
+Pack overvoltage warning,Bool,831
+Pack undervoltage fault,Bool,831.1
+Pack undervoltage warning,Bool,831.2
+Temperature difference fault,Bool,831.3
+Loss of power control fault,Bool,831.4
+Loss of power control warning,Bool,831.5
+Isolation fault,Bool,831.6
+Isolation warning,Bool,831.7
+Pack overcharge fault,Bool,832
+Pack overdischarge fault,Bool,832.1
+Inlet coolant overpressure warning,Bool,832.2
+Inlet coolant overpressure fault,Bool,832.3
+Outlet coolant overpressure warning,Bool,832.4
+Outlet coolant overpressure fault,Bool,832.5
+Tx,BMS_transmit,834
+Ambient Temperature in C,SInt,834
+State of Charge setpoint in percent,SInt,835
+Pack Voltage setpoint in V,Int,836
+Command BMS sleep mode,Bool,838
+Command BMS power up,Bool,838.1
+Command BMS power down,Bool,838.2
+Command BMS emergency,Bool,838.3
+Command BMS plug-in charge,Bool,838.4
+Command BMS stop charging,Bool,838.5
+Isolation disable,Bool,838.6
+LED mode,Bool,838.7
+Change LED mode,Bool,839
+New pack ID,USInt,840
+Change pack ID,Bool,841
+CAN3 baud rate reduction,Bool,841.1
+Change baud rate,Bool,841.2
+Maximum number of packs per stack,USInt,842
+Change max number of packs per stack,Bool,843
+Passcode,USInt,844
+BMS[4],BMS(Xerotech),846
+CAN interface,USInt,846
+Device ID,USInt,847
+Rx,BMS_receive,848
+Hardware Version,UInt,848
+Software Version,Array[0..5] of Byte,850
+CAN ID of the device,USInt,856
+Maximum number of BMS per stack,USInt,857
+Number of active BMS per stack,USInt,858
+BMS System State,USInt,859
+System Fault,USInt,860
+CAN1 Status,USInt,861
+CAN3 Status,USInt,862
+Contactor State (neg bus bar),USInt,863
+Contactor State (pos bus bar),USInt,864
+Contactor State (pre-charge contactor),USInt,865
+Battery Health in percent,USInt,866
+State of Charge,Real,868
+DC Bus Voltage in V,Real,872
+Total Pack Current in A,Real,876
+Pack Voltage in V,Real,880
+Average Cell Temperature in C,Real,884
+Highest Cell Temperature in C,Real,888
+Lowest Cell Temperature in C,Real,892
+Inlet Coolant Pressure in PSI,Real,896
+Outlet Coolant Pressure in PSI,Real,900
+Remaining Energy in kWh,Real,904
+Maximum Charge Current (Motoring),Real,908
+Maximum Discharge Current (Motoring),Real,912
+Maximum Charge Power (Plug-in Charging),Real,916
+Maximum Charge Current (Plug-in Charging),Real,920
+Maximum Charge Power (Motoring),Real,924
+Maximum Discharge Power (Motoring),Real,928
+Battery in Charge State accumulator in minutes,UInt,932
+Expected time to empty in minutes,UInt,934
+Full Charge cycle counter,UInt,936
+Battery in Operational State accumulator in minutes,UInt,938
+Expected time to fully charged in minutes,UInt,940
+Request for heating,Bool,942
+Request for cooling,Bool,942.1
+Charging complete,Bool,942.2
+ISO active,Bool,942.3
+LED active,Bool,942.4
+CAN3 baud rate reduction,Bool,942.5
+Heartbeat,Bool,942.6
+Cell overvoltage fault,Bool,942.7
+Cell overvoltage warning,Bool,943
+Cell undervoltage fault,Bool,943.1
+Cell undervoltage warning,Bool,943.2
+End-of-life fault,Bool,943.3
+End-of-life warning,Bool,943.4
+HVIL fault,Bool,943.5
+BMS 24V supply overvoltage fault,Bool,943.6
+BMS 24V supply undervoltage fault,Bool,943.7
+Pack overcurrent fault while charging,Bool,944
+Pack overcurrent warning while charging,Bool,944.1
+Pack overcurrent fault while discharging,Bool,944.2
+Pack overcurrent warning while discharging,Bool,944.3
+Pack overtemperature fault,Bool,944.4
+Pack overtemperature warning,Bool,944.5
+Pack undertemperature warning,Bool,944.6
+Pack overvoltage fault,Bool,944.7
+Pack overvoltage warning,Bool,945
+Pack undervoltage fault,Bool,945.1
+Pack undervoltage warning,Bool,945.2
+Temperature difference fault,Bool,945.3
+Loss of power control fault,Bool,945.4
+Loss of power control warning,Bool,945.5
+Isolation fault,Bool,945.6
+Isolation warning,Bool,945.7
+Pack overcharge fault,Bool,946
+Pack overdischarge fault,Bool,946.1
+Inlet coolant overpressure warning,Bool,946.2
+Inlet coolant overpressure fault,Bool,946.3
+Outlet coolant overpressure warning,Bool,946.4
+Outlet coolant overpressure fault,Bool,946.5
+Tx,BMS_transmit,948
+Ambient Temperature in C,SInt,948
+State of Charge setpoint in percent,SInt,949
+Pack Voltage setpoint in V,Int,950
+Command BMS sleep mode,Bool,952
+Command BMS power up,Bool,952.1
+Command BMS power down,Bool,952.2
+Command BMS emergency,Bool,952.3
+Command BMS plug-in charge,Bool,952.4
+Command BMS stop charging,Bool,952.5
+Isolation disable,Bool,952.6
+LED mode,Bool,952.7
+Change LED mode,Bool,953
+New pack ID,USInt,954
+Change pack ID,Bool,955
+CAN3 baud rate reduction,Bool,955.1
+Change baud rate,Bool,955.2
+Maximum number of packs per stack,USInt,956
+Change max number of packs per stack,Bool,957
+Passcode,USInt,958
+BTMS,BTMS(Grayson),960
+Device ID,USInt,960
+Rx,BTMS_receive,962
+Operating Mode,USInt,962
+Pump Speed,USInt,963
+Fan Speed,USInt,964
+Inlet Temperature,Int,966
+Outlet Temperature,Int,968
+Target Temperature,Int,970
+Compressor Timer,USInt,972
+Protect Lock State,USInt,973
+Protect Timer,USInt,974
+Lock Timer,USInt,975
+Software Version,USInt,976
+Compressor HTCO State,USInt,977
+LPCO State,USInt,978
+HPCO State,USInt,979
+CPS State,USInt,980
+Fan1 HTCO State,USInt,981
+Heater HTCO State,USInt,982
+Level Sensor Switch State,USInt,983
+Fan1 MCB State,USInt,984
+Heater MCB State,USInt,985
+Compressor MCB State,USInt,986
+Pump MCB State,USInt,987
+Fan2 MCB State,USInt,988
+Fan2 HTCO State,USInt,989
+Pump Pressure Flow Switch,USInt,990
+Pump State,USInt,991
+Fan State,USInt,992
+Heater State,USInt,993
+Compressor State,USInt,994
+Inlet Temp Sensor State,USInt,995
+Outlet Temp Sensor State,USInt,996
+Temp Plausibility Error,USInt,997
+F1 Refrigerant circuit over-pressure,Bool,998
+F2 Refrigerant circuit under-pressure,Bool,998.1
+F3 Compressor over-temperature,Bool,998.2
+F4 Heater over-temperature,Bool,998.3
+F5 Fan 1 over-temperature,Bool,998.4
+F6 Inlet temperature sensor open circuit,Bool,998.5
+F7 Inlet temperature sensor short circuit,Bool,998.6
+F8 Outlet temperature sensor open circuit,Bool,998.7
+F9 Outlet temperature sensor short circuit,Bool,999
+F10 Temperatures disagree (not plausible),Bool,999.1
+F11 Cooling prohibited due to low temperature,Bool,999.2
+F12 Heating prohibited due to high temperature,Bool,999.3
+F13 Pump incorrect speed,Bool,999.4
+F14 Pump communications fault,Bool,999.5
+F15 Pump fault (CAN),Bool,999.6
+F16 Compressor circuit breaker,Bool,999.7
+F17 Heater circuit breaker,Bool,1000
+F18 Fan 1 circuit breaker,Bool,1000.1
+F19 Not implemented,Bool,1000.2
+F20 Coolant level fault (Level sensor switch),Bool,1000.3
+F21 Fan 2 Over-temperature,Bool,1000.4
+F22 Fan 2 circuit breaker,Bool,1000.5
+F23 Not implemented,Bool,1000.6
+F24 Pump circuit breaker,Bool,1000.7
+F25 Flow rate fault (Pump Pressure_Flow Switch Fault),Bool,1001
+F26 Not implemented,Bool,1001.1
+Tx,BTMS_transmit,1002
+ModeRequest,USInt,1002
+SetpointRequestDegC,Int,1004
+PumpSpeedRequestPercent,Int,1006
+Battery Stacks[3],Battery Stack,1008
+BMS,"Array[1..4] of ""BMS(Xerotech)""",1008
+BMS[1],BMS(Xerotech),1008
+CAN interface,USInt,1008
+Device ID,USInt,1009
+Rx,BMS_receive,1010
+Hardware Version,UInt,1010
+Software Version,Array[0..5] of Byte,1012
+CAN ID of the device,USInt,1018
+Maximum number of BMS per stack,USInt,1019
+Number of active BMS per stack,USInt,1020
+BMS System State,USInt,1021
+System Fault,USInt,1022
+CAN1 Status,USInt,1023
+CAN3 Status,USInt,1024
+Contactor State (neg bus bar),USInt,1025
+Contactor State (pos bus bar),USInt,1026
+Contactor State (pre-charge contactor),USInt,1027
+Battery Health in percent,USInt,1028
+State of Charge,Real,1030
+DC Bus Voltage in V,Real,1034
+Total Pack Current in A,Real,1038
+Pack Voltage in V,Real,1042
+Average Cell Temperature in C,Real,1046
+Highest Cell Temperature in C,Real,1050
+Lowest Cell Temperature in C,Real,1054
+Inlet Coolant Pressure in PSI,Real,1058
+Outlet Coolant Pressure in PSI,Real,1062
+Remaining Energy in kWh,Real,1066
+Maximum Charge Current (Motoring),Real,1070
+Maximum Discharge Current (Motoring),Real,1074
+Maximum Charge Power (Plug-in Charging),Real,1078
+Maximum Charge Current (Plug-in Charging),Real,1082
+Maximum Charge Power (Motoring),Real,1086
+Maximum Discharge Power (Motoring),Real,1090
+Battery in Charge State accumulator in minutes,UInt,1094
+Expected time to empty in minutes,UInt,1096
+Full Charge cycle counter,UInt,1098
+Battery in Operational State accumulator in minutes,UInt,1100
+Expected time to fully charged in minutes,UInt,1102
+Request for heating,Bool,1104
+Request for cooling,Bool,1104.1
+Charging complete,Bool,1104.2
+ISO active,Bool,1104.3
+LED active,Bool,1104.4
+CAN3 baud rate reduction,Bool,1104.5
+Heartbeat,Bool,1104.6
+Cell overvoltage fault,Bool,1104.7
+Cell overvoltage warning,Bool,1105
+Cell undervoltage fault,Bool,1105.1
+Cell undervoltage warning,Bool,1105.2
+End-of-life fault,Bool,1105.3
+End-of-life warning,Bool,1105.4
+HVIL fault,Bool,1105.5
+BMS 24V supply overvoltage fault,Bool,1105.6
+BMS 24V supply undervoltage fault,Bool,1105.7
+Pack overcurrent fault while charging,Bool,1106
+Pack overcurrent warning while charging,Bool,1106.1
+Pack overcurrent fault while discharging,Bool,1106.2
+Pack overcurrent warning while discharging,Bool,1106.3
+Pack overtemperature fault,Bool,1106.4
+Pack overtemperature warning,Bool,1106.5
+Pack undertemperature warning,Bool,1106.6
+Pack overvoltage fault,Bool,1106.7
+Pack overvoltage warning,Bool,1107
+Pack undervoltage fault,Bool,1107.1
+Pack undervoltage warning,Bool,1107.2
+Temperature difference fault,Bool,1107.3
+Loss of power control fault,Bool,1107.4
+Loss of power control warning,Bool,1107.5
+Isolation fault,Bool,1107.6
+Isolation warning,Bool,1107.7
+Pack overcharge fault,Bool,1108
+Pack overdischarge fault,Bool,1108.1
+Inlet coolant overpressure warning,Bool,1108.2
+Inlet coolant overpressure fault,Bool,1108.3
+Outlet coolant overpressure warning,Bool,1108.4
+Outlet coolant overpressure fault,Bool,1108.5
+Tx,BMS_transmit,1110
+Ambient Temperature in C,SInt,1110
+State of Charge setpoint in percent,SInt,1111
+Pack Voltage setpoint in V,Int,1112
+Command BMS sleep mode,Bool,1114
+Command BMS power up,Bool,1114.1
+Command BMS power down,Bool,1114.2
+Command BMS emergency,Bool,1114.3
+Command BMS plug-in charge,Bool,1114.4
+Command BMS stop charging,Bool,1114.5
+Isolation disable,Bool,1114.6
+LED mode,Bool,1114.7
+Change LED mode,Bool,1115
+New pack ID,USInt,1116
+Change pack ID,Bool,1117
+CAN3 baud rate reduction,Bool,1117.1
+Change baud rate,Bool,1117.2
+Maximum number of packs per stack,USInt,1118
+Change max number of packs per stack,Bool,1119
+Passcode,USInt,1120
+BMS[2],BMS(Xerotech),1122
+CAN interface,USInt,1122
+Device ID,USInt,1123
+Rx,BMS_receive,1124
+Hardware Version,UInt,1124
+Software Version,Array[0..5] of Byte,1126
+CAN ID of the device,USInt,1132
+Maximum number of BMS per stack,USInt,1133
+Number of active BMS per stack,USInt,1134
+BMS System State,USInt,1135
+System Fault,USInt,1136
+CAN1 Status,USInt,1137
+CAN3 Status,USInt,1138
+Contactor State (neg bus bar),USInt,1139
+Contactor State (pos bus bar),USInt,1140
+Contactor State (pre-charge contactor),USInt,1141
+Battery Health in percent,USInt,1142
+State of Charge,Real,1144
+DC Bus Voltage in V,Real,1148
+Total Pack Current in A,Real,1152
+Pack Voltage in V,Real,1156
+Average Cell Temperature in C,Real,1160
+Highest Cell Temperature in C,Real,1164
+Lowest Cell Temperature in C,Real,1168
+Inlet Coolant Pressure in PSI,Real,1172
+Outlet Coolant Pressure in PSI,Real,1176
+Remaining Energy in kWh,Real,1180
+Maximum Charge Current (Motoring),Real,1184
+Maximum Discharge Current (Motoring),Real,1188
+Maximum Charge Power (Plug-in Charging),Real,1192
+Maximum Charge Current (Plug-in Charging),Real,1196
+Maximum Charge Power (Motoring),Real,1200
+Maximum Discharge Power (Motoring),Real,1204
+Battery in Charge State accumulator in minutes,UInt,1208
+Expected time to empty in minutes,UInt,1210
+Full Charge cycle counter,UInt,1212
+Battery in Operational State accumulator in minutes,UInt,1214
+Expected time to fully charged in minutes,UInt,1216
+Request for heating,Bool,1218
+Request for cooling,Bool,1218.1
+Charging complete,Bool,1218.2
+ISO active,Bool,1218.3
+LED active,Bool,1218.4
+CAN3 baud rate reduction,Bool,1218.5
+Heartbeat,Bool,1218.6
+Cell overvoltage fault,Bool,1218.7
+Cell overvoltage warning,Bool,1219
+Cell undervoltage fault,Bool,1219.1
+Cell undervoltage warning,Bool,1219.2
+End-of-life fault,Bool,1219.3
+End-of-life warning,Bool,1219.4
+HVIL fault,Bool,1219.5
+BMS 24V supply overvoltage fault,Bool,1219.6
+BMS 24V supply undervoltage fault,Bool,1219.7
+Pack overcurrent fault while charging,Bool,1220
+Pack overcurrent warning while charging,Bool,1220.1
+Pack overcurrent fault while discharging,Bool,1220.2
+Pack overcurrent warning while discharging,Bool,1220.3
+Pack overtemperature fault,Bool,1220.4
+Pack overtemperature warning,Bool,1220.5
+Pack undertemperature warning,Bool,1220.6
+Pack overvoltage fault,Bool,1220.7
+Pack overvoltage warning,Bool,1221
+Pack undervoltage fault,Bool,1221.1
+Pack undervoltage warning,Bool,1221.2
+Temperature difference fault,Bool,1221.3
+Loss of power control fault,Bool,1221.4
+Loss of power control warning,Bool,1221.5
+Isolation fault,Bool,1221.6
+Isolation warning,Bool,1221.7
+Pack overcharge fault,Bool,1222
+Pack overdischarge fault,Bool,1222.1
+Inlet coolant overpressure warning,Bool,1222.2
+Inlet coolant overpressure fault,Bool,1222.3
+Outlet coolant overpressure warning,Bool,1222.4
+Outlet coolant overpressure fault,Bool,1222.5
+Tx,BMS_transmit,1224
+Ambient Temperature in C,SInt,1224
+State of Charge setpoint in percent,SInt,1225
+Pack Voltage setpoint in V,Int,1226
+Command BMS sleep mode,Bool,1228
+Command BMS power up,Bool,1228.1
+Command BMS power down,Bool,1228.2
+Command BMS emergency,Bool,1228.3
+Command BMS plug-in charge,Bool,1228.4
+Command BMS stop charging,Bool,1228.5
+Isolation disable,Bool,1228.6
+LED mode,Bool,1228.7
+Change LED mode,Bool,1229
+New pack ID,USInt,1230
+Change pack ID,Bool,1231
+CAN3 baud rate reduction,Bool,1231.1
+Change baud rate,Bool,1231.2
+Maximum number of packs per stack,USInt,1232
+Change max number of packs per stack,Bool,1233
+Passcode,USInt,1234
+BMS[3],BMS(Xerotech),1236
+CAN interface,USInt,1236
+Device ID,USInt,1237
+Rx,BMS_receive,1238
+Hardware Version,UInt,1238
+Software Version,Array[0..5] of Byte,1240
+CAN ID of the device,USInt,1246
+Maximum number of BMS per stack,USInt,1247
+Number of active BMS per stack,USInt,1248
+BMS System State,USInt,1249
+System Fault,USInt,1250
+CAN1 Status,USInt,1251
+CAN3 Status,USInt,1252
+Contactor State (neg bus bar),USInt,1253
+Contactor State (pos bus bar),USInt,1254
+Contactor State (pre-charge contactor),USInt,1255
+Battery Health in percent,USInt,1256
+State of Charge,Real,1258
+DC Bus Voltage in V,Real,1262
+Total Pack Current in A,Real,1266
+Pack Voltage in V,Real,1270
+Average Cell Temperature in C,Real,1274
+Highest Cell Temperature in C,Real,1278
+Lowest Cell Temperature in C,Real,1282
+Inlet Coolant Pressure in PSI,Real,1286
+Outlet Coolant Pressure in PSI,Real,1290
+Remaining Energy in kWh,Real,1294
+Maximum Charge Current (Motoring),Real,1298
+Maximum Discharge Current (Motoring),Real,1302
+Maximum Charge Power (Plug-in Charging),Real,1306
+Maximum Charge Current (Plug-in Charging),Real,1310
+Maximum Charge Power (Motoring),Real,1314
+Maximum Discharge Power (Motoring),Real,1318
+Battery in Charge State accumulator in minutes,UInt,1322
+Expected time to empty in minutes,UInt,1324
+Full Charge cycle counter,UInt,1326
+Battery in Operational State accumulator in minutes,UInt,1328
+Expected time to fully charged in minutes,UInt,1330
+Request for heating,Bool,1332
+Request for cooling,Bool,1332.1
+Charging complete,Bool,1332.2
+ISO active,Bool,1332.3
+LED active,Bool,1332.4
+CAN3 baud rate reduction,Bool,1332.5
+Heartbeat,Bool,1332.6
+Cell overvoltage fault,Bool,1332.7
+Cell overvoltage warning,Bool,1333
+Cell undervoltage fault,Bool,1333.1
+Cell undervoltage warning,Bool,1333.2
+End-of-life fault,Bool,1333.3
+End-of-life warning,Bool,1333.4
+HVIL fault,Bool,1333.5
+BMS 24V supply overvoltage fault,Bool,1333.6
+BMS 24V supply undervoltage fault,Bool,1333.7
+Pack overcurrent fault while charging,Bool,1334
+Pack overcurrent warning while charging,Bool,1334.1
+Pack overcurrent fault while discharging,Bool,1334.2
+Pack overcurrent warning while discharging,Bool,1334.3
+Pack overtemperature fault,Bool,1334.4
+Pack overtemperature warning,Bool,1334.5
+Pack undertemperature warning,Bool,1334.6
+Pack overvoltage fault,Bool,1334.7
+Pack overvoltage warning,Bool,1335
+Pack undervoltage fault,Bool,1335.1
+Pack undervoltage warning,Bool,1335.2
+Temperature difference fault,Bool,1335.3
+Loss of power control fault,Bool,1335.4
+Loss of power control warning,Bool,1335.5
+Isolation fault,Bool,1335.6
+Isolation warning,Bool,1335.7
+Pack overcharge fault,Bool,1336
+Pack overdischarge fault,Bool,1336.1
+Inlet coolant overpressure warning,Bool,1336.2
+Inlet coolant overpressure fault,Bool,1336.3
+Outlet coolant overpressure warning,Bool,1336.4
+Outlet coolant overpressure fault,Bool,1336.5
+Tx,BMS_transmit,1338
+Ambient Temperature in C,SInt,1338
+State of Charge setpoint in percent,SInt,1339
+Pack Voltage setpoint in V,Int,1340
+Command BMS sleep mode,Bool,1342
+Command BMS power up,Bool,1342.1
+Command BMS power down,Bool,1342.2
+Command BMS emergency,Bool,1342.3
+Command BMS plug-in charge,Bool,1342.4
+Command BMS stop charging,Bool,1342.5
+Isolation disable,Bool,1342.6
+LED mode,Bool,1342.7
+Change LED mode,Bool,1343
+New pack ID,USInt,1344
+Change pack ID,Bool,1345
+CAN3 baud rate reduction,Bool,1345.1
+Change baud rate,Bool,1345.2
+Maximum number of packs per stack,USInt,1346
+Change max number of packs per stack,Bool,1347
+Passcode,USInt,1348
+BMS[4],BMS(Xerotech),1350
+CAN interface,USInt,1350
+Device ID,USInt,1351
+Rx,BMS_receive,1352
+Hardware Version,UInt,1352
+Software Version,Array[0..5] of Byte,1354
+CAN ID of the device,USInt,1360
+Maximum number of BMS per stack,USInt,1361
+Number of active BMS per stack,USInt,1362
+BMS System State,USInt,1363
+System Fault,USInt,1364
+CAN1 Status,USInt,1365
+CAN3 Status,USInt,1366
+Contactor State (neg bus bar),USInt,1367
+Contactor State (pos bus bar),USInt,1368
+Contactor State (pre-charge contactor),USInt,1369
+Battery Health in percent,USInt,1370
+State of Charge,Real,1372
+DC Bus Voltage in V,Real,1376
+Total Pack Current in A,Real,1380
+Pack Voltage in V,Real,1384
+Average Cell Temperature in C,Real,1388
+Highest Cell Temperature in C,Real,1392
+Lowest Cell Temperature in C,Real,1396
+Inlet Coolant Pressure in PSI,Real,1400
+Outlet Coolant Pressure in PSI,Real,1404
+Remaining Energy in kWh,Real,1408
+Maximum Charge Current (Motoring),Real,1412
+Maximum Discharge Current (Motoring),Real,1416
+Maximum Charge Power (Plug-in Charging),Real,1420
+Maximum Charge Current (Plug-in Charging),Real,1424
+Maximum Charge Power (Motoring),Real,1428
+Maximum Discharge Power (Motoring),Real,1432
+Battery in Charge State accumulator in minutes,UInt,1436
+Expected time to empty in minutes,UInt,1438
+Full Charge cycle counter,UInt,1440
+Battery in Operational State accumulator in minutes,UInt,1442
+Expected time to fully charged in minutes,UInt,1444
+Request for heating,Bool,1446
+Request for cooling,Bool,1446.1
+Charging complete,Bool,1446.2
+ISO active,Bool,1446.3
+LED active,Bool,1446.4
+CAN3 baud rate reduction,Bool,1446.5
+Heartbeat,Bool,1446.6
+Cell overvoltage fault,Bool,1446.7
+Cell overvoltage warning,Bool,1447
+Cell undervoltage fault,Bool,1447.1
+Cell undervoltage warning,Bool,1447.2
+End-of-life fault,Bool,1447.3
+End-of-life warning,Bool,1447.4
+HVIL fault,Bool,1447.5
+BMS 24V supply overvoltage fault,Bool,1447.6
+BMS 24V supply undervoltage fault,Bool,1447.7
+Pack overcurrent fault while charging,Bool,1448
+Pack overcurrent warning while charging,Bool,1448.1
+Pack overcurrent fault while discharging,Bool,1448.2
+Pack overcurrent warning while discharging,Bool,1448.3
+Pack overtemperature fault,Bool,1448.4
+Pack overtemperature warning,Bool,1448.5
+Pack undertemperature warning,Bool,1448.6
+Pack overvoltage fault,Bool,1448.7
+Pack overvoltage warning,Bool,1449
+Pack undervoltage fault,Bool,1449.1
+Pack undervoltage warning,Bool,1449.2
+Temperature difference fault,Bool,1449.3
+Loss of power control fault,Bool,1449.4
+Loss of power control warning,Bool,1449.5
+Isolation fault,Bool,1449.6
+Isolation warning,Bool,1449.7
+Pack overcharge fault,Bool,1450
+Pack overdischarge fault,Bool,1450.1
+Inlet coolant overpressure warning,Bool,1450.2
+Inlet coolant overpressure fault,Bool,1450.3
+Outlet coolant overpressure warning,Bool,1450.4
+Outlet coolant overpressure fault,Bool,1450.5
+Tx,BMS_transmit,1452
+Ambient Temperature in C,SInt,1452
+State of Charge setpoint in percent,SInt,1453
+Pack Voltage setpoint in V,Int,1454
+Command BMS sleep mode,Bool,1456
+Command BMS power up,Bool,1456.1
+Command BMS power down,Bool,1456.2
+Command BMS emergency,Bool,1456.3
+Command BMS plug-in charge,Bool,1456.4
+Command BMS stop charging,Bool,1456.5
+Isolation disable,Bool,1456.6
+LED mode,Bool,1456.7
+Change LED mode,Bool,1457
+New pack ID,USInt,1458
+Change pack ID,Bool,1459
+CAN3 baud rate reduction,Bool,1459.1
+Change baud rate,Bool,1459.2
+Maximum number of packs per stack,USInt,1460
+Change max number of packs per stack,Bool,1461
+Passcode,USInt,1462
+BTMS,BTMS(Grayson),1464
+Device ID,USInt,1464
+Rx,BTMS_receive,1466
+Operating Mode,USInt,1466
+Pump Speed,USInt,1467
+Fan Speed,USInt,1468
+Inlet Temperature,Int,1470
+Outlet Temperature,Int,1472
+Target Temperature,Int,1474
+Compressor Timer,USInt,1476
+Protect Lock State,USInt,1477
+Protect Timer,USInt,1478
+Lock Timer,USInt,1479
+Software Version,USInt,1480
+Compressor HTCO State,USInt,1481
+LPCO State,USInt,1482
+HPCO State,USInt,1483
+CPS State,USInt,1484
+Fan1 HTCO State,USInt,1485
+Heater HTCO State,USInt,1486
+Level Sensor Switch State,USInt,1487
+Fan1 MCB State,USInt,1488
+Heater MCB State,USInt,1489
+Compressor MCB State,USInt,1490
+Pump MCB State,USInt,1491
+Fan2 MCB State,USInt,1492
+Fan2 HTCO State,USInt,1493
+Pump Pressure Flow Switch,USInt,1494
+Pump State,USInt,1495
+Fan State,USInt,1496
+Heater State,USInt,1497
+Compressor State,USInt,1498
+Inlet Temp Sensor State,USInt,1499
+Outlet Temp Sensor State,USInt,1500
+Temp Plausibility Error,USInt,1501
+F1 Refrigerant circuit over-pressure,Bool,1502
+F2 Refrigerant circuit under-pressure,Bool,1502.1
+F3 Compressor over-temperature,Bool,1502.2
+F4 Heater over-temperature,Bool,1502.3
+F5 Fan 1 over-temperature,Bool,1502.4
+F6 Inlet temperature sensor open circuit,Bool,1502.5
+F7 Inlet temperature sensor short circuit,Bool,1502.6
+F8 Outlet temperature sensor open circuit,Bool,1502.7
+F9 Outlet temperature sensor short circuit,Bool,1503
+F10 Temperatures disagree (not plausible),Bool,1503.1
+F11 Cooling prohibited due to low temperature,Bool,1503.2
+F12 Heating prohibited due to high temperature,Bool,1503.3
+F13 Pump incorrect speed,Bool,1503.4
+F14 Pump communications fault,Bool,1503.5
+F15 Pump fault (CAN),Bool,1503.6
+F16 Compressor circuit breaker,Bool,1503.7
+F17 Heater circuit breaker,Bool,1504
+F18 Fan 1 circuit breaker,Bool,1504.1
+F19 Not implemented,Bool,1504.2
+F20 Coolant level fault (Level sensor switch),Bool,1504.3
+F21 Fan 2 Over-temperature,Bool,1504.4
+F22 Fan 2 circuit breaker,Bool,1504.5
+F23 Not implemented,Bool,1504.6
+F24 Pump circuit breaker,Bool,1504.7
+F25 Flow rate fault (Pump Pressure_Flow Switch Fault),Bool,1505
+F26 Not implemented,Bool,1505.1
+Tx,BTMS_transmit,1506
+ModeRequest,USInt,1506
+SetpointRequestDegC,Int,1508
+PumpSpeedRequestPercent,Int,1510
+Battery Stacks[4],Battery Stack,1512
+BMS,"Array[1..4] of ""BMS(Xerotech)""",1512
+BMS[1],BMS(Xerotech),1512
+CAN interface,USInt,1512
+Device ID,USInt,1513
+Rx,BMS_receive,1514
+Hardware Version,UInt,1514
+Software Version,Array[0..5] of Byte,1516
+CAN ID of the device,USInt,1522
+Maximum number of BMS per stack,USInt,1523
+Number of active BMS per stack,USInt,1524
+BMS System State,USInt,1525
+System Fault,USInt,1526
+CAN1 Status,USInt,1527
+CAN3 Status,USInt,1528
+Contactor State (neg bus bar),USInt,1529
+Contactor State (pos bus bar),USInt,1530
+Contactor State (pre-charge contactor),USInt,1531
+Battery Health in percent,USInt,1532
+State of Charge,Real,1534
+DC Bus Voltage in V,Real,1538
+Total Pack Current in A,Real,1542
+Pack Voltage in V,Real,1546
+Average Cell Temperature in C,Real,1550
+Highest Cell Temperature in C,Real,1554
+Lowest Cell Temperature in C,Real,1558
+Inlet Coolant Pressure in PSI,Real,1562
+Outlet Coolant Pressure in PSI,Real,1566
+Remaining Energy in kWh,Real,1570
+Maximum Charge Current (Motoring),Real,1574
+Maximum Discharge Current (Motoring),Real,1578
+Maximum Charge Power (Plug-in Charging),Real,1582
+Maximum Charge Current (Plug-in Charging),Real,1586
+Maximum Charge Power (Motoring),Real,1590
+Maximum Discharge Power (Motoring),Real,1594
+Battery in Charge State accumulator in minutes,UInt,1598
+Expected time to empty in minutes,UInt,1600
+Full Charge cycle counter,UInt,1602
+Battery in Operational State accumulator in minutes,UInt,1604
+Expected time to fully charged in minutes,UInt,1606
+Request for heating,Bool,1608
+Request for cooling,Bool,1608.1
+Charging complete,Bool,1608.2
+ISO active,Bool,1608.3
+LED active,Bool,1608.4
+CAN3 baud rate reduction,Bool,1608.5
+Heartbeat,Bool,1608.6
+Cell overvoltage fault,Bool,1608.7
+Cell overvoltage warning,Bool,1609
+Cell undervoltage fault,Bool,1609.1
+Cell undervoltage warning,Bool,1609.2
+End-of-life fault,Bool,1609.3
+End-of-life warning,Bool,1609.4
+HVIL fault,Bool,1609.5
+BMS 24V supply overvoltage fault,Bool,1609.6
+BMS 24V supply undervoltage fault,Bool,1609.7
+Pack overcurrent fault while charging,Bool,1610
+Pack overcurrent warning while charging,Bool,1610.1
+Pack overcurrent fault while discharging,Bool,1610.2
+Pack overcurrent warning while discharging,Bool,1610.3
+Pack overtemperature fault,Bool,1610.4
+Pack overtemperature warning,Bool,1610.5
+Pack undertemperature warning,Bool,1610.6
+Pack overvoltage fault,Bool,1610.7
+Pack overvoltage warning,Bool,1611
+Pack undervoltage fault,Bool,1611.1
+Pack undervoltage warning,Bool,1611.2
+Temperature difference fault,Bool,1611.3
+Loss of power control fault,Bool,1611.4
+Loss of power control warning,Bool,1611.5
+Isolation fault,Bool,1611.6
+Isolation warning,Bool,1611.7
+Pack overcharge fault,Bool,1612
+Pack overdischarge fault,Bool,1612.1
+Inlet coolant overpressure warning,Bool,1612.2
+Inlet coolant overpressure fault,Bool,1612.3
+Outlet coolant overpressure warning,Bool,1612.4
+Outlet coolant overpressure fault,Bool,1612.5
+Tx,BMS_transmit,1614
+Ambient Temperature in C,SInt,1614
+State of Charge setpoint in percent,SInt,1615
+Pack Voltage setpoint in V,Int,1616
+Command BMS sleep mode,Bool,1618
+Command BMS power up,Bool,1618.1
+Command BMS power down,Bool,1618.2
+Command BMS emergency,Bool,1618.3
+Command BMS plug-in charge,Bool,1618.4
+Command BMS stop charging,Bool,1618.5
+Isolation disable,Bool,1618.6
+LED mode,Bool,1618.7
+Change LED mode,Bool,1619
+New pack ID,USInt,1620
+Change pack ID,Bool,1621
+CAN3 baud rate reduction,Bool,1621.1
+Change baud rate,Bool,1621.2
+Maximum number of packs per stack,USInt,1622
+Change max number of packs per stack,Bool,1623
+Passcode,USInt,1624
+BMS[2],BMS(Xerotech),1626
+CAN interface,USInt,1626
+Device ID,USInt,1627
+Rx,BMS_receive,1628
+Hardware Version,UInt,1628
+Software Version,Array[0..5] of Byte,1630
+CAN ID of the device,USInt,1636
+Maximum number of BMS per stack,USInt,1637
+Number of active BMS per stack,USInt,1638
+BMS System State,USInt,1639
+System Fault,USInt,1640
+CAN1 Status,USInt,1641
+CAN3 Status,USInt,1642
+Contactor State (neg bus bar),USInt,1643
+Contactor State (pos bus bar),USInt,1644
+Contactor State (pre-charge contactor),USInt,1645
+Battery Health in percent,USInt,1646
+State of Charge,Real,1648
+DC Bus Voltage in V,Real,1652
+Total Pack Current in A,Real,1656
+Pack Voltage in V,Real,1660
+Average Cell Temperature in C,Real,1664
+Highest Cell Temperature in C,Real,1668
+Lowest Cell Temperature in C,Real,1672
+Inlet Coolant Pressure in PSI,Real,1676
+Outlet Coolant Pressure in PSI,Real,1680
+Remaining Energy in kWh,Real,1684
+Maximum Charge Current (Motoring),Real,1688
+Maximum Discharge Current (Motoring),Real,1692
+Maximum Charge Power (Plug-in Charging),Real,1696
+Maximum Charge Current (Plug-in Charging),Real,1700
+Maximum Charge Power (Motoring),Real,1704
+Maximum Discharge Power (Motoring),Real,1708
+Battery in Charge State accumulator in minutes,UInt,1712
+Expected time to empty in minutes,UInt,1714
+Full Charge cycle counter,UInt,1716
+Battery in Operational State accumulator in minutes,UInt,1718
+Expected time to fully charged in minutes,UInt,1720
+Request for heating,Bool,1722
+Request for cooling,Bool,1722.1
+Charging complete,Bool,1722.2
+ISO active,Bool,1722.3
+LED active,Bool,1722.4
+CAN3 baud rate reduction,Bool,1722.5
+Heartbeat,Bool,1722.6
+Cell overvoltage fault,Bool,1722.7
+Cell overvoltage warning,Bool,1723
+Cell undervoltage fault,Bool,1723.1
+Cell undervoltage warning,Bool,1723.2
+End-of-life fault,Bool,1723.3
+End-of-life warning,Bool,1723.4
+HVIL fault,Bool,1723.5
+BMS 24V supply overvoltage fault,Bool,1723.6
+BMS 24V supply undervoltage fault,Bool,1723.7
+Pack overcurrent fault while charging,Bool,1724
+Pack overcurrent warning while charging,Bool,1724.1
+Pack overcurrent fault while discharging,Bool,1724.2
+Pack overcurrent warning while discharging,Bool,1724.3
+Pack overtemperature fault,Bool,1724.4
+Pack overtemperature warning,Bool,1724.5
+Pack undertemperature warning,Bool,1724.6
+Pack overvoltage fault,Bool,1724.7
+Pack overvoltage warning,Bool,1725
+Pack undervoltage fault,Bool,1725.1
+Pack undervoltage warning,Bool,1725.2
+Temperature difference fault,Bool,1725.3
+Loss of power control fault,Bool,1725.4
+Loss of power control warning,Bool,1725.5
+Isolation fault,Bool,1725.6
+Isolation warning,Bool,1725.7
+Pack overcharge fault,Bool,1726
+Pack overdischarge fault,Bool,1726.1
+Inlet coolant overpressure warning,Bool,1726.2
+Inlet coolant overpressure fault,Bool,1726.3
+Outlet coolant overpressure warning,Bool,1726.4
+Outlet coolant overpressure fault,Bool,1726.5
+Tx,BMS_transmit,1728
+Ambient Temperature in C,SInt,1728
+State of Charge setpoint in percent,SInt,1729
+Pack Voltage setpoint in V,Int,1730
+Command BMS sleep mode,Bool,1732
+Command BMS power up,Bool,1732.1
+Command BMS power down,Bool,1732.2
+Command BMS emergency,Bool,1732.3
+Command BMS plug-in charge,Bool,1732.4
+Command BMS stop charging,Bool,1732.5
+Isolation disable,Bool,1732.6
+LED mode,Bool,1732.7
+Change LED mode,Bool,1733
+New pack ID,USInt,1734
+Change pack ID,Bool,1735
+CAN3 baud rate reduction,Bool,1735.1
+Change baud rate,Bool,1735.2
+Maximum number of packs per stack,USInt,1736
+Change max number of packs per stack,Bool,1737
+Passcode,USInt,1738
+BMS[3],BMS(Xerotech),1740
+CAN interface,USInt,1740
+Device ID,USInt,1741
+Rx,BMS_receive,1742
+Hardware Version,UInt,1742
+Software Version,Array[0..5] of Byte,1744
+CAN ID of the device,USInt,1750
+Maximum number of BMS per stack,USInt,1751
+Number of active BMS per stack,USInt,1752
+BMS System State,USInt,1753
+System Fault,USInt,1754
+CAN1 Status,USInt,1755
+CAN3 Status,USInt,1756
+Contactor State (neg bus bar),USInt,1757
+Contactor State (pos bus bar),USInt,1758
+Contactor State (pre-charge contactor),USInt,1759
+Battery Health in percent,USInt,1760
+State of Charge,Real,1762
+DC Bus Voltage in V,Real,1766
+Total Pack Current in A,Real,1770
+Pack Voltage in V,Real,1774
+Average Cell Temperature in C,Real,1778
+Highest Cell Temperature in C,Real,1782
+Lowest Cell Temperature in C,Real,1786
+Inlet Coolant Pressure in PSI,Real,1790
+Outlet Coolant Pressure in PSI,Real,1794
+Remaining Energy in kWh,Real,1798
+Maximum Charge Current (Motoring),Real,1802
+Maximum Discharge Current (Motoring),Real,1806
+Maximum Charge Power (Plug-in Charging),Real,1810
+Maximum Charge Current (Plug-in Charging),Real,1814
+Maximum Charge Power (Motoring),Real,1818
+Maximum Discharge Power (Motoring),Real,1822
+Battery in Charge State accumulator in minutes,UInt,1826
+Expected time to empty in minutes,UInt,1828
+Full Charge cycle counter,UInt,1830
+Battery in Operational State accumulator in minutes,UInt,1832
+Expected time to fully charged in minutes,UInt,1834
+Request for heating,Bool,1836
+Request for cooling,Bool,1836.1
+Charging complete,Bool,1836.2
+ISO active,Bool,1836.3
+LED active,Bool,1836.4
+CAN3 baud rate reduction,Bool,1836.5
+Heartbeat,Bool,1836.6
+Cell overvoltage fault,Bool,1836.7
+Cell overvoltage warning,Bool,1837
+Cell undervoltage fault,Bool,1837.1
+Cell undervoltage warning,Bool,1837.2
+End-of-life fault,Bool,1837.3
+End-of-life warning,Bool,1837.4
+HVIL fault,Bool,1837.5
+BMS 24V supply overvoltage fault,Bool,1837.6
+BMS 24V supply undervoltage fault,Bool,1837.7
+Pack overcurrent fault while charging,Bool,1838
+Pack overcurrent warning while charging,Bool,1838.1
+Pack overcurrent fault while discharging,Bool,1838.2
+Pack overcurrent warning while discharging,Bool,1838.3
+Pack overtemperature fault,Bool,1838.4
+Pack overtemperature warning,Bool,1838.5
+Pack undertemperature warning,Bool,1838.6
+Pack overvoltage fault,Bool,1838.7
+Pack overvoltage warning,Bool,1839
+Pack undervoltage fault,Bool,1839.1
+Pack undervoltage warning,Bool,1839.2
+Temperature difference fault,Bool,1839.3
+Loss of power control fault,Bool,1839.4
+Loss of power control warning,Bool,1839.5
+Isolation fault,Bool,1839.6
+Isolation warning,Bool,1839.7
+Pack overcharge fault,Bool,1840
+Pack overdischarge fault,Bool,1840.1
+Inlet coolant overpressure warning,Bool,1840.2
+Inlet coolant overpressure fault,Bool,1840.3
+Outlet coolant overpressure warning,Bool,1840.4
+Outlet coolant overpressure fault,Bool,1840.5
+Tx,BMS_transmit,1842
+Ambient Temperature in C,SInt,1842
+State of Charge setpoint in percent,SInt,1843
+Pack Voltage setpoint in V,Int,1844
+Command BMS sleep mode,Bool,1846
+Command BMS power up,Bool,1846.1
+Command BMS power down,Bool,1846.2
+Command BMS emergency,Bool,1846.3
+Command BMS plug-in charge,Bool,1846.4
+Command BMS stop charging,Bool,1846.5
+Isolation disable,Bool,1846.6
+LED mode,Bool,1846.7
+Change LED mode,Bool,1847
+New pack ID,USInt,1848
+Change pack ID,Bool,1849
+CAN3 baud rate reduction,Bool,1849.1
+Change baud rate,Bool,1849.2
+Maximum number of packs per stack,USInt,1850
+Change max number of packs per stack,Bool,1851
+Passcode,USInt,1852
+BMS[4],BMS(Xerotech),1854
+CAN interface,USInt,1854
+Device ID,USInt,1855
+Rx,BMS_receive,1856
+Hardware Version,UInt,1856
+Software Version,Array[0..5] of Byte,1858
+CAN ID of the device,USInt,1864
+Maximum number of BMS per stack,USInt,1865
+Number of active BMS per stack,USInt,1866
+BMS System State,USInt,1867
+System Fault,USInt,1868
+CAN1 Status,USInt,1869
+CAN3 Status,USInt,1870
+Contactor State (neg bus bar),USInt,1871
+Contactor State (pos bus bar),USInt,1872
+Contactor State (pre-charge contactor),USInt,1873
+Battery Health in percent,USInt,1874
+State of Charge,Real,1876
+DC Bus Voltage in V,Real,1880
+Total Pack Current in A,Real,1884
+Pack Voltage in V,Real,1888
+Average Cell Temperature in C,Real,1892
+Highest Cell Temperature in C,Real,1896
+Lowest Cell Temperature in C,Real,1900
+Inlet Coolant Pressure in PSI,Real,1904
+Outlet Coolant Pressure in PSI,Real,1908
+Remaining Energy in kWh,Real,1912
+Maximum Charge Current (Motoring),Real,1916
+Maximum Discharge Current (Motoring),Real,1920
+Maximum Charge Power (Plug-in Charging),Real,1924
+Maximum Charge Current (Plug-in Charging),Real,1928
+Maximum Charge Power (Motoring),Real,1932
+Maximum Discharge Power (Motoring),Real,1936
+Battery in Charge State accumulator in minutes,UInt,1940
+Expected time to empty in minutes,UInt,1942
+Full Charge cycle counter,UInt,1944
+Battery in Operational State accumulator in minutes,UInt,1946
+Expected time to fully charged in minutes,UInt,1948
+Request for heating,Bool,1950
+Request for cooling,Bool,1950.1
+Charging complete,Bool,1950.2
+ISO active,Bool,1950.3
+LED active,Bool,1950.4
+CAN3 baud rate reduction,Bool,1950.5
+Heartbeat,Bool,1950.6
+Cell overvoltage fault,Bool,1950.7
+Cell overvoltage warning,Bool,1951
+Cell undervoltage fault,Bool,1951.1
+Cell undervoltage warning,Bool,1951.2
+End-of-life fault,Bool,1951.3
+End-of-life warning,Bool,1951.4
+HVIL fault,Bool,1951.5
+BMS 24V supply overvoltage fault,Bool,1951.6
+BMS 24V supply undervoltage fault,Bool,1951.7
+Pack overcurrent fault while charging,Bool,1952
+Pack overcurrent warning while charging,Bool,1952.1
+Pack overcurrent fault while discharging,Bool,1952.2
+Pack overcurrent warning while discharging,Bool,1952.3
+Pack overtemperature fault,Bool,1952.4
+Pack overtemperature warning,Bool,1952.5
+Pack undertemperature warning,Bool,1952.6
+Pack overvoltage fault,Bool,1952.7
+Pack overvoltage warning,Bool,1953
+Pack undervoltage fault,Bool,1953.1
+Pack undervoltage warning,Bool,1953.2
+Temperature difference fault,Bool,1953.3
+Loss of power control fault,Bool,1953.4
+Loss of power control warning,Bool,1953.5
+Isolation fault,Bool,1953.6
+Isolation warning,Bool,1953.7
+Pack overcharge fault,Bool,1954
+Pack overdischarge fault,Bool,1954.1
+Inlet coolant overpressure warning,Bool,1954.2
+Inlet coolant overpressure fault,Bool,1954.3
+Outlet coolant overpressure warning,Bool,1954.4
+Outlet coolant overpressure fault,Bool,1954.5
+Tx,BMS_transmit,1956
+Ambient Temperature in C,SInt,1956
+State of Charge setpoint in percent,SInt,1957
+Pack Voltage setpoint in V,Int,1958
+Command BMS sleep mode,Bool,1960
+Command BMS power up,Bool,1960.1
+Command BMS power down,Bool,1960.2
+Command BMS emergency,Bool,1960.3
+Command BMS plug-in charge,Bool,1960.4
+Command BMS stop charging,Bool,1960.5
+Isolation disable,Bool,1960.6
+LED mode,Bool,1960.7
+Change LED mode,Bool,1961
+New pack ID,USInt,1962
+Change pack ID,Bool,1963
+CAN3 baud rate reduction,Bool,1963.1
+Change baud rate,Bool,1963.2
+Maximum number of packs per stack,USInt,1964
+Change max number of packs per stack,Bool,1965
+Passcode,USInt,1966
+BTMS,BTMS(Grayson),1968
+Device ID,USInt,1968
+Rx,BTMS_receive,1970
+Operating Mode,USInt,1970
+Pump Speed,USInt,1971
+Fan Speed,USInt,1972
+Inlet Temperature,Int,1974
+Outlet Temperature,Int,1976
+Target Temperature,Int,1978
+Compressor Timer,USInt,1980
+Protect Lock State,USInt,1981
+Protect Timer,USInt,1982
+Lock Timer,USInt,1983
+Software Version,USInt,1984
+Compressor HTCO State,USInt,1985
+LPCO State,USInt,1986
+HPCO State,USInt,1987
+CPS State,USInt,1988
+Fan1 HTCO State,USInt,1989
+Heater HTCO State,USInt,1990
+Level Sensor Switch State,USInt,1991
+Fan1 MCB State,USInt,1992
+Heater MCB State,USInt,1993
+Compressor MCB State,USInt,1994
+Pump MCB State,USInt,1995
+Fan2 MCB State,USInt,1996
+Fan2 HTCO State,USInt,1997
+Pump Pressure Flow Switch,USInt,1998
+Pump State,USInt,1999
+Fan State,USInt,2000
+Heater State,USInt,2001
+Compressor State,USInt,2002
+Inlet Temp Sensor State,USInt,2003
+Outlet Temp Sensor State,USInt,2004
+Temp Plausibility Error,USInt,2005
+F1 Refrigerant circuit over-pressure,Bool,2006
+F2 Refrigerant circuit under-pressure,Bool,2006.1
+F3 Compressor over-temperature,Bool,2006.2
+F4 Heater over-temperature,Bool,2006.3
+F5 Fan 1 over-temperature,Bool,2006.4
+F6 Inlet temperature sensor open circuit,Bool,2006.5
+F7 Inlet temperature sensor short circuit,Bool,2006.6
+F8 Outlet temperature sensor open circuit,Bool,2006.7
+F9 Outlet temperature sensor short circuit,Bool,2007
+F10 Temperatures disagree (not plausible),Bool,2007.1
+F11 Cooling prohibited due to low temperature,Bool,2007.2
+F12 Heating prohibited due to high temperature,Bool,2007.3
+F13 Pump incorrect speed,Bool,2007.4
+F14 Pump communications fault,Bool,2007.5
+F15 Pump fault (CAN),Bool,2007.6
+F16 Compressor circuit breaker,Bool,2007.7
+F17 Heater circuit breaker,Bool,2008
+F18 Fan 1 circuit breaker,Bool,2008.1
+F19 Not implemented,Bool,2008.2
+F20 Coolant level fault (Level sensor switch),Bool,2008.3
+F21 Fan 2 Over-temperature,Bool,2008.4
+F22 Fan 2 circuit breaker,Bool,2008.5
+F23 Not implemented,Bool,2008.6
+F24 Pump circuit breaker,Bool,2008.7
+F25 Flow rate fault (Pump Pressure_Flow Switch Fault),Bool,2009
+F26 Not implemented,Bool,2009.1
+Tx,BTMS_transmit,2010
+ModeRequest,USInt,2010
+SetpointRequestDegC,Int,2012
+PumpSpeedRequestPercent,Int,2014
+Battery Stacks[5],Battery Stack,2016
+BMS,"Array[1..4] of ""BMS(Xerotech)""",2016
+BMS[1],BMS(Xerotech),2016
+CAN interface,USInt,2016
+Device ID,USInt,2017
+Rx,BMS_receive,2018
+Hardware Version,UInt,2018
+Software Version,Array[0..5] of Byte,2020
+CAN ID of the device,USInt,2026
+Maximum number of BMS per stack,USInt,2027
+Number of active BMS per stack,USInt,2028
+BMS System State,USInt,2029
+System Fault,USInt,2030
+CAN1 Status,USInt,2031
+CAN3 Status,USInt,2032
+Contactor State (neg bus bar),USInt,2033
+Contactor State (pos bus bar),USInt,2034
+Contactor State (pre-charge contactor),USInt,2035
+Battery Health in percent,USInt,2036
+State of Charge,Real,2038
+DC Bus Voltage in V,Real,2042
+Total Pack Current in A,Real,2046
+Pack Voltage in V,Real,2050
+Average Cell Temperature in C,Real,2054
+Highest Cell Temperature in C,Real,2058
+Lowest Cell Temperature in C,Real,2062
+Inlet Coolant Pressure in PSI,Real,2066
+Outlet Coolant Pressure in PSI,Real,2070
+Remaining Energy in kWh,Real,2074
+Maximum Charge Current (Motoring),Real,2078
+Maximum Discharge Current (Motoring),Real,2082
+Maximum Charge Power (Plug-in Charging),Real,2086
+Maximum Charge Current (Plug-in Charging),Real,2090
+Maximum Charge Power (Motoring),Real,2094
+Maximum Discharge Power (Motoring),Real,2098
+Battery in Charge State accumulator in minutes,UInt,2102
+Expected time to empty in minutes,UInt,2104
+Full Charge cycle counter,UInt,2106
+Battery in Operational State accumulator in minutes,UInt,2108
+Expected time to fully charged in minutes,UInt,2110
+Request for heating,Bool,2112
+Request for cooling,Bool,2112.1
+Charging complete,Bool,2112.2
+ISO active,Bool,2112.3
+LED active,Bool,2112.4
+CAN3 baud rate reduction,Bool,2112.5
+Heartbeat,Bool,2112.6
+Cell overvoltage fault,Bool,2112.7
+Cell overvoltage warning,Bool,2113
+Cell undervoltage fault,Bool,2113.1
+Cell undervoltage warning,Bool,2113.2
+End-of-life fault,Bool,2113.3
+End-of-life warning,Bool,2113.4
+HVIL fault,Bool,2113.5
+BMS 24V supply overvoltage fault,Bool,2113.6
+BMS 24V supply undervoltage fault,Bool,2113.7
+Pack overcurrent fault while charging,Bool,2114
+Pack overcurrent warning while charging,Bool,2114.1
+Pack overcurrent fault while discharging,Bool,2114.2
+Pack overcurrent warning while discharging,Bool,2114.3
+Pack overtemperature fault,Bool,2114.4
+Pack overtemperature warning,Bool,2114.5
+Pack undertemperature warning,Bool,2114.6
+Pack overvoltage fault,Bool,2114.7
+Pack overvoltage warning,Bool,2115
+Pack undervoltage fault,Bool,2115.1
+Pack undervoltage warning,Bool,2115.2
+Temperature difference fault,Bool,2115.3
+Loss of power control fault,Bool,2115.4
+Loss of power control warning,Bool,2115.5
+Isolation fault,Bool,2115.6
+Isolation warning,Bool,2115.7
+Pack overcharge fault,Bool,2116
+Pack overdischarge fault,Bool,2116.1
+Inlet coolant overpressure warning,Bool,2116.2
+Inlet coolant overpressure fault,Bool,2116.3
+Outlet coolant overpressure warning,Bool,2116.4
+Outlet coolant overpressure fault,Bool,2116.5
+Tx,BMS_transmit,2118
+Ambient Temperature in C,SInt,2118
+State of Charge setpoint in percent,SInt,2119
+Pack Voltage setpoint in V,Int,2120
+Command BMS sleep mode,Bool,2122
+Command BMS power up,Bool,2122.1
+Command BMS power down,Bool,2122.2
+Command BMS emergency,Bool,2122.3
+Command BMS plug-in charge,Bool,2122.4
+Command BMS stop charging,Bool,2122.5
+Isolation disable,Bool,2122.6
+LED mode,Bool,2122.7
+Change LED mode,Bool,2123
+New pack ID,USInt,2124
+Change pack ID,Bool,2125
+CAN3 baud rate reduction,Bool,2125.1
+Change baud rate,Bool,2125.2
+Maximum number of packs per stack,USInt,2126
+Change max number of packs per stack,Bool,2127
+Passcode,USInt,2128
+BMS[2],BMS(Xerotech),2130
+CAN interface,USInt,2130
+Device ID,USInt,2131
+Rx,BMS_receive,2132
+Hardware Version,UInt,2132
+Software Version,Array[0..5] of Byte,2134
+CAN ID of the device,USInt,2140
+Maximum number of BMS per stack,USInt,2141
+Number of active BMS per stack,USInt,2142
+BMS System State,USInt,2143
+System Fault,USInt,2144
+CAN1 Status,USInt,2145
+CAN3 Status,USInt,2146
+Contactor State (neg bus bar),USInt,2147
+Contactor State (pos bus bar),USInt,2148
+Contactor State (pre-charge contactor),USInt,2149
+Battery Health in percent,USInt,2150
+State of Charge,Real,2152
+DC Bus Voltage in V,Real,2156
+Total Pack Current in A,Real,2160
+Pack Voltage in V,Real,2164
+Average Cell Temperature in C,Real,2168
+Highest Cell Temperature in C,Real,2172
+Lowest Cell Temperature in C,Real,2176
+Inlet Coolant Pressure in PSI,Real,2180
+Outlet Coolant Pressure in PSI,Real,2184
+Remaining Energy in kWh,Real,2188
+Maximum Charge Current (Motoring),Real,2192
+Maximum Discharge Current (Motoring),Real,2196
+Maximum Charge Power (Plug-in Charging),Real,2200
+Maximum Charge Current (Plug-in Charging),Real,2204
+Maximum Charge Power (Motoring),Real,2208
+Maximum Discharge Power (Motoring),Real,2212
+Battery in Charge State accumulator in minutes,UInt,2216
+Expected time to empty in minutes,UInt,2218
+Full Charge cycle counter,UInt,2220
+Battery in Operational State accumulator in minutes,UInt,2222
+Expected time to fully charged in minutes,UInt,2224
+Request for heating,Bool,2226
+Request for cooling,Bool,2226.1
+Charging complete,Bool,2226.2
+ISO active,Bool,2226.3
+LED active,Bool,2226.4
+CAN3 baud rate reduction,Bool,2226.5
+Heartbeat,Bool,2226.6
+Cell overvoltage fault,Bool,2226.7
+Cell overvoltage warning,Bool,2227
+Cell undervoltage fault,Bool,2227.1
+Cell undervoltage warning,Bool,2227.2
+End-of-life fault,Bool,2227.3
+End-of-life warning,Bool,2227.4
+HVIL fault,Bool,2227.5
+BMS 24V supply overvoltage fault,Bool,2227.6
+BMS 24V supply undervoltage fault,Bool,2227.7
+Pack overcurrent fault while charging,Bool,2228
+Pack overcurrent warning while charging,Bool,2228.1
+Pack overcurrent fault while discharging,Bool,2228.2
+Pack overcurrent warning while discharging,Bool,2228.3
+Pack overtemperature fault,Bool,2228.4
+Pack overtemperature warning,Bool,2228.5
+Pack undertemperature warning,Bool,2228.6
+Pack overvoltage fault,Bool,2228.7
+Pack overvoltage warning,Bool,2229
+Pack undervoltage fault,Bool,2229.1
+Pack undervoltage warning,Bool,2229.2
+Temperature difference fault,Bool,2229.3
+Loss of power control fault,Bool,2229.4
+Loss of power control warning,Bool,2229.5
+Isolation fault,Bool,2229.6
+Isolation warning,Bool,2229.7
+Pack overcharge fault,Bool,2230
+Pack overdischarge fault,Bool,2230.1
+Inlet coolant overpressure warning,Bool,2230.2
+Inlet coolant overpressure fault,Bool,2230.3
+Outlet coolant overpressure warning,Bool,2230.4
+Outlet coolant overpressure fault,Bool,2230.5
+Tx,BMS_transmit,2232
+Ambient Temperature in C,SInt,2232
+State of Charge setpoint in percent,SInt,2233
+Pack Voltage setpoint in V,Int,2234
+Command BMS sleep mode,Bool,2236
+Command BMS power up,Bool,2236.1
+Command BMS power down,Bool,2236.2
+Command BMS emergency,Bool,2236.3
+Command BMS plug-in charge,Bool,2236.4
+Command BMS stop charging,Bool,2236.5
+Isolation disable,Bool,2236.6
+LED mode,Bool,2236.7
+Change LED mode,Bool,2237
+New pack ID,USInt,2238
+Change pack ID,Bool,2239
+CAN3 baud rate reduction,Bool,2239.1
+Change baud rate,Bool,2239.2
+Maximum number of packs per stack,USInt,2240
+Change max number of packs per stack,Bool,2241
+Passcode,USInt,2242
+BMS[3],BMS(Xerotech),2244
+CAN interface,USInt,2244
+Device ID,USInt,2245
+Rx,BMS_receive,2246
+Hardware Version,UInt,2246
+Software Version,Array[0..5] of Byte,2248
+CAN ID of the device,USInt,2254
+Maximum number of BMS per stack,USInt,2255
+Number of active BMS per stack,USInt,2256
+BMS System State,USInt,2257
+System Fault,USInt,2258
+CAN1 Status,USInt,2259
+CAN3 Status,USInt,2260
+Contactor State (neg bus bar),USInt,2261
+Contactor State (pos bus bar),USInt,2262
+Contactor State (pre-charge contactor),USInt,2263
+Battery Health in percent,USInt,2264
+State of Charge,Real,2266
+DC Bus Voltage in V,Real,2270
+Total Pack Current in A,Real,2274
+Pack Voltage in V,Real,2278
+Average Cell Temperature in C,Real,2282
+Highest Cell Temperature in C,Real,2286
+Lowest Cell Temperature in C,Real,2290
+Inlet Coolant Pressure in PSI,Real,2294
+Outlet Coolant Pressure in PSI,Real,2298
+Remaining Energy in kWh,Real,2302
+Maximum Charge Current (Motoring),Real,2306
+Maximum Discharge Current (Motoring),Real,2310
+Maximum Charge Power (Plug-in Charging),Real,2314
+Maximum Charge Current (Plug-in Charging),Real,2318
+Maximum Charge Power (Motoring),Real,2322
+Maximum Discharge Power (Motoring),Real,2326
+Battery in Charge State accumulator in minutes,UInt,2330
+Expected time to empty in minutes,UInt,2332
+Full Charge cycle counter,UInt,2334
+Battery in Operational State accumulator in minutes,UInt,2336
+Expected time to fully charged in minutes,UInt,2338
+Request for heating,Bool,2340
+Request for cooling,Bool,2340.1
+Charging complete,Bool,2340.2
+ISO active,Bool,2340.3
+LED active,Bool,2340.4
+CAN3 baud rate reduction,Bool,2340.5
+Heartbeat,Bool,2340.6
+Cell overvoltage fault,Bool,2340.7
+Cell overvoltage warning,Bool,2341
+Cell undervoltage fault,Bool,2341.1
+Cell undervoltage warning,Bool,2341.2
+End-of-life fault,Bool,2341.3
+End-of-life warning,Bool,2341.4
+HVIL fault,Bool,2341.5
+BMS 24V supply overvoltage fault,Bool,2341.6
+BMS 24V supply undervoltage fault,Bool,2341.7
+Pack overcurrent fault while charging,Bool,2342
+Pack overcurrent warning while charging,Bool,2342.1
+Pack overcurrent fault while discharging,Bool,2342.2
+Pack overcurrent warning while discharging,Bool,2342.3
+Pack overtemperature fault,Bool,2342.4
+Pack overtemperature warning,Bool,2342.5
+Pack undertemperature warning,Bool,2342.6
+Pack overvoltage fault,Bool,2342.7
+Pack overvoltage warning,Bool,2343
+Pack undervoltage fault,Bool,2343.1
+Pack undervoltage warning,Bool,2343.2
+Temperature difference fault,Bool,2343.3
+Loss of power control fault,Bool,2343.4
+Loss of power control warning,Bool,2343.5
+Isolation fault,Bool,2343.6
+Isolation warning,Bool,2343.7
+Pack overcharge fault,Bool,2344
+Pack overdischarge fault,Bool,2344.1
+Inlet coolant overpressure warning,Bool,2344.2
+Inlet coolant overpressure fault,Bool,2344.3
+Outlet coolant overpressure warning,Bool,2344.4
+Outlet coolant overpressure fault,Bool,2344.5
+Tx,BMS_transmit,2346
+Ambient Temperature in C,SInt,2346
+State of Charge setpoint in percent,SInt,2347
+Pack Voltage setpoint in V,Int,2348
+Command BMS sleep mode,Bool,2350
+Command BMS power up,Bool,2350.1
+Command BMS power down,Bool,2350.2
+Command BMS emergency,Bool,2350.3
+Command BMS plug-in charge,Bool,2350.4
+Command BMS stop charging,Bool,2350.5
+Isolation disable,Bool,2350.6
+LED mode,Bool,2350.7
+Change LED mode,Bool,2351
+New pack ID,USInt,2352
+Change pack ID,Bool,2353
+CAN3 baud rate reduction,Bool,2353.1
+Change baud rate,Bool,2353.2
+Maximum number of packs per stack,USInt,2354
+Change max number of packs per stack,Bool,2355
+Passcode,USInt,2356
+BMS[4],BMS(Xerotech),2358
+CAN interface,USInt,2358
+Device ID,USInt,2359
+Rx,BMS_receive,2360
+Hardware Version,UInt,2360
+Software Version,Array[0..5] of Byte,2362
+CAN ID of the device,USInt,2368
+Maximum number of BMS per stack,USInt,2369
+Number of active BMS per stack,USInt,2370
+BMS System State,USInt,2371
+System Fault,USInt,2372
+CAN1 Status,USInt,2373
+CAN3 Status,USInt,2374
+Contactor State (neg bus bar),USInt,2375
+Contactor State (pos bus bar),USInt,2376
+Contactor State (pre-charge contactor),USInt,2377
+Battery Health in percent,USInt,2378
+State of Charge,Real,2380
+DC Bus Voltage in V,Real,2384
+Total Pack Current in A,Real,2388
+Pack Voltage in V,Real,2392
+Average Cell Temperature in C,Real,2396
+Highest Cell Temperature in C,Real,2400
+Lowest Cell Temperature in C,Real,2404
+Inlet Coolant Pressure in PSI,Real,2408
+Outlet Coolant Pressure in PSI,Real,2412
+Remaining Energy in kWh,Real,2416
+Maximum Charge Current (Motoring),Real,2420
+Maximum Discharge Current (Motoring),Real,2424
+Maximum Charge Power (Plug-in Charging),Real,2428
+Maximum Charge Current (Plug-in Charging),Real,2432
+Maximum Charge Power (Motoring),Real,2436
+Maximum Discharge Power (Motoring),Real,2440
+Battery in Charge State accumulator in minutes,UInt,2444
+Expected time to empty in minutes,UInt,2446
+Full Charge cycle counter,UInt,2448
+Battery in Operational State accumulator in minutes,UInt,2450
+Expected time to fully charged in minutes,UInt,2452
+Request for heating,Bool,2454
+Request for cooling,Bool,2454.1
+Charging complete,Bool,2454.2
+ISO active,Bool,2454.3
+LED active,Bool,2454.4
+CAN3 baud rate reduction,Bool,2454.5
+Heartbeat,Bool,2454.6
+Cell overvoltage fault,Bool,2454.7
+Cell overvoltage warning,Bool,2455
+Cell undervoltage fault,Bool,2455.1
+Cell undervoltage warning,Bool,2455.2
+End-of-life fault,Bool,2455.3
+End-of-life warning,Bool,2455.4
+HVIL fault,Bool,2455.5
+BMS 24V supply overvoltage fault,Bool,2455.6
+BMS 24V supply undervoltage fault,Bool,2455.7
+Pack overcurrent fault while charging,Bool,2456
+Pack overcurrent warning while charging,Bool,2456.1
+Pack overcurrent fault while discharging,Bool,2456.2
+Pack overcurrent warning while discharging,Bool,2456.3
+Pack overtemperature fault,Bool,2456.4
+Pack overtemperature warning,Bool,2456.5
+Pack undertemperature warning,Bool,2456.6
+Pack overvoltage fault,Bool,2456.7
+Pack overvoltage warning,Bool,2457
+Pack undervoltage fault,Bool,2457.1
+Pack undervoltage warning,Bool,2457.2
+Temperature difference fault,Bool,2457.3
+Loss of power control fault,Bool,2457.4
+Loss of power control warning,Bool,2457.5
+Isolation fault,Bool,2457.6
+Isolation warning,Bool,2457.7
+Pack overcharge fault,Bool,2458
+Pack overdischarge fault,Bool,2458.1
+Inlet coolant overpressure warning,Bool,2458.2
+Inlet coolant overpressure fault,Bool,2458.3
+Outlet coolant overpressure warning,Bool,2458.4
+Outlet coolant overpressure fault,Bool,2458.5
+Tx,BMS_transmit,2460
+Ambient Temperature in C,SInt,2460
+State of Charge setpoint in percent,SInt,2461
+Pack Voltage setpoint in V,Int,2462
+Command BMS sleep mode,Bool,2464
+Command BMS power up,Bool,2464.1
+Command BMS power down,Bool,2464.2
+Command BMS emergency,Bool,2464.3
+Command BMS plug-in charge,Bool,2464.4
+Command BMS stop charging,Bool,2464.5
+Isolation disable,Bool,2464.6
+LED mode,Bool,2464.7
+Change LED mode,Bool,2465
+New pack ID,USInt,2466
+Change pack ID,Bool,2467
+CAN3 baud rate reduction,Bool,2467.1
+Change baud rate,Bool,2467.2
+Maximum number of packs per stack,USInt,2468
+Change max number of packs per stack,Bool,2469
+Passcode,USInt,2470
+BTMS,BTMS(Grayson),2472
+Device ID,USInt,2472
+Rx,BTMS_receive,2474
+Operating Mode,USInt,2474
+Pump Speed,USInt,2475
+Fan Speed,USInt,2476
+Inlet Temperature,Int,2478
+Outlet Temperature,Int,2480
+Target Temperature,Int,2482
+Compressor Timer,USInt,2484
+Protect Lock State,USInt,2485
+Protect Timer,USInt,2486
+Lock Timer,USInt,2487
+Software Version,USInt,2488
+Compressor HTCO State,USInt,2489
+LPCO State,USInt,2490
+HPCO State,USInt,2491
+CPS State,USInt,2492
+Fan1 HTCO State,USInt,2493
+Heater HTCO State,USInt,2494
+Level Sensor Switch State,USInt,2495
+Fan1 MCB State,USInt,2496
+Heater MCB State,USInt,2497
+Compressor MCB State,USInt,2498
+Pump MCB State,USInt,2499
+Fan2 MCB State,USInt,2500
+Fan2 HTCO State,USInt,2501
+Pump Pressure Flow Switch,USInt,2502
+Pump State,USInt,2503
+Fan State,USInt,2504
+Heater State,USInt,2505
+Compressor State,USInt,2506
+Inlet Temp Sensor State,USInt,2507
+Outlet Temp Sensor State,USInt,2508
+Temp Plausibility Error,USInt,2509
+F1 Refrigerant circuit over-pressure,Bool,2510
+F2 Refrigerant circuit under-pressure,Bool,2510.1
+F3 Compressor over-temperature,Bool,2510.2
+F4 Heater over-temperature,Bool,2510.3
+F5 Fan 1 over-temperature,Bool,2510.4
+F6 Inlet temperature sensor open circuit,Bool,2510.5
+F7 Inlet temperature sensor short circuit,Bool,2510.6
+F8 Outlet temperature sensor open circuit,Bool,2510.7
+F9 Outlet temperature sensor short circuit,Bool,2511
+F10 Temperatures disagree (not plausible),Bool,2511.1
+F11 Cooling prohibited due to low temperature,Bool,2511.2
+F12 Heating prohibited due to high temperature,Bool,2511.3
+F13 Pump incorrect speed,Bool,2511.4
+F14 Pump communications fault,Bool,2511.5
+F15 Pump fault (CAN),Bool,2511.6
+F16 Compressor circuit breaker,Bool,2511.7
+F17 Heater circuit breaker,Bool,2512
+F18 Fan 1 circuit breaker,Bool,2512.1
+F19 Not implemented,Bool,2512.2
+F20 Coolant level fault (Level sensor switch),Bool,2512.3
+F21 Fan 2 Over-temperature,Bool,2512.4
+F22 Fan 2 circuit breaker,Bool,2512.5
+F23 Not implemented,Bool,2512.6
+F24 Pump circuit breaker,Bool,2512.7
+F25 Flow rate fault (Pump Pressure_Flow Switch Fault),Bool,2513
+F26 Not implemented,Bool,2513.1
+Tx,BTMS_transmit,2514
+ModeRequest,USInt,2514
+SetpointRequestDegC,Int,2516
+PumpSpeedRequestPercent,Int,2518
+,,
+,,
+,,
+,,
+,,
+Level 7,,
+Name,Data Type,Offset
+Battery Stacks,"Array[1..5] of ""Battery Stack""",0
+Battery Stacks[1],Battery Stack,0
+BMS,"Array[1..4] of ""BMS(Xerotech)""",0
+BMS[1],BMS(Xerotech),0
+CAN interface,USInt,0
+Device ID,USInt,1
+Rx,BMS_receive,2
+Hardware Version,UInt,2
+Software Version,Array[0..5] of Byte,4
+Software Version[0],Byte,4
+Software Version[1],Byte,5
+Software Version[2],Byte,6
+Software Version[3],Byte,7
+Software Version[4],Byte,8
+Software Version[5],Byte,9
+CAN ID of the device,USInt,10
+Maximum number of BMS per stack,USInt,11
+Number of active BMS per stack,USInt,12
+BMS System State,USInt,13
+System Fault,USInt,14
+CAN1 Status,USInt,15
+CAN3 Status,USInt,16
+Contactor State (neg bus bar),USInt,17
+Contactor State (pos bus bar),USInt,18
+Contactor State (pre-charge contactor),USInt,19
+Battery Health in percent,USInt,20
+State of Charge,Real,22
+DC Bus Voltage in V,Real,26
+Total Pack Current in A,Real,30
+Pack Voltage in V,Real,34
+Average Cell Temperature in C,Real,38
+Highest Cell Temperature in C,Real,42
+Lowest Cell Temperature in C,Real,46
+Inlet Coolant Pressure in PSI,Real,50
+Outlet Coolant Pressure in PSI,Real,54
+Remaining Energy in kWh,Real,58
+Maximum Charge Current (Motoring),Real,62
+Maximum Discharge Current (Motoring),Real,66
+Maximum Charge Power (Plug-in Charging),Real,70
+Maximum Charge Current (Plug-in Charging),Real,74
+Maximum Charge Power (Motoring),Real,78
+Maximum Discharge Power (Motoring),Real,82
+Battery in Charge State accumulator in minutes,UInt,86
+Expected time to empty in minutes,UInt,88
+Full Charge cycle counter,UInt,90
+Battery in Operational State accumulator in minutes,UInt,92
+Expected time to fully charged in minutes,UInt,94
+Request for heating,Bool,96
+Request for cooling,Bool,96.1
+Charging complete,Bool,96.2
+ISO active,Bool,96.3
+LED active,Bool,96.4
+CAN3 baud rate reduction,Bool,96.5
+Heartbeat,Bool,96.6
+Cell overvoltage fault,Bool,96.7
+Cell overvoltage warning,Bool,97
+Cell undervoltage fault,Bool,97.1
+Cell undervoltage warning,Bool,97.2
+End-of-life fault,Bool,97.3
+End-of-life warning,Bool,97.4
+HVIL fault,Bool,97.5
+BMS 24V supply overvoltage fault,Bool,97.6
+BMS 24V supply undervoltage fault,Bool,97.7
+Pack overcurrent fault while charging,Bool,98
+Pack overcurrent warning while charging,Bool,98.1
+Pack overcurrent fault while discharging,Bool,98.2
+Pack overcurrent warning while discharging,Bool,98.3
+Pack overtemperature fault,Bool,98.4
+Pack overtemperature warning,Bool,98.5
+Pack undertemperature warning,Bool,98.6
+Pack overvoltage fault,Bool,98.7
+Pack overvoltage warning,Bool,99
+Pack undervoltage fault,Bool,99.1
+Pack undervoltage warning,Bool,99.2
+Temperature difference fault,Bool,99.3
+Loss of power control fault,Bool,99.4
+Loss of power control warning,Bool,99.5
+Isolation fault,Bool,99.6
+Isolation warning,Bool,99.7
+Pack overcharge fault,Bool,100
+Pack overdischarge fault,Bool,100.1
+Inlet coolant overpressure warning,Bool,100.2
+Inlet coolant overpressure fault,Bool,100.3
+Outlet coolant overpressure warning,Bool,100.4
+Outlet coolant overpressure fault,Bool,100.5
+Tx,BMS_transmit,102
+Ambient Temperature in C,SInt,102
+State of Charge setpoint in percent,SInt,103
+Pack Voltage setpoint in V,Int,104
+Command BMS sleep mode,Bool,106
+Command BMS power up,Bool,106.1
+Command BMS power down,Bool,106.2
+Command BMS emergency,Bool,106.3
+Command BMS plug-in charge,Bool,106.4
+Command BMS stop charging,Bool,106.5
+Isolation disable,Bool,106.6
+LED mode,Bool,106.7
+Change LED mode,Bool,107
+New pack ID,USInt,108
+Change pack ID,Bool,109
+CAN3 baud rate reduction,Bool,109.1
+Change baud rate,Bool,109.2
+Maximum number of packs per stack,USInt,110
+Change max number of packs per stack,Bool,111
+Passcode,USInt,112
+BMS[2],BMS(Xerotech),114
+CAN interface,USInt,114
+Device ID,USInt,115
+Rx,BMS_receive,116
+Hardware Version,UInt,116
+Software Version,Array[0..5] of Byte,118
+Software Version[0],Byte,118
+Software Version[1],Byte,119
+Software Version[2],Byte,120
+Software Version[3],Byte,121
+Software Version[4],Byte,122
+Software Version[5],Byte,123
+CAN ID of the device,USInt,124
+Maximum number of BMS per stack,USInt,125
+Number of active BMS per stack,USInt,126
+BMS System State,USInt,127
+System Fault,USInt,128
+CAN1 Status,USInt,129
+CAN3 Status,USInt,130
+Contactor State (neg bus bar),USInt,131
+Contactor State (pos bus bar),USInt,132
+Contactor State (pre-charge contactor),USInt,133
+Battery Health in percent,USInt,134
+State of Charge,Real,136
+DC Bus Voltage in V,Real,140
+Total Pack Current in A,Real,144
+Pack Voltage in V,Real,148
+Average Cell Temperature in C,Real,152
+Highest Cell Temperature in C,Real,156
+Lowest Cell Temperature in C,Real,160
+Inlet Coolant Pressure in PSI,Real,164
+Outlet Coolant Pressure in PSI,Real,168
+Remaining Energy in kWh,Real,172
+Maximum Charge Current (Motoring),Real,176
+Maximum Discharge Current (Motoring),Real,180
+Maximum Charge Power (Plug-in Charging),Real,184
+Maximum Charge Current (Plug-in Charging),Real,188
+Maximum Charge Power (Motoring),Real,192
+Maximum Discharge Power (Motoring),Real,196
+Battery in Charge State accumulator in minutes,UInt,200
+Expected time to empty in minutes,UInt,202
+Full Charge cycle counter,UInt,204
+Battery in Operational State accumulator in minutes,UInt,206
+Expected time to fully charged in minutes,UInt,208
+Request for heating,Bool,210
+Request for cooling,Bool,210.1
+Charging complete,Bool,210.2
+ISO active,Bool,210.3
+LED active,Bool,210.4
+CAN3 baud rate reduction,Bool,210.5
+Heartbeat,Bool,210.6
+Cell overvoltage fault,Bool,210.7
+Cell overvoltage warning,Bool,211
+Cell undervoltage fault,Bool,211.1
+Cell undervoltage warning,Bool,211.2
+End-of-life fault,Bool,211.3
+End-of-life warning,Bool,211.4
+HVIL fault,Bool,211.5
+BMS 24V supply overvoltage fault,Bool,211.6
+BMS 24V supply undervoltage fault,Bool,211.7
+Pack overcurrent fault while charging,Bool,212
+Pack overcurrent warning while charging,Bool,212.1
+Pack overcurrent fault while discharging,Bool,212.2
+Pack overcurrent warning while discharging,Bool,212.3
+Pack overtemperature fault,Bool,212.4
+Pack overtemperature warning,Bool,212.5
+Pack undertemperature warning,Bool,212.6
+Pack overvoltage fault,Bool,212.7
+Pack overvoltage warning,Bool,213
+Pack undervoltage fault,Bool,213.1
+Pack undervoltage warning,Bool,213.2
+Temperature difference fault,Bool,213.3
+Loss of power control fault,Bool,213.4
+Loss of power control warning,Bool,213.5
+Isolation fault,Bool,213.6
+Isolation warning,Bool,213.7
+Pack overcharge fault,Bool,214
+Pack overdischarge fault,Bool,214.1
+Inlet coolant overpressure warning,Bool,214.2
+Inlet coolant overpressure fault,Bool,214.3
+Outlet coolant overpressure warning,Bool,214.4
+Outlet coolant overpressure fault,Bool,214.5
+Tx,BMS_transmit,216
+Ambient Temperature in C,SInt,216
+State of Charge setpoint in percent,SInt,217
+Pack Voltage setpoint in V,Int,218
+Command BMS sleep mode,Bool,220
+Command BMS power up,Bool,220.1
+Command BMS power down,Bool,220.2
+Command BMS emergency,Bool,220.3
+Command BMS plug-in charge,Bool,220.4
+Command BMS stop charging,Bool,220.5
+Isolation disable,Bool,220.6
+LED mode,Bool,220.7
+Change LED mode,Bool,221
+New pack ID,USInt,222
+Change pack ID,Bool,223
+CAN3 baud rate reduction,Bool,223.1
+Change baud rate,Bool,223.2
+Maximum number of packs per stack,USInt,224
+Change max number of packs per stack,Bool,225
+Passcode,USInt,226
+BMS[3],BMS(Xerotech),228
+CAN interface,USInt,228
+Device ID,USInt,229
+Rx,BMS_receive,230
+Hardware Version,UInt,230
+Software Version,Array[0..5] of Byte,232
+Software Version[0],Byte,232
+Software Version[1],Byte,233
+Software Version[2],Byte,234
+Software Version[3],Byte,235
+Software Version[4],Byte,236
+Software Version[5],Byte,237
+CAN ID of the device,USInt,238
+Maximum number of BMS per stack,USInt,239
+Number of active BMS per stack,USInt,240
+BMS System State,USInt,241
+System Fault,USInt,242
+CAN1 Status,USInt,243
+CAN3 Status,USInt,244
+Contactor State (neg bus bar),USInt,245
+Contactor State (pos bus bar),USInt,246
+Contactor State (pre-charge contactor),USInt,247
+Battery Health in percent,USInt,248
+State of Charge,Real,250
+DC Bus Voltage in V,Real,254
+Total Pack Current in A,Real,258
+Pack Voltage in V,Real,262
+Average Cell Temperature in C,Real,266
+Highest Cell Temperature in C,Real,270
+Lowest Cell Temperature in C,Real,274
+Inlet Coolant Pressure in PSI,Real,278
+Outlet Coolant Pressure in PSI,Real,282
+Remaining Energy in kWh,Real,286
+Maximum Charge Current (Motoring),Real,290
+Maximum Discharge Current (Motoring),Real,294
+Maximum Charge Power (Plug-in Charging),Real,298
+Maximum Charge Current (Plug-in Charging),Real,302
+Maximum Charge Power (Motoring),Real,306
+Maximum Discharge Power (Motoring),Real,310
+Battery in Charge State accumulator in minutes,UInt,314
+Expected time to empty in minutes,UInt,316
+Full Charge cycle counter,UInt,318
+Battery in Operational State accumulator in minutes,UInt,320
+Expected time to fully charged in minutes,UInt,322
+Request for heating,Bool,324
+Request for cooling,Bool,324.1
+Charging complete,Bool,324.2
+ISO active,Bool,324.3
+LED active,Bool,324.4
+CAN3 baud rate reduction,Bool,324.5
+Heartbeat,Bool,324.6
+Cell overvoltage fault,Bool,324.7
+Cell overvoltage warning,Bool,325
+Cell undervoltage fault,Bool,325.1
+Cell undervoltage warning,Bool,325.2
+End-of-life fault,Bool,325.3
+End-of-life warning,Bool,325.4
+HVIL fault,Bool,325.5
+BMS 24V supply overvoltage fault,Bool,325.6
+BMS 24V supply undervoltage fault,Bool,325.7
+Pack overcurrent fault while charging,Bool,326
+Pack overcurrent warning while charging,Bool,326.1
+Pack overcurrent fault while discharging,Bool,326.2
+Pack overcurrent warning while discharging,Bool,326.3
+Pack overtemperature fault,Bool,326.4
+Pack overtemperature warning,Bool,326.5
+Pack undertemperature warning,Bool,326.6
+Pack overvoltage fault,Bool,326.7
+Pack overvoltage warning,Bool,327
+Pack undervoltage fault,Bool,327.1
+Pack undervoltage warning,Bool,327.2
+Temperature difference fault,Bool,327.3
+Loss of power control fault,Bool,327.4
+Loss of power control warning,Bool,327.5
+Isolation fault,Bool,327.6
+Isolation warning,Bool,327.7
+Pack overcharge fault,Bool,328
+Pack overdischarge fault,Bool,328.1
+Inlet coolant overpressure warning,Bool,328.2
+Inlet coolant overpressure fault,Bool,328.3
+Outlet coolant overpressure warning,Bool,328.4
+Outlet coolant overpressure fault,Bool,328.5
+Tx,BMS_transmit,330
+Ambient Temperature in C,SInt,330
+State of Charge setpoint in percent,SInt,331
+Pack Voltage setpoint in V,Int,332
+Command BMS sleep mode,Bool,334
+Command BMS power up,Bool,334.1
+Command BMS power down,Bool,334.2
+Command BMS emergency,Bool,334.3
+Command BMS plug-in charge,Bool,334.4
+Command BMS stop charging,Bool,334.5
+Isolation disable,Bool,334.6
+LED mode,Bool,334.7
+Change LED mode,Bool,335
+New pack ID,USInt,336
+Change pack ID,Bool,337
+CAN3 baud rate reduction,Bool,337.1
+Change baud rate,Bool,337.2
+Maximum number of packs per stack,USInt,338
+Change max number of packs per stack,Bool,339
+Passcode,USInt,340
+BMS[4],BMS(Xerotech),342
+CAN interface,USInt,342
+Device ID,USInt,343
+Rx,BMS_receive,344
+Hardware Version,UInt,344
+Software Version,Array[0..5] of Byte,346
+Software Version[0],Byte,346
+Software Version[1],Byte,347
+Software Version[2],Byte,348
+Software Version[3],Byte,349
+Software Version[4],Byte,350
+Software Version[5],Byte,351
+CAN ID of the device,USInt,352
+Maximum number of BMS per stack,USInt,353
+Number of active BMS per stack,USInt,354
+BMS System State,USInt,355
+System Fault,USInt,356
+CAN1 Status,USInt,357
+CAN3 Status,USInt,358
+Contactor State (neg bus bar),USInt,359
+Contactor State (pos bus bar),USInt,360
+Contactor State (pre-charge contactor),USInt,361
+Battery Health in percent,USInt,362
+State of Charge,Real,364
+DC Bus Voltage in V,Real,368
+Total Pack Current in A,Real,372
+Pack Voltage in V,Real,376
+Average Cell Temperature in C,Real,380
+Highest Cell Temperature in C,Real,384
+Lowest Cell Temperature in C,Real,388
+Inlet Coolant Pressure in PSI,Real,392
+Outlet Coolant Pressure in PSI,Real,396
+Remaining Energy in kWh,Real,400
+Maximum Charge Current (Motoring),Real,404
+Maximum Discharge Current (Motoring),Real,408
+Maximum Charge Power (Plug-in Charging),Real,412
+Maximum Charge Current (Plug-in Charging),Real,416
+Maximum Charge Power (Motoring),Real,420
+Maximum Discharge Power (Motoring),Real,424
+Battery in Charge State accumulator in minutes,UInt,428
+Expected time to empty in minutes,UInt,430
+Full Charge cycle counter,UInt,432
+Battery in Operational State accumulator in minutes,UInt,434
+Expected time to fully charged in minutes,UInt,436
+Request for heating,Bool,438
+Request for cooling,Bool,438.1
+Charging complete,Bool,438.2
+ISO active,Bool,438.3
+LED active,Bool,438.4
+CAN3 baud rate reduction,Bool,438.5
+Heartbeat,Bool,438.6
+Cell overvoltage fault,Bool,438.7
+Cell overvoltage warning,Bool,439
+Cell undervoltage fault,Bool,439.1
+Cell undervoltage warning,Bool,439.2
+End-of-life fault,Bool,439.3
+End-of-life warning,Bool,439.4
+HVIL fault,Bool,439.5
+BMS 24V supply overvoltage fault,Bool,439.6
+BMS 24V supply undervoltage fault,Bool,439.7
+Pack overcurrent fault while charging,Bool,440
+Pack overcurrent warning while charging,Bool,440.1
+Pack overcurrent fault while discharging,Bool,440.2
+Pack overcurrent warning while discharging,Bool,440.3
+Pack overtemperature fault,Bool,440.4
+Pack overtemperature warning,Bool,440.5
+Pack undertemperature warning,Bool,440.6
+Pack overvoltage fault,Bool,440.7
+Pack overvoltage warning,Bool,441
+Pack undervoltage fault,Bool,441.1
+Pack undervoltage warning,Bool,441.2
+Temperature difference fault,Bool,441.3
+Loss of power control fault,Bool,441.4
+Loss of power control warning,Bool,441.5
+Isolation fault,Bool,441.6
+Isolation warning,Bool,441.7
+Pack overcharge fault,Bool,442
+Pack overdischarge fault,Bool,442.1
+Inlet coolant overpressure warning,Bool,442.2
+Inlet coolant overpressure fault,Bool,442.3
+Outlet coolant overpressure warning,Bool,442.4
+Outlet coolant overpressure fault,Bool,442.5
+Tx,BMS_transmit,444
+Ambient Temperature in C,SInt,444
+State of Charge setpoint in percent,SInt,445
+Pack Voltage setpoint in V,Int,446
+Command BMS sleep mode,Bool,448
+Command BMS power up,Bool,448.1
+Command BMS power down,Bool,448.2
+Command BMS emergency,Bool,448.3
+Command BMS plug-in charge,Bool,448.4
+Command BMS stop charging,Bool,448.5
+Isolation disable,Bool,448.6
+LED mode,Bool,448.7
+Change LED mode,Bool,449
+New pack ID,USInt,450
+Change pack ID,Bool,451
+CAN3 baud rate reduction,Bool,451.1
+Change baud rate,Bool,451.2
+Maximum number of packs per stack,USInt,452
+Change max number of packs per stack,Bool,453
+Passcode,USInt,454
+BTMS,BTMS(Grayson),456
+Device ID,USInt,456
+Rx,BTMS_receive,458
+Operating Mode,USInt,458
+Pump Speed,USInt,459
+Fan Speed,USInt,460
+Inlet Temperature,Int,462
+Outlet Temperature,Int,464
+Target Temperature,Int,466
+Compressor Timer,USInt,468
+Protect Lock State,USInt,469
+Protect Timer,USInt,470
+Lock Timer,USInt,471
+Software Version,USInt,472
+Compressor HTCO State,USInt,473
+LPCO State,USInt,474
+HPCO State,USInt,475
+CPS State,USInt,476
+Fan1 HTCO State,USInt,477
+Heater HTCO State,USInt,478
+Level Sensor Switch State,USInt,479
+Fan1 MCB State,USInt,480
+Heater MCB State,USInt,481
+Compressor MCB State,USInt,482
+Pump MCB State,USInt,483
+Fan2 MCB State,USInt,484
+Fan2 HTCO State,USInt,485
+Pump Pressure Flow Switch,USInt,486
+Pump State,USInt,487
+Fan State,USInt,488
+Heater State,USInt,489
+Compressor State,USInt,490
+Inlet Temp Sensor State,USInt,491
+Outlet Temp Sensor State,USInt,492
+Temp Plausibility Error,USInt,493
+F1 Refrigerant circuit over-pressure,Bool,494
+F2 Refrigerant circuit under-pressure,Bool,494.1
+F3 Compressor over-temperature,Bool,494.2
+F4 Heater over-temperature,Bool,494.3
+F5 Fan 1 over-temperature,Bool,494.4
+F6 Inlet temperature sensor open circuit,Bool,494.5
+F7 Inlet temperature sensor short circuit,Bool,494.6
+F8 Outlet temperature sensor open circuit,Bool,494.7
+F9 Outlet temperature sensor short circuit,Bool,495
+F10 Temperatures disagree (not plausible),Bool,495.1
+F11 Cooling prohibited due to low temperature,Bool,495.2
+F12 Heating prohibited due to high temperature,Bool,495.3
+F13 Pump incorrect speed,Bool,495.4
+F14 Pump communications fault,Bool,495.5
+F15 Pump fault (CAN),Bool,495.6
+F16 Compressor circuit breaker,Bool,495.7
+F17 Heater circuit breaker,Bool,496
+F18 Fan 1 circuit breaker,Bool,496.1
+F19 Not implemented,Bool,496.2
+F20 Coolant level fault (Level sensor switch),Bool,496.3
+F21 Fan 2 Over-temperature,Bool,496.4
+F22 Fan 2 circuit breaker,Bool,496.5
+F23 Not implemented,Bool,496.6
+F24 Pump circuit breaker,Bool,496.7
+F25 Flow rate fault (Pump Pressure_Flow Switch Fault),Bool,497
+F26 Not implemented,Bool,497.1
+Tx,BTMS_transmit,498
+ModeRequest,USInt,498
+SetpointRequestDegC,Int,500
+PumpSpeedRequestPercent,Int,502
+Battery Stacks[2],Battery Stack,504
+BMS,"Array[1..4] of ""BMS(Xerotech)""",504
+BMS[1],BMS(Xerotech),504
+CAN interface,USInt,504
+Device ID,USInt,505
+Rx,BMS_receive,506
+Hardware Version,UInt,506
+Software Version,Array[0..5] of Byte,508
+Software Version[0],Byte,508
+Software Version[1],Byte,509
+Software Version[2],Byte,510
+Software Version[3],Byte,511
+Software Version[4],Byte,512
+Software Version[5],Byte,513
+CAN ID of the device,USInt,514
+Maximum number of BMS per stack,USInt,515
+Number of active BMS per stack,USInt,516
+BMS System State,USInt,517
+System Fault,USInt,518
+CAN1 Status,USInt,519
+CAN3 Status,USInt,520
+Contactor State (neg bus bar),USInt,521
+Contactor State (pos bus bar),USInt,522
+Contactor State (pre-charge contactor),USInt,523
+Battery Health in percent,USInt,524
+State of Charge,Real,526
+DC Bus Voltage in V,Real,530
+Total Pack Current in A,Real,534
+Pack Voltage in V,Real,538
+Average Cell Temperature in C,Real,542
+Highest Cell Temperature in C,Real,546
+Lowest Cell Temperature in C,Real,550
+Inlet Coolant Pressure in PSI,Real,554
+Outlet Coolant Pressure in PSI,Real,558
+Remaining Energy in kWh,Real,562
+Maximum Charge Current (Motoring),Real,566
+Maximum Discharge Current (Motoring),Real,570
+Maximum Charge Power (Plug-in Charging),Real,574
+Maximum Charge Current (Plug-in Charging),Real,578
+Maximum Charge Power (Motoring),Real,582
+Maximum Discharge Power (Motoring),Real,586
+Battery in Charge State accumulator in minutes,UInt,590
+Expected time to empty in minutes,UInt,592
+Full Charge cycle counter,UInt,594
+Battery in Operational State accumulator in minutes,UInt,596
+Expected time to fully charged in minutes,UInt,598
+Request for heating,Bool,600
+Request for cooling,Bool,600.1
+Charging complete,Bool,600.2
+ISO active,Bool,600.3
+LED active,Bool,600.4
+CAN3 baud rate reduction,Bool,600.5
+Heartbeat,Bool,600.6
+Cell overvoltage fault,Bool,600.7
+Cell overvoltage warning,Bool,601
+Cell undervoltage fault,Bool,601.1
+Cell undervoltage warning,Bool,601.2
+End-of-life fault,Bool,601.3
+End-of-life warning,Bool,601.4
+HVIL fault,Bool,601.5
+BMS 24V supply overvoltage fault,Bool,601.6
+BMS 24V supply undervoltage fault,Bool,601.7
+Pack overcurrent fault while charging,Bool,602
+Pack overcurrent warning while charging,Bool,602.1
+Pack overcurrent fault while discharging,Bool,602.2
+Pack overcurrent warning while discharging,Bool,602.3
+Pack overtemperature fault,Bool,602.4
+Pack overtemperature warning,Bool,602.5
+Pack undertemperature warning,Bool,602.6
+Pack overvoltage fault,Bool,602.7
+Pack overvoltage warning,Bool,603
+Pack undervoltage fault,Bool,603.1
+Pack undervoltage warning,Bool,603.2
+Temperature difference fault,Bool,603.3
+Loss of power control fault,Bool,603.4
+Loss of power control warning,Bool,603.5
+Isolation fault,Bool,603.6
+Isolation warning,Bool,603.7
+Pack overcharge fault,Bool,604
+Pack overdischarge fault,Bool,604.1
+Inlet coolant overpressure warning,Bool,604.2
+Inlet coolant overpressure fault,Bool,604.3
+Outlet coolant overpressure warning,Bool,604.4
+Outlet coolant overpressure fault,Bool,604.5
+Tx,BMS_transmit,606
+Ambient Temperature in C,SInt,606
+State of Charge setpoint in percent,SInt,607
+Pack Voltage setpoint in V,Int,608
+Command BMS sleep mode,Bool,610
+Command BMS power up,Bool,610.1
+Command BMS power down,Bool,610.2
+Command BMS emergency,Bool,610.3
+Command BMS plug-in charge,Bool,610.4
+Command BMS stop charging,Bool,610.5
+Isolation disable,Bool,610.6
+LED mode,Bool,610.7
+Change LED mode,Bool,611
+New pack ID,USInt,612
+Change pack ID,Bool,613
+CAN3 baud rate reduction,Bool,613.1
+Change baud rate,Bool,613.2
+Maximum number of packs per stack,USInt,614
+Change max number of packs per stack,Bool,615
+Passcode,USInt,616
+BMS[2],BMS(Xerotech),618
+CAN interface,USInt,618
+Device ID,USInt,619
+Rx,BMS_receive,620
+Hardware Version,UInt,620
+Software Version,Array[0..5] of Byte,622
+Software Version[0],Byte,622
+Software Version[1],Byte,623
+Software Version[2],Byte,624
+Software Version[3],Byte,625
+Software Version[4],Byte,626
+Software Version[5],Byte,627
+CAN ID of the device,USInt,628
+Maximum number of BMS per stack,USInt,629
+Number of active BMS per stack,USInt,630
+BMS System State,USInt,631
+System Fault,USInt,632
+CAN1 Status,USInt,633
+CAN3 Status,USInt,634
+Contactor State (neg bus bar),USInt,635
+Contactor State (pos bus bar),USInt,636
+Contactor State (pre-charge contactor),USInt,637
+Battery Health in percent,USInt,638
+State of Charge,Real,640
+DC Bus Voltage in V,Real,644
+Total Pack Current in A,Real,648
+Pack Voltage in V,Real,652
+Average Cell Temperature in C,Real,656
+Highest Cell Temperature in C,Real,660
+Lowest Cell Temperature in C,Real,664
+Inlet Coolant Pressure in PSI,Real,668
+Outlet Coolant Pressure in PSI,Real,672
+Remaining Energy in kWh,Real,676
+Maximum Charge Current (Motoring),Real,680
+Maximum Discharge Current (Motoring),Real,684
+Maximum Charge Power (Plug-in Charging),Real,688
+Maximum Charge Current (Plug-in Charging),Real,692
+Maximum Charge Power (Motoring),Real,696
+Maximum Discharge Power (Motoring),Real,700
+Battery in Charge State accumulator in minutes,UInt,704
+Expected time to empty in minutes,UInt,706
+Full Charge cycle counter,UInt,708
+Battery in Operational State accumulator in minutes,UInt,710
+Expected time to fully charged in minutes,UInt,712
+Request for heating,Bool,714
+Request for cooling,Bool,714.1
+Charging complete,Bool,714.2
+ISO active,Bool,714.3
+LED active,Bool,714.4
+CAN3 baud rate reduction,Bool,714.5
+Heartbeat,Bool,714.6
+Cell overvoltage fault,Bool,714.7
+Cell overvoltage warning,Bool,715
+Cell undervoltage fault,Bool,715.1
+Cell undervoltage warning,Bool,715.2
+End-of-life fault,Bool,715.3
+End-of-life warning,Bool,715.4
+HVIL fault,Bool,715.5
+BMS 24V supply overvoltage fault,Bool,715.6
+BMS 24V supply undervoltage fault,Bool,715.7
+Pack overcurrent fault while charging,Bool,716
+Pack overcurrent warning while charging,Bool,716.1
+Pack overcurrent fault while discharging,Bool,716.2
+Pack overcurrent warning while discharging,Bool,716.3
+Pack overtemperature fault,Bool,716.4
+Pack overtemperature warning,Bool,716.5
+Pack undertemperature warning,Bool,716.6
+Pack overvoltage fault,Bool,716.7
+Pack overvoltage warning,Bool,717
+Pack undervoltage fault,Bool,717.1
+Pack undervoltage warning,Bool,717.2
+Temperature difference fault,Bool,717.3
+Loss of power control fault,Bool,717.4
+Loss of power control warning,Bool,717.5
+Isolation fault,Bool,717.6
+Isolation warning,Bool,717.7
+Pack overcharge fault,Bool,718
+Pack overdischarge fault,Bool,718.1
+Inlet coolant overpressure warning,Bool,718.2
+Inlet coolant overpressure fault,Bool,718.3
+Outlet coolant overpressure warning,Bool,718.4
+Outlet coolant overpressure fault,Bool,718.5
+Tx,BMS_transmit,720
+Ambient Temperature in C,SInt,720
+State of Charge setpoint in percent,SInt,721
+Pack Voltage setpoint in V,Int,722
+Command BMS sleep mode,Bool,724
+Command BMS power up,Bool,724.1
+Command BMS power down,Bool,724.2
+Command BMS emergency,Bool,724.3
+Command BMS plug-in charge,Bool,724.4
+Command BMS stop charging,Bool,724.5
+Isolation disable,Bool,724.6
+LED mode,Bool,724.7
+Change LED mode,Bool,725
+New pack ID,USInt,726
+Change pack ID,Bool,727
+CAN3 baud rate reduction,Bool,727.1
+Change baud rate,Bool,727.2
+Maximum number of packs per stack,USInt,728
+Change max number of packs per stack,Bool,729
+Passcode,USInt,730
+BMS[3],BMS(Xerotech),732
+CAN interface,USInt,732
+Device ID,USInt,733
+Rx,BMS_receive,734
+Hardware Version,UInt,734
+Software Version,Array[0..5] of Byte,736
+Software Version[0],Byte,736
+Software Version[1],Byte,737
+Software Version[2],Byte,738
+Software Version[3],Byte,739
+Software Version[4],Byte,740
+Software Version[5],Byte,741
+CAN ID of the device,USInt,742
+Maximum number of BMS per stack,USInt,743
+Number of active BMS per stack,USInt,744
+BMS System State,USInt,745
+System Fault,USInt,746
+CAN1 Status,USInt,747
+CAN3 Status,USInt,748
+Contactor State (neg bus bar),USInt,749
+Contactor State (pos bus bar),USInt,750
+Contactor State (pre-charge contactor),USInt,751
+Battery Health in percent,USInt,752
+State of Charge,Real,754
+DC Bus Voltage in V,Real,758
+Total Pack Current in A,Real,762
+Pack Voltage in V,Real,766
+Average Cell Temperature in C,Real,770
+Highest Cell Temperature in C,Real,774
+Lowest Cell Temperature in C,Real,778
+Inlet Coolant Pressure in PSI,Real,782
+Outlet Coolant Pressure in PSI,Real,786
+Remaining Energy in kWh,Real,790
+Maximum Charge Current (Motoring),Real,794
+Maximum Discharge Current (Motoring),Real,798
+Maximum Charge Power (Plug-in Charging),Real,802
+Maximum Charge Current (Plug-in Charging),Real,806
+Maximum Charge Power (Motoring),Real,810
+Maximum Discharge Power (Motoring),Real,814
+Battery in Charge State accumulator in minutes,UInt,818
+Expected time to empty in minutes,UInt,820
+Full Charge cycle counter,UInt,822
+Battery in Operational State accumulator in minutes,UInt,824
+Expected time to fully charged in minutes,UInt,826
+Request for heating,Bool,828
+Request for cooling,Bool,828.1
+Charging complete,Bool,828.2
+ISO active,Bool,828.3
+LED active,Bool,828.4
+CAN3 baud rate reduction,Bool,828.5
+Heartbeat,Bool,828.6
+Cell overvoltage fault,Bool,828.7
+Cell overvoltage warning,Bool,829
+Cell undervoltage fault,Bool,829.1
+Cell undervoltage warning,Bool,829.2
+End-of-life fault,Bool,829.3
+End-of-life warning,Bool,829.4
+HVIL fault,Bool,829.5
+BMS 24V supply overvoltage fault,Bool,829.6
+BMS 24V supply undervoltage fault,Bool,829.7
+Pack overcurrent fault while charging,Bool,830
+Pack overcurrent warning while charging,Bool,830.1
+Pack overcurrent fault while discharging,Bool,830.2
+Pack overcurrent warning while discharging,Bool,830.3
+Pack overtemperature fault,Bool,830.4
+Pack overtemperature warning,Bool,830.5
+Pack undertemperature warning,Bool,830.6
+Pack overvoltage fault,Bool,830.7
+Pack overvoltage warning,Bool,831
+Pack undervoltage fault,Bool,831.1
+Pack undervoltage warning,Bool,831.2
+Temperature difference fault,Bool,831.3
+Loss of power control fault,Bool,831.4
+Loss of power control warning,Bool,831.5
+Isolation fault,Bool,831.6
+Isolation warning,Bool,831.7
+Pack overcharge fault,Bool,832
+Pack overdischarge fault,Bool,832.1
+Inlet coolant overpressure warning,Bool,832.2
+Inlet coolant overpressure fault,Bool,832.3
+Outlet coolant overpressure warning,Bool,832.4
+Outlet coolant overpressure fault,Bool,832.5
+Tx,BMS_transmit,834
+Ambient Temperature in C,SInt,834
+State of Charge setpoint in percent,SInt,835
+Pack Voltage setpoint in V,Int,836
+Command BMS sleep mode,Bool,838
+Command BMS power up,Bool,838.1
+Command BMS power down,Bool,838.2
+Command BMS emergency,Bool,838.3
+Command BMS plug-in charge,Bool,838.4
+Command BMS stop charging,Bool,838.5
+Isolation disable,Bool,838.6
+LED mode,Bool,838.7
+Change LED mode,Bool,839
+New pack ID,USInt,840
+Change pack ID,Bool,841
+CAN3 baud rate reduction,Bool,841.1
+Change baud rate,Bool,841.2
+Maximum number of packs per stack,USInt,842
+Change max number of packs per stack,Bool,843
+Passcode,USInt,844
+BMS[4],BMS(Xerotech),846
+CAN interface,USInt,846
+Device ID,USInt,847
+Rx,BMS_receive,848
+Hardware Version,UInt,848
+Software Version,Array[0..5] of Byte,850
+Software Version[0],Byte,850
+Software Version[1],Byte,851
+Software Version[2],Byte,852
+Software Version[3],Byte,853
+Software Version[4],Byte,854
+Software Version[5],Byte,855
+CAN ID of the device,USInt,856
+Maximum number of BMS per stack,USInt,857
+Number of active BMS per stack,USInt,858
+BMS System State,USInt,859
+System Fault,USInt,860
+CAN1 Status,USInt,861
+CAN3 Status,USInt,862
+Contactor State (neg bus bar),USInt,863
+Contactor State (pos bus bar),USInt,864
+Contactor State (pre-charge contactor),USInt,865
+Battery Health in percent,USInt,866
+State of Charge,Real,868
+DC Bus Voltage in V,Real,872
+Total Pack Current in A,Real,876
+Pack Voltage in V,Real,880
+Average Cell Temperature in C,Real,884
+Highest Cell Temperature in C,Real,888
+Lowest Cell Temperature in C,Real,892
+Inlet Coolant Pressure in PSI,Real,896
+Outlet Coolant Pressure in PSI,Real,900
+Remaining Energy in kWh,Real,904
+Maximum Charge Current (Motoring),Real,908
+Maximum Discharge Current (Motoring),Real,912
+Maximum Charge Power (Plug-in Charging),Real,916
+Maximum Charge Current (Plug-in Charging),Real,920
+Maximum Charge Power (Motoring),Real,924
+Maximum Discharge Power (Motoring),Real,928
+Battery in Charge State accumulator in minutes,UInt,932
+Expected time to empty in minutes,UInt,934
+Full Charge cycle counter,UInt,936
+Battery in Operational State accumulator in minutes,UInt,938
+Expected time to fully charged in minutes,UInt,940
+Request for heating,Bool,942
+Request for cooling,Bool,942.1
+Charging complete,Bool,942.2
+ISO active,Bool,942.3
+LED active,Bool,942.4
+CAN3 baud rate reduction,Bool,942.5
+Heartbeat,Bool,942.6
+Cell overvoltage fault,Bool,942.7
+Cell overvoltage warning,Bool,943
+Cell undervoltage fault,Bool,943.1
+Cell undervoltage warning,Bool,943.2
+End-of-life fault,Bool,943.3
+End-of-life warning,Bool,943.4
+HVIL fault,Bool,943.5
+BMS 24V supply overvoltage fault,Bool,943.6
+BMS 24V supply undervoltage fault,Bool,943.7
+Pack overcurrent fault while charging,Bool,944
+Pack overcurrent warning while charging,Bool,944.1
+Pack overcurrent fault while discharging,Bool,944.2
+Pack overcurrent warning while discharging,Bool,944.3
+Pack overtemperature fault,Bool,944.4
+Pack overtemperature warning,Bool,944.5
+Pack undertemperature warning,Bool,944.6
+Pack overvoltage fault,Bool,944.7
+Pack overvoltage warning,Bool,945
+Pack undervoltage fault,Bool,945.1
+Pack undervoltage warning,Bool,945.2
+Temperature difference fault,Bool,945.3
+Loss of power control fault,Bool,945.4
+Loss of power control warning,Bool,945.5
+Isolation fault,Bool,945.6
+Isolation warning,Bool,945.7
+Pack overcharge fault,Bool,946
+Pack overdischarge fault,Bool,946.1
+Inlet coolant overpressure warning,Bool,946.2
+Inlet coolant overpressure fault,Bool,946.3
+Outlet coolant overpressure warning,Bool,946.4
+Outlet coolant overpressure fault,Bool,946.5
+Tx,BMS_transmit,948
+Ambient Temperature in C,SInt,948
+State of Charge setpoint in percent,SInt,949
+Pack Voltage setpoint in V,Int,950
+Command BMS sleep mode,Bool,952
+Command BMS power up,Bool,952.1
+Command BMS power down,Bool,952.2
+Command BMS emergency,Bool,952.3
+Command BMS plug-in charge,Bool,952.4
+Command BMS stop charging,Bool,952.5
+Isolation disable,Bool,952.6
+LED mode,Bool,952.7
+Change LED mode,Bool,953
+New pack ID,USInt,954
+Change pack ID,Bool,955
+CAN3 baud rate reduction,Bool,955.1
+Change baud rate,Bool,955.2
+Maximum number of packs per stack,USInt,956
+Change max number of packs per stack,Bool,957
+Passcode,USInt,958
+BTMS,BTMS(Grayson),960
+Device ID,USInt,960
+Rx,BTMS_receive,962
+Operating Mode,USInt,962
+Pump Speed,USInt,963
+Fan Speed,USInt,964
+Inlet Temperature,Int,966
+Outlet Temperature,Int,968
+Target Temperature,Int,970
+Compressor Timer,USInt,972
+Protect Lock State,USInt,973
+Protect Timer,USInt,974
+Lock Timer,USInt,975
+Software Version,USInt,976
+Compressor HTCO State,USInt,977
+LPCO State,USInt,978
+HPCO State,USInt,979
+CPS State,USInt,980
+Fan1 HTCO State,USInt,981
+Heater HTCO State,USInt,982
+Level Sensor Switch State,USInt,983
+Fan1 MCB State,USInt,984
+Heater MCB State,USInt,985
+Compressor MCB State,USInt,986
+Pump MCB State,USInt,987
+Fan2 MCB State,USInt,988
+Fan2 HTCO State,USInt,989
+Pump Pressure Flow Switch,USInt,990
+Pump State,USInt,991
+Fan State,USInt,992
+Heater State,USInt,993
+Compressor State,USInt,994
+Inlet Temp Sensor State,USInt,995
+Outlet Temp Sensor State,USInt,996
+Temp Plausibility Error,USInt,997
+F1 Refrigerant circuit over-pressure,Bool,998
+F2 Refrigerant circuit under-pressure,Bool,998.1
+F3 Compressor over-temperature,Bool,998.2
+F4 Heater over-temperature,Bool,998.3
+F5 Fan 1 over-temperature,Bool,998.4
+F6 Inlet temperature sensor open circuit,Bool,998.5
+F7 Inlet temperature sensor short circuit,Bool,998.6
+F8 Outlet temperature sensor open circuit,Bool,998.7
+F9 Outlet temperature sensor short circuit,Bool,999
+F10 Temperatures disagree (not plausible),Bool,999.1
+F11 Cooling prohibited due to low temperature,Bool,999.2
+F12 Heating prohibited due to high temperature,Bool,999.3
+F13 Pump incorrect speed,Bool,999.4
+F14 Pump communications fault,Bool,999.5
+F15 Pump fault (CAN),Bool,999.6
+F16 Compressor circuit breaker,Bool,999.7
+F17 Heater circuit breaker,Bool,1000
+F18 Fan 1 circuit breaker,Bool,1000.1
+F19 Not implemented,Bool,1000.2
+F20 Coolant level fault (Level sensor switch),Bool,1000.3
+F21 Fan 2 Over-temperature,Bool,1000.4
+F22 Fan 2 circuit breaker,Bool,1000.5
+F23 Not implemented,Bool,1000.6
+F24 Pump circuit breaker,Bool,1000.7
+F25 Flow rate fault (Pump Pressure_Flow Switch Fault),Bool,1001
+F26 Not implemented,Bool,1001.1
+Tx,BTMS_transmit,1002
+ModeRequest,USInt,1002
+SetpointRequestDegC,Int,1004
+PumpSpeedRequestPercent,Int,1006
+Battery Stacks[3],Battery Stack,1008
+BMS,"Array[1..4] of ""BMS(Xerotech)""",1008
+BMS[1],BMS(Xerotech),1008
+CAN interface,USInt,1008
+Device ID,USInt,1009
+Rx,BMS_receive,1010
+Hardware Version,UInt,1010
+Software Version,Array[0..5] of Byte,1012
+Software Version[0],Byte,1012
+Software Version[1],Byte,1013
+Software Version[2],Byte,1014
+Software Version[3],Byte,1015
+Software Version[4],Byte,1016
+Software Version[5],Byte,1017
+CAN ID of the device,USInt,1018
+Maximum number of BMS per stack,USInt,1019
+Number of active BMS per stack,USInt,1020
+BMS System State,USInt,1021
+System Fault,USInt,1022
+CAN1 Status,USInt,1023
+CAN3 Status,USInt,1024
+Contactor State (neg bus bar),USInt,1025
+Contactor State (pos bus bar),USInt,1026
+Contactor State (pre-charge contactor),USInt,1027
+Battery Health in percent,USInt,1028
+State of Charge,Real,1030
+DC Bus Voltage in V,Real,1034
+Total Pack Current in A,Real,1038
+Pack Voltage in V,Real,1042
+Average Cell Temperature in C,Real,1046
+Highest Cell Temperature in C,Real,1050
+Lowest Cell Temperature in C,Real,1054
+Inlet Coolant Pressure in PSI,Real,1058
+Outlet Coolant Pressure in PSI,Real,1062
+Remaining Energy in kWh,Real,1066
+Maximum Charge Current (Motoring),Real,1070
+Maximum Discharge Current (Motoring),Real,1074
+Maximum Charge Power (Plug-in Charging),Real,1078
+Maximum Charge Current (Plug-in Charging),Real,1082
+Maximum Charge Power (Motoring),Real,1086
+Maximum Discharge Power (Motoring),Real,1090
+Battery in Charge State accumulator in minutes,UInt,1094
+Expected time to empty in minutes,UInt,1096
+Full Charge cycle counter,UInt,1098
+Battery in Operational State accumulator in minutes,UInt,1100
+Expected time to fully charged in minutes,UInt,1102
+Request for heating,Bool,1104
+Request for cooling,Bool,1104.1
+Charging complete,Bool,1104.2
+ISO active,Bool,1104.3
+LED active,Bool,1104.4
+CAN3 baud rate reduction,Bool,1104.5
+Heartbeat,Bool,1104.6
+Cell overvoltage fault,Bool,1104.7
+Cell overvoltage warning,Bool,1105
+Cell undervoltage fault,Bool,1105.1
+Cell undervoltage warning,Bool,1105.2
+End-of-life fault,Bool,1105.3
+End-of-life warning,Bool,1105.4
+HVIL fault,Bool,1105.5
+BMS 24V supply overvoltage fault,Bool,1105.6
+BMS 24V supply undervoltage fault,Bool,1105.7
+Pack overcurrent fault while charging,Bool,1106
+Pack overcurrent warning while charging,Bool,1106.1
+Pack overcurrent fault while discharging,Bool,1106.2
+Pack overcurrent warning while discharging,Bool,1106.3
+Pack overtemperature fault,Bool,1106.4
+Pack overtemperature warning,Bool,1106.5
+Pack undertemperature warning,Bool,1106.6
+Pack overvoltage fault,Bool,1106.7
+Pack overvoltage warning,Bool,1107
+Pack undervoltage fault,Bool,1107.1
+Pack undervoltage warning,Bool,1107.2
+Temperature difference fault,Bool,1107.3
+Loss of power control fault,Bool,1107.4
+Loss of power control warning,Bool,1107.5
+Isolation fault,Bool,1107.6
+Isolation warning,Bool,1107.7
+Pack overcharge fault,Bool,1108
+Pack overdischarge fault,Bool,1108.1
+Inlet coolant overpressure warning,Bool,1108.2
+Inlet coolant overpressure fault,Bool,1108.3
+Outlet coolant overpressure warning,Bool,1108.4
+Outlet coolant overpressure fault,Bool,1108.5
+Tx,BMS_transmit,1110
+Ambient Temperature in C,SInt,1110
+State of Charge setpoint in percent,SInt,1111
+Pack Voltage setpoint in V,Int,1112
+Command BMS sleep mode,Bool,1114
+Command BMS power up,Bool,1114.1
+Command BMS power down,Bool,1114.2
+Command BMS emergency,Bool,1114.3
+Command BMS plug-in charge,Bool,1114.4
+Command BMS stop charging,Bool,1114.5
+Isolation disable,Bool,1114.6
+LED mode,Bool,1114.7
+Change LED mode,Bool,1115
+New pack ID,USInt,1116
+Change pack ID,Bool,1117
+CAN3 baud rate reduction,Bool,1117.1
+Change baud rate,Bool,1117.2
+Maximum number of packs per stack,USInt,1118
+Change max number of packs per stack,Bool,1119
+Passcode,USInt,1120
+BMS[2],BMS(Xerotech),1122
+CAN interface,USInt,1122
+Device ID,USInt,1123
+Rx,BMS_receive,1124
+Hardware Version,UInt,1124
+Software Version,Array[0..5] of Byte,1126
+Software Version[0],Byte,1126
+Software Version[1],Byte,1127
+Software Version[2],Byte,1128
+Software Version[3],Byte,1129
+Software Version[4],Byte,1130
+Software Version[5],Byte,1131
+CAN ID of the device,USInt,1132
+Maximum number of BMS per stack,USInt,1133
+Number of active BMS per stack,USInt,1134
+BMS System State,USInt,1135
+System Fault,USInt,1136
+CAN1 Status,USInt,1137
+CAN3 Status,USInt,1138
+Contactor State (neg bus bar),USInt,1139
+Contactor State (pos bus bar),USInt,1140
+Contactor State (pre-charge contactor),USInt,1141
+Battery Health in percent,USInt,1142
+State of Charge,Real,1144
+DC Bus Voltage in V,Real,1148
+Total Pack Current in A,Real,1152
+Pack Voltage in V,Real,1156
+Average Cell Temperature in C,Real,1160
+Highest Cell Temperature in C,Real,1164
+Lowest Cell Temperature in C,Real,1168
+Inlet Coolant Pressure in PSI,Real,1172
+Outlet Coolant Pressure in PSI,Real,1176
+Remaining Energy in kWh,Real,1180
+Maximum Charge Current (Motoring),Real,1184
+Maximum Discharge Current (Motoring),Real,1188
+Maximum Charge Power (Plug-in Charging),Real,1192
+Maximum Charge Current (Plug-in Charging),Real,1196
+Maximum Charge Power (Motoring),Real,1200
+Maximum Discharge Power (Motoring),Real,1204
+Battery in Charge State accumulator in minutes,UInt,1208
+Expected time to empty in minutes,UInt,1210
+Full Charge cycle counter,UInt,1212
+Battery in Operational State accumulator in minutes,UInt,1214
+Expected time to fully charged in minutes,UInt,1216
+Request for heating,Bool,1218
+Request for cooling,Bool,1218.1
+Charging complete,Bool,1218.2
+ISO active,Bool,1218.3
+LED active,Bool,1218.4
+CAN3 baud rate reduction,Bool,1218.5
+Heartbeat,Bool,1218.6
+Cell overvoltage fault,Bool,1218.7
+Cell overvoltage warning,Bool,1219
+Cell undervoltage fault,Bool,1219.1
+Cell undervoltage warning,Bool,1219.2
+End-of-life fault,Bool,1219.3
+End-of-life warning,Bool,1219.4
+HVIL fault,Bool,1219.5
+BMS 24V supply overvoltage fault,Bool,1219.6
+BMS 24V supply undervoltage fault,Bool,1219.7
+Pack overcurrent fault while charging,Bool,1220
+Pack overcurrent warning while charging,Bool,1220.1
+Pack overcurrent fault while discharging,Bool,1220.2
+Pack overcurrent warning while discharging,Bool,1220.3
+Pack overtemperature fault,Bool,1220.4
+Pack overtemperature warning,Bool,1220.5
+Pack undertemperature warning,Bool,1220.6
+Pack overvoltage fault,Bool,1220.7
+Pack overvoltage warning,Bool,1221
+Pack undervoltage fault,Bool,1221.1
+Pack undervoltage warning,Bool,1221.2
+Temperature difference fault,Bool,1221.3
+Loss of power control fault,Bool,1221.4
+Loss of power control warning,Bool,1221.5
+Isolation fault,Bool,1221.6
+Isolation warning,Bool,1221.7
+Pack overcharge fault,Bool,1222
+Pack overdischarge fault,Bool,1222.1
+Inlet coolant overpressure warning,Bool,1222.2
+Inlet coolant overpressure fault,Bool,1222.3
+Outlet coolant overpressure warning,Bool,1222.4
+Outlet coolant overpressure fault,Bool,1222.5
+Tx,BMS_transmit,1224
+Ambient Temperature in C,SInt,1224
+State of Charge setpoint in percent,SInt,1225
+Pack Voltage setpoint in V,Int,1226
+Command BMS sleep mode,Bool,1228
+Command BMS power up,Bool,1228.1
+Command BMS power down,Bool,1228.2
+Command BMS emergency,Bool,1228.3
+Command BMS plug-in charge,Bool,1228.4
+Command BMS stop charging,Bool,1228.5
+Isolation disable,Bool,1228.6
+LED mode,Bool,1228.7
+Change LED mode,Bool,1229
+New pack ID,USInt,1230
+Change pack ID,Bool,1231
+CAN3 baud rate reduction,Bool,1231.1
+Change baud rate,Bool,1231.2
+Maximum number of packs per stack,USInt,1232
+Change max number of packs per stack,Bool,1233
+Passcode,USInt,1234
+BMS[3],BMS(Xerotech),1236
+CAN interface,USInt,1236
+Device ID,USInt,1237
+Rx,BMS_receive,1238
+Hardware Version,UInt,1238
+Software Version,Array[0..5] of Byte,1240
+Software Version[0],Byte,1240
+Software Version[1],Byte,1241
+Software Version[2],Byte,1242
+Software Version[3],Byte,1243
+Software Version[4],Byte,1244
+Software Version[5],Byte,1245
+CAN ID of the device,USInt,1246
+Maximum number of BMS per stack,USInt,1247
+Number of active BMS per stack,USInt,1248
+BMS System State,USInt,1249
+System Fault,USInt,1250
+CAN1 Status,USInt,1251
+CAN3 Status,USInt,1252
+Contactor State (neg bus bar),USInt,1253
+Contactor State (pos bus bar),USInt,1254
+Contactor State (pre-charge contactor),USInt,1255
+Battery Health in percent,USInt,1256
+State of Charge,Real,1258
+DC Bus Voltage in V,Real,1262
+Total Pack Current in A,Real,1266
+Pack Voltage in V,Real,1270
+Average Cell Temperature in C,Real,1274
+Highest Cell Temperature in C,Real,1278
+Lowest Cell Temperature in C,Real,1282
+Inlet Coolant Pressure in PSI,Real,1286
+Outlet Coolant Pressure in PSI,Real,1290
+Remaining Energy in kWh,Real,1294
+Maximum Charge Current (Motoring),Real,1298
+Maximum Discharge Current (Motoring),Real,1302
+Maximum Charge Power (Plug-in Charging),Real,1306
+Maximum Charge Current (Plug-in Charging),Real,1310
+Maximum Charge Power (Motoring),Real,1314
+Maximum Discharge Power (Motoring),Real,1318
+Battery in Charge State accumulator in minutes,UInt,1322
+Expected time to empty in minutes,UInt,1324
+Full Charge cycle counter,UInt,1326
+Battery in Operational State accumulator in minutes,UInt,1328
+Expected time to fully charged in minutes,UInt,1330
+Request for heating,Bool,1332
+Request for cooling,Bool,1332.1
+Charging complete,Bool,1332.2
+ISO active,Bool,1332.3
+LED active,Bool,1332.4
+CAN3 baud rate reduction,Bool,1332.5
+Heartbeat,Bool,1332.6
+Cell overvoltage fault,Bool,1332.7
+Cell overvoltage warning,Bool,1333
+Cell undervoltage fault,Bool,1333.1
+Cell undervoltage warning,Bool,1333.2
+End-of-life fault,Bool,1333.3
+End-of-life warning,Bool,1333.4
+HVIL fault,Bool,1333.5
+BMS 24V supply overvoltage fault,Bool,1333.6
+BMS 24V supply undervoltage fault,Bool,1333.7
+Pack overcurrent fault while charging,Bool,1334
+Pack overcurrent warning while charging,Bool,1334.1
+Pack overcurrent fault while discharging,Bool,1334.2
+Pack overcurrent warning while discharging,Bool,1334.3
+Pack overtemperature fault,Bool,1334.4
+Pack overtemperature warning,Bool,1334.5
+Pack undertemperature warning,Bool,1334.6
+Pack overvoltage fault,Bool,1334.7
+Pack overvoltage warning,Bool,1335
+Pack undervoltage fault,Bool,1335.1
+Pack undervoltage warning,Bool,1335.2
+Temperature difference fault,Bool,1335.3
+Loss of power control fault,Bool,1335.4
+Loss of power control warning,Bool,1335.5
+Isolation fault,Bool,1335.6
+Isolation warning,Bool,1335.7
+Pack overcharge fault,Bool,1336
+Pack overdischarge fault,Bool,1336.1
+Inlet coolant overpressure warning,Bool,1336.2
+Inlet coolant overpressure fault,Bool,1336.3
+Outlet coolant overpressure warning,Bool,1336.4
+Outlet coolant overpressure fault,Bool,1336.5
+Tx,BMS_transmit,1338
+Ambient Temperature in C,SInt,1338
+State of Charge setpoint in percent,SInt,1339
+Pack Voltage setpoint in V,Int,1340
+Command BMS sleep mode,Bool,1342
+Command BMS power up,Bool,1342.1
+Command BMS power down,Bool,1342.2
+Command BMS emergency,Bool,1342.3
+Command BMS plug-in charge,Bool,1342.4
+Command BMS stop charging,Bool,1342.5
+Isolation disable,Bool,1342.6
+LED mode,Bool,1342.7
+Change LED mode,Bool,1343
+New pack ID,USInt,1344
+Change pack ID,Bool,1345
+CAN3 baud rate reduction,Bool,1345.1
+Change baud rate,Bool,1345.2
+Maximum number of packs per stack,USInt,1346
+Change max number of packs per stack,Bool,1347
+Passcode,USInt,1348
+BMS[4],BMS(Xerotech),1350
+CAN interface,USInt,1350
+Device ID,USInt,1351
+Rx,BMS_receive,1352
+Hardware Version,UInt,1352
+Software Version,Array[0..5] of Byte,1354
+Software Version[0],Byte,1354
+Software Version[1],Byte,1355
+Software Version[2],Byte,1356
+Software Version[3],Byte,1357
+Software Version[4],Byte,1358
+Software Version[5],Byte,1359
+CAN ID of the device,USInt,1360
+Maximum number of BMS per stack,USInt,1361
+Number of active BMS per stack,USInt,1362
+BMS System State,USInt,1363
+System Fault,USInt,1364
+CAN1 Status,USInt,1365
+CAN3 Status,USInt,1366
+Contactor State (neg bus bar),USInt,1367
+Contactor State (pos bus bar),USInt,1368
+Contactor State (pre-charge contactor),USInt,1369
+Battery Health in percent,USInt,1370
+State of Charge,Real,1372
+DC Bus Voltage in V,Real,1376
+Total Pack Current in A,Real,1380
+Pack Voltage in V,Real,1384
+Average Cell Temperature in C,Real,1388
+Highest Cell Temperature in C,Real,1392
+Lowest Cell Temperature in C,Real,1396
+Inlet Coolant Pressure in PSI,Real,1400
+Outlet Coolant Pressure in PSI,Real,1404
+Remaining Energy in kWh,Real,1408
+Maximum Charge Current (Motoring),Real,1412
+Maximum Discharge Current (Motoring),Real,1416
+Maximum Charge Power (Plug-in Charging),Real,1420
+Maximum Charge Current (Plug-in Charging),Real,1424
+Maximum Charge Power (Motoring),Real,1428
+Maximum Discharge Power (Motoring),Real,1432
+Battery in Charge State accumulator in minutes,UInt,1436
+Expected time to empty in minutes,UInt,1438
+Full Charge cycle counter,UInt,1440
+Battery in Operational State accumulator in minutes,UInt,1442
+Expected time to fully charged in minutes,UInt,1444
+Request for heating,Bool,1446
+Request for cooling,Bool,1446.1
+Charging complete,Bool,1446.2
+ISO active,Bool,1446.3
+LED active,Bool,1446.4
+CAN3 baud rate reduction,Bool,1446.5
+Heartbeat,Bool,1446.6
+Cell overvoltage fault,Bool,1446.7
+Cell overvoltage warning,Bool,1447
+Cell undervoltage fault,Bool,1447.1
+Cell undervoltage warning,Bool,1447.2
+End-of-life fault,Bool,1447.3
+End-of-life warning,Bool,1447.4
+HVIL fault,Bool,1447.5
+BMS 24V supply overvoltage fault,Bool,1447.6
+BMS 24V supply undervoltage fault,Bool,1447.7
+Pack overcurrent fault while charging,Bool,1448
+Pack overcurrent warning while charging,Bool,1448.1
+Pack overcurrent fault while discharging,Bool,1448.2
+Pack overcurrent warning while discharging,Bool,1448.3
+Pack overtemperature fault,Bool,1448.4
+Pack overtemperature warning,Bool,1448.5
+Pack undertemperature warning,Bool,1448.6
+Pack overvoltage fault,Bool,1448.7
+Pack overvoltage warning,Bool,1449
+Pack undervoltage fault,Bool,1449.1
+Pack undervoltage warning,Bool,1449.2
+Temperature difference fault,Bool,1449.3
+Loss of power control fault,Bool,1449.4
+Loss of power control warning,Bool,1449.5
+Isolation fault,Bool,1449.6
+Isolation warning,Bool,1449.7
+Pack overcharge fault,Bool,1450
+Pack overdischarge fault,Bool,1450.1
+Inlet coolant overpressure warning,Bool,1450.2
+Inlet coolant overpressure fault,Bool,1450.3
+Outlet coolant overpressure warning,Bool,1450.4
+Outlet coolant overpressure fault,Bool,1450.5
+Tx,BMS_transmit,1452
+Ambient Temperature in C,SInt,1452
+State of Charge setpoint in percent,SInt,1453
+Pack Voltage setpoint in V,Int,1454
+Command BMS sleep mode,Bool,1456
+Command BMS power up,Bool,1456.1
+Command BMS power down,Bool,1456.2
+Command BMS emergency,Bool,1456.3
+Command BMS plug-in charge,Bool,1456.4
+Command BMS stop charging,Bool,1456.5
+Isolation disable,Bool,1456.6
+LED mode,Bool,1456.7
+Change LED mode,Bool,1457
+New pack ID,USInt,1458
+Change pack ID,Bool,1459
+CAN3 baud rate reduction,Bool,1459.1
+Change baud rate,Bool,1459.2
+Maximum number of packs per stack,USInt,1460
+Change max number of packs per stack,Bool,1461
+Passcode,USInt,1462
+BTMS,BTMS(Grayson),1464
+Device ID,USInt,1464
+Rx,BTMS_receive,1466
+Operating Mode,USInt,1466
+Pump Speed,USInt,1467
+Fan Speed,USInt,1468
+Inlet Temperature,Int,1470
+Outlet Temperature,Int,1472
+Target Temperature,Int,1474
+Compressor Timer,USInt,1476
+Protect Lock State,USInt,1477
+Protect Timer,USInt,1478
+Lock Timer,USInt,1479
+Software Version,USInt,1480
+Compressor HTCO State,USInt,1481
+LPCO State,USInt,1482
+HPCO State,USInt,1483
+CPS State,USInt,1484
+Fan1 HTCO State,USInt,1485
+Heater HTCO State,USInt,1486
+Level Sensor Switch State,USInt,1487
+Fan1 MCB State,USInt,1488
+Heater MCB State,USInt,1489
+Compressor MCB State,USInt,1490
+Pump MCB State,USInt,1491
+Fan2 MCB State,USInt,1492
+Fan2 HTCO State,USInt,1493
+Pump Pressure Flow Switch,USInt,1494
+Pump State,USInt,1495
+Fan State,USInt,1496
+Heater State,USInt,1497
+Compressor State,USInt,1498
+Inlet Temp Sensor State,USInt,1499
+Outlet Temp Sensor State,USInt,1500
+Temp Plausibility Error,USInt,1501
+F1 Refrigerant circuit over-pressure,Bool,1502
+F2 Refrigerant circuit under-pressure,Bool,1502.1
+F3 Compressor over-temperature,Bool,1502.2
+F4 Heater over-temperature,Bool,1502.3
+F5 Fan 1 over-temperature,Bool,1502.4
+F6 Inlet temperature sensor open circuit,Bool,1502.5
+F7 Inlet temperature sensor short circuit,Bool,1502.6
+F8 Outlet temperature sensor open circuit,Bool,1502.7
+F9 Outlet temperature sensor short circuit,Bool,1503
+F10 Temperatures disagree (not plausible),Bool,1503.1
+F11 Cooling prohibited due to low temperature,Bool,1503.2
+F12 Heating prohibited due to high temperature,Bool,1503.3
+F13 Pump incorrect speed,Bool,1503.4
+F14 Pump communications fault,Bool,1503.5
+F15 Pump fault (CAN),Bool,1503.6
+F16 Compressor circuit breaker,Bool,1503.7
+F17 Heater circuit breaker,Bool,1504
+F18 Fan 1 circuit breaker,Bool,1504.1
+F19 Not implemented,Bool,1504.2
+F20 Coolant level fault (Level sensor switch),Bool,1504.3
+F21 Fan 2 Over-temperature,Bool,1504.4
+F22 Fan 2 circuit breaker,Bool,1504.5
+F23 Not implemented,Bool,1504.6
+F24 Pump circuit breaker,Bool,1504.7
+F25 Flow rate fault (Pump Pressure_Flow Switch Fault),Bool,1505
+F26 Not implemented,Bool,1505.1
+Tx,BTMS_transmit,1506
+ModeRequest,USInt,1506
+SetpointRequestDegC,Int,1508
+PumpSpeedRequestPercent,Int,1510
+Battery Stacks[4],Battery Stack,1512
+BMS,"Array[1..4] of ""BMS(Xerotech)""",1512
+BMS[1],BMS(Xerotech),1512
+CAN interface,USInt,1512
+Device ID,USInt,1513
+Rx,BMS_receive,1514
+Hardware Version,UInt,1514
+Software Version,Array[0..5] of Byte,1516
+Software Version[0],Byte,1516
+Software Version[1],Byte,1517
+Software Version[2],Byte,1518
+Software Version[3],Byte,1519
+Software Version[4],Byte,1520
+Software Version[5],Byte,1521
+CAN ID of the device,USInt,1522
+Maximum number of BMS per stack,USInt,1523
+Number of active BMS per stack,USInt,1524
+BMS System State,USInt,1525
+System Fault,USInt,1526
+CAN1 Status,USInt,1527
+CAN3 Status,USInt,1528
+Contactor State (neg bus bar),USInt,1529
+Contactor State (pos bus bar),USInt,1530
+Contactor State (pre-charge contactor),USInt,1531
+Battery Health in percent,USInt,1532
+State of Charge,Real,1534
+DC Bus Voltage in V,Real,1538
+Total Pack Current in A,Real,1542
+Pack Voltage in V,Real,1546
+Average Cell Temperature in C,Real,1550
+Highest Cell Temperature in C,Real,1554
+Lowest Cell Temperature in C,Real,1558
+Inlet Coolant Pressure in PSI,Real,1562
+Outlet Coolant Pressure in PSI,Real,1566
+Remaining Energy in kWh,Real,1570
+Maximum Charge Current (Motoring),Real,1574
+Maximum Discharge Current (Motoring),Real,1578
+Maximum Charge Power (Plug-in Charging),Real,1582
+Maximum Charge Current (Plug-in Charging),Real,1586
+Maximum Charge Power (Motoring),Real,1590
+Maximum Discharge Power (Motoring),Real,1594
+Battery in Charge State accumulator in minutes,UInt,1598
+Expected time to empty in minutes,UInt,1600
+Full Charge cycle counter,UInt,1602
+Battery in Operational State accumulator in minutes,UInt,1604
+Expected time to fully charged in minutes,UInt,1606
+Request for heating,Bool,1608
+Request for cooling,Bool,1608.1
+Charging complete,Bool,1608.2
+ISO active,Bool,1608.3
+LED active,Bool,1608.4
+CAN3 baud rate reduction,Bool,1608.5
+Heartbeat,Bool,1608.6
+Cell overvoltage fault,Bool,1608.7
+Cell overvoltage warning,Bool,1609
+Cell undervoltage fault,Bool,1609.1
+Cell undervoltage warning,Bool,1609.2
+End-of-life fault,Bool,1609.3
+End-of-life warning,Bool,1609.4
+HVIL fault,Bool,1609.5
+BMS 24V supply overvoltage fault,Bool,1609.6
+BMS 24V supply undervoltage fault,Bool,1609.7
+Pack overcurrent fault while charging,Bool,1610
+Pack overcurrent warning while charging,Bool,1610.1
+Pack overcurrent fault while discharging,Bool,1610.2
+Pack overcurrent warning while discharging,Bool,1610.3
+Pack overtemperature fault,Bool,1610.4
+Pack overtemperature warning,Bool,1610.5
+Pack undertemperature warning,Bool,1610.6
+Pack overvoltage fault,Bool,1610.7
+Pack overvoltage warning,Bool,1611
+Pack undervoltage fault,Bool,1611.1
+Pack undervoltage warning,Bool,1611.2
+Temperature difference fault,Bool,1611.3
+Loss of power control fault,Bool,1611.4
+Loss of power control warning,Bool,1611.5
+Isolation fault,Bool,1611.6
+Isolation warning,Bool,1611.7
+Pack overcharge fault,Bool,1612
+Pack overdischarge fault,Bool,1612.1
+Inlet coolant overpressure warning,Bool,1612.2
+Inlet coolant overpressure fault,Bool,1612.3
+Outlet coolant overpressure warning,Bool,1612.4
+Outlet coolant overpressure fault,Bool,1612.5
+Tx,BMS_transmit,1614
+Ambient Temperature in C,SInt,1614
+State of Charge setpoint in percent,SInt,1615
+Pack Voltage setpoint in V,Int,1616
+Command BMS sleep mode,Bool,1618
+Command BMS power up,Bool,1618.1
+Command BMS power down,Bool,1618.2
+Command BMS emergency,Bool,1618.3
+Command BMS plug-in charge,Bool,1618.4
+Command BMS stop charging,Bool,1618.5
+Isolation disable,Bool,1618.6
+LED mode,Bool,1618.7
+Change LED mode,Bool,1619
+New pack ID,USInt,1620
+Change pack ID,Bool,1621
+CAN3 baud rate reduction,Bool,1621.1
+Change baud rate,Bool,1621.2
+Maximum number of packs per stack,USInt,1622
+Change max number of packs per stack,Bool,1623
+Passcode,USInt,1624
+BMS[2],BMS(Xerotech),1626
+CAN interface,USInt,1626
+Device ID,USInt,1627
+Rx,BMS_receive,1628
+Hardware Version,UInt,1628
+Software Version,Array[0..5] of Byte,1630
+Software Version[0],Byte,1630
+Software Version[1],Byte,1631
+Software Version[2],Byte,1632
+Software Version[3],Byte,1633
+Software Version[4],Byte,1634
+Software Version[5],Byte,1635
+CAN ID of the device,USInt,1636
+Maximum number of BMS per stack,USInt,1637
+Number of active BMS per stack,USInt,1638
+BMS System State,USInt,1639
+System Fault,USInt,1640
+CAN1 Status,USInt,1641
+CAN3 Status,USInt,1642
+Contactor State (neg bus bar),USInt,1643
+Contactor State (pos bus bar),USInt,1644
+Contactor State (pre-charge contactor),USInt,1645
+Battery Health in percent,USInt,1646
+State of Charge,Real,1648
+DC Bus Voltage in V,Real,1652
+Total Pack Current in A,Real,1656
+Pack Voltage in V,Real,1660
+Average Cell Temperature in C,Real,1664
+Highest Cell Temperature in C,Real,1668
+Lowest Cell Temperature in C,Real,1672
+Inlet Coolant Pressure in PSI,Real,1676
+Outlet Coolant Pressure in PSI,Real,1680
+Remaining Energy in kWh,Real,1684
+Maximum Charge Current (Motoring),Real,1688
+Maximum Discharge Current (Motoring),Real,1692
+Maximum Charge Power (Plug-in Charging),Real,1696
+Maximum Charge Current (Plug-in Charging),Real,1700
+Maximum Charge Power (Motoring),Real,1704
+Maximum Discharge Power (Motoring),Real,1708
+Battery in Charge State accumulator in minutes,UInt,1712
+Expected time to empty in minutes,UInt,1714
+Full Charge cycle counter,UInt,1716
+Battery in Operational State accumulator in minutes,UInt,1718
+Expected time to fully charged in minutes,UInt,1720
+Request for heating,Bool,1722
+Request for cooling,Bool,1722.1
+Charging complete,Bool,1722.2
+ISO active,Bool,1722.3
+LED active,Bool,1722.4
+CAN3 baud rate reduction,Bool,1722.5
+Heartbeat,Bool,1722.6
+Cell overvoltage fault,Bool,1722.7
+Cell overvoltage warning,Bool,1723
+Cell undervoltage fault,Bool,1723.1
+Cell undervoltage warning,Bool,1723.2
+End-of-life fault,Bool,1723.3
+End-of-life warning,Bool,1723.4
+HVIL fault,Bool,1723.5
+BMS 24V supply overvoltage fault,Bool,1723.6
+BMS 24V supply undervoltage fault,Bool,1723.7
+Pack overcurrent fault while charging,Bool,1724
+Pack overcurrent warning while charging,Bool,1724.1
+Pack overcurrent fault while discharging,Bool,1724.2
+Pack overcurrent warning while discharging,Bool,1724.3
+Pack overtemperature fault,Bool,1724.4
+Pack overtemperature warning,Bool,1724.5
+Pack undertemperature warning,Bool,1724.6
+Pack overvoltage fault,Bool,1724.7
+Pack overvoltage warning,Bool,1725
+Pack undervoltage fault,Bool,1725.1
+Pack undervoltage warning,Bool,1725.2
+Temperature difference fault,Bool,1725.3
+Loss of power control fault,Bool,1725.4
+Loss of power control warning,Bool,1725.5
+Isolation fault,Bool,1725.6
+Isolation warning,Bool,1725.7
+Pack overcharge fault,Bool,1726
+Pack overdischarge fault,Bool,1726.1
+Inlet coolant overpressure warning,Bool,1726.2
+Inlet coolant overpressure fault,Bool,1726.3
+Outlet coolant overpressure warning,Bool,1726.4
+Outlet coolant overpressure fault,Bool,1726.5
+Tx,BMS_transmit,1728
+Ambient Temperature in C,SInt,1728
+State of Charge setpoint in percent,SInt,1729
+Pack Voltage setpoint in V,Int,1730
+Command BMS sleep mode,Bool,1732
+Command BMS power up,Bool,1732.1
+Command BMS power down,Bool,1732.2
+Command BMS emergency,Bool,1732.3
+Command BMS plug-in charge,Bool,1732.4
+Command BMS stop charging,Bool,1732.5
+Isolation disable,Bool,1732.6
+LED mode,Bool,1732.7
+Change LED mode,Bool,1733
+New pack ID,USInt,1734
+Change pack ID,Bool,1735
+CAN3 baud rate reduction,Bool,1735.1
+Change baud rate,Bool,1735.2
+Maximum number of packs per stack,USInt,1736
+Change max number of packs per stack,Bool,1737
+Passcode,USInt,1738
+BMS[3],BMS(Xerotech),1740
+CAN interface,USInt,1740
+Device ID,USInt,1741
+Rx,BMS_receive,1742
+Hardware Version,UInt,1742
+Software Version,Array[0..5] of Byte,1744
+Software Version[0],Byte,1744
+Software Version[1],Byte,1745
+Software Version[2],Byte,1746
+Software Version[3],Byte,1747
+Software Version[4],Byte,1748
+Software Version[5],Byte,1749
+CAN ID of the device,USInt,1750
+Maximum number of BMS per stack,USInt,1751
+Number of active BMS per stack,USInt,1752
+BMS System State,USInt,1753
+System Fault,USInt,1754
+CAN1 Status,USInt,1755
+CAN3 Status,USInt,1756
+Contactor State (neg bus bar),USInt,1757
+Contactor State (pos bus bar),USInt,1758
+Contactor State (pre-charge contactor),USInt,1759
+Battery Health in percent,USInt,1760
+State of Charge,Real,1762
+DC Bus Voltage in V,Real,1766
+Total Pack Current in A,Real,1770
+Pack Voltage in V,Real,1774
+Average Cell Temperature in C,Real,1778
+Highest Cell Temperature in C,Real,1782
+Lowest Cell Temperature in C,Real,1786
+Inlet Coolant Pressure in PSI,Real,1790
+Outlet Coolant Pressure in PSI,Real,1794
+Remaining Energy in kWh,Real,1798
+Maximum Charge Current (Motoring),Real,1802
+Maximum Discharge Current (Motoring),Real,1806
+Maximum Charge Power (Plug-in Charging),Real,1810
+Maximum Charge Current (Plug-in Charging),Real,1814
+Maximum Charge Power (Motoring),Real,1818
+Maximum Discharge Power (Motoring),Real,1822
+Battery in Charge State accumulator in minutes,UInt,1826
+Expected time to empty in minutes,UInt,1828
+Full Charge cycle counter,UInt,1830
+Battery in Operational State accumulator in minutes,UInt,1832
+Expected time to fully charged in minutes,UInt,1834
+Request for heating,Bool,1836
+Request for cooling,Bool,1836.1
+Charging complete,Bool,1836.2
+ISO active,Bool,1836.3
+LED active,Bool,1836.4
+CAN3 baud rate reduction,Bool,1836.5
+Heartbeat,Bool,1836.6
+Cell overvoltage fault,Bool,1836.7
+Cell overvoltage warning,Bool,1837
+Cell undervoltage fault,Bool,1837.1
+Cell undervoltage warning,Bool,1837.2
+End-of-life fault,Bool,1837.3
+End-of-life warning,Bool,1837.4
+HVIL fault,Bool,1837.5
+BMS 24V supply overvoltage fault,Bool,1837.6
+BMS 24V supply undervoltage fault,Bool,1837.7
+Pack overcurrent fault while charging,Bool,1838
+Pack overcurrent warning while charging,Bool,1838.1
+Pack overcurrent fault while discharging,Bool,1838.2
+Pack overcurrent warning while discharging,Bool,1838.3
+Pack overtemperature fault,Bool,1838.4
+Pack overtemperature warning,Bool,1838.5
+Pack undertemperature warning,Bool,1838.6
+Pack overvoltage fault,Bool,1838.7
+Pack overvoltage warning,Bool,1839
+Pack undervoltage fault,Bool,1839.1
+Pack undervoltage warning,Bool,1839.2
+Temperature difference fault,Bool,1839.3
+Loss of power control fault,Bool,1839.4
+Loss of power control warning,Bool,1839.5
+Isolation fault,Bool,1839.6
+Isolation warning,Bool,1839.7
+Pack overcharge fault,Bool,1840
+Pack overdischarge fault,Bool,1840.1
+Inlet coolant overpressure warning,Bool,1840.2
+Inlet coolant overpressure fault,Bool,1840.3
+Outlet coolant overpressure warning,Bool,1840.4
+Outlet coolant overpressure fault,Bool,1840.5
+Tx,BMS_transmit,1842
+Ambient Temperature in C,SInt,1842
+State of Charge setpoint in percent,SInt,1843
+Pack Voltage setpoint in V,Int,1844
+Command BMS sleep mode,Bool,1846
+Command BMS power up,Bool,1846.1
+Command BMS power down,Bool,1846.2
+Command BMS emergency,Bool,1846.3
+Command BMS plug-in charge,Bool,1846.4
+Command BMS stop charging,Bool,1846.5
+Isolation disable,Bool,1846.6
+LED mode,Bool,1846.7
+Change LED mode,Bool,1847
+New pack ID,USInt,1848
+Change pack ID,Bool,1849
+CAN3 baud rate reduction,Bool,1849.1
+Change baud rate,Bool,1849.2
+Maximum number of packs per stack,USInt,1850
+Change max number of packs per stack,Bool,1851
+Passcode,USInt,1852
+BMS[4],BMS(Xerotech),1854
+CAN interface,USInt,1854
+Device ID,USInt,1855
+Rx,BMS_receive,1856
+Hardware Version,UInt,1856
+Software Version,Array[0..5] of Byte,1858
+Software Version[0],Byte,1858
+Software Version[1],Byte,1859
+Software Version[2],Byte,1860
+Software Version[3],Byte,1861
+Software Version[4],Byte,1862
+Software Version[5],Byte,1863
+CAN ID of the device,USInt,1864
+Maximum number of BMS per stack,USInt,1865
+Number of active BMS per stack,USInt,1866
+BMS System State,USInt,1867
+System Fault,USInt,1868
+CAN1 Status,USInt,1869
+CAN3 Status,USInt,1870
+Contactor State (neg bus bar),USInt,1871
+Contactor State (pos bus bar),USInt,1872
+Contactor State (pre-charge contactor),USInt,1873
+Battery Health in percent,USInt,1874
+State of Charge,Real,1876
+DC Bus Voltage in V,Real,1880
+Total Pack Current in A,Real,1884
+Pack Voltage in V,Real,1888
+Average Cell Temperature in C,Real,1892
+Highest Cell Temperature in C,Real,1896
+Lowest Cell Temperature in C,Real,1900
+Inlet Coolant Pressure in PSI,Real,1904
+Outlet Coolant Pressure in PSI,Real,1908
+Remaining Energy in kWh,Real,1912
+Maximum Charge Current (Motoring),Real,1916
+Maximum Discharge Current (Motoring),Real,1920
+Maximum Charge Power (Plug-in Charging),Real,1924
+Maximum Charge Current (Plug-in Charging),Real,1928
+Maximum Charge Power (Motoring),Real,1932
+Maximum Discharge Power (Motoring),Real,1936
+Battery in Charge State accumulator in minutes,UInt,1940
+Expected time to empty in minutes,UInt,1942
+Full Charge cycle counter,UInt,1944
+Battery in Operational State accumulator in minutes,UInt,1946
+Expected time to fully charged in minutes,UInt,1948
+Request for heating,Bool,1950
+Request for cooling,Bool,1950.1
+Charging complete,Bool,1950.2
+ISO active,Bool,1950.3
+LED active,Bool,1950.4
+CAN3 baud rate reduction,Bool,1950.5
+Heartbeat,Bool,1950.6
+Cell overvoltage fault,Bool,1950.7
+Cell overvoltage warning,Bool,1951
+Cell undervoltage fault,Bool,1951.1
+Cell undervoltage warning,Bool,1951.2
+End-of-life fault,Bool,1951.3
+End-of-life warning,Bool,1951.4
+HVIL fault,Bool,1951.5
+BMS 24V supply overvoltage fault,Bool,1951.6
+BMS 24V supply undervoltage fault,Bool,1951.7
+Pack overcurrent fault while charging,Bool,1952
+Pack overcurrent warning while charging,Bool,1952.1
+Pack overcurrent fault while discharging,Bool,1952.2
+Pack overcurrent warning while discharging,Bool,1952.3
+Pack overtemperature fault,Bool,1952.4
+Pack overtemperature warning,Bool,1952.5
+Pack undertemperature warning,Bool,1952.6
+Pack overvoltage fault,Bool,1952.7
+Pack overvoltage warning,Bool,1953
+Pack undervoltage fault,Bool,1953.1
+Pack undervoltage warning,Bool,1953.2
+Temperature difference fault,Bool,1953.3
+Loss of power control fault,Bool,1953.4
+Loss of power control warning,Bool,1953.5
+Isolation fault,Bool,1953.6
+Isolation warning,Bool,1953.7
+Pack overcharge fault,Bool,1954
+Pack overdischarge fault,Bool,1954.1
+Inlet coolant overpressure warning,Bool,1954.2
+Inlet coolant overpressure fault,Bool,1954.3
+Outlet coolant overpressure warning,Bool,1954.4
+Outlet coolant overpressure fault,Bool,1954.5
+Tx,BMS_transmit,1956
+Ambient Temperature in C,SInt,1956
+State of Charge setpoint in percent,SInt,1957
+Pack Voltage setpoint in V,Int,1958
+Command BMS sleep mode,Bool,1960
+Command BMS power up,Bool,1960.1
+Command BMS power down,Bool,1960.2
+Command BMS emergency,Bool,1960.3
+Command BMS plug-in charge,Bool,1960.4
+Command BMS stop charging,Bool,1960.5
+Isolation disable,Bool,1960.6
+LED mode,Bool,1960.7
+Change LED mode,Bool,1961
+New pack ID,USInt,1962
+Change pack ID,Bool,1963
+CAN3 baud rate reduction,Bool,1963.1
+Change baud rate,Bool,1963.2
+Maximum number of packs per stack,USInt,1964
+Change max number of packs per stack,Bool,1965
+Passcode,USInt,1966
+BTMS,BTMS(Grayson),1968
+Device ID,USInt,1968
+Rx,BTMS_receive,1970
+Operating Mode,USInt,1970
+Pump Speed,USInt,1971
+Fan Speed,USInt,1972
+Inlet Temperature,Int,1974
+Outlet Temperature,Int,1976
+Target Temperature,Int,1978
+Compressor Timer,USInt,1980
+Protect Lock State,USInt,1981
+Protect Timer,USInt,1982
+Lock Timer,USInt,1983
+Software Version,USInt,1984
+Compressor HTCO State,USInt,1985
+LPCO State,USInt,1986
+HPCO State,USInt,1987
+CPS State,USInt,1988
+Fan1 HTCO State,USInt,1989
+Heater HTCO State,USInt,1990
+Level Sensor Switch State,USInt,1991
+Fan1 MCB State,USInt,1992
+Heater MCB State,USInt,1993
+Compressor MCB State,USInt,1994
+Pump MCB State,USInt,1995
+Fan2 MCB State,USInt,1996
+Fan2 HTCO State,USInt,1997
+Pump Pressure Flow Switch,USInt,1998
+Pump State,USInt,1999
+Fan State,USInt,2000
+Heater State,USInt,2001
+Compressor State,USInt,2002
+Inlet Temp Sensor State,USInt,2003
+Outlet Temp Sensor State,USInt,2004
+Temp Plausibility Error,USInt,2005
+F1 Refrigerant circuit over-pressure,Bool,2006
+F2 Refrigerant circuit under-pressure,Bool,2006.1
+F3 Compressor over-temperature,Bool,2006.2
+F4 Heater over-temperature,Bool,2006.3
+F5 Fan 1 over-temperature,Bool,2006.4
+F6 Inlet temperature sensor open circuit,Bool,2006.5
+F7 Inlet temperature sensor short circuit,Bool,2006.6
+F8 Outlet temperature sensor open circuit,Bool,2006.7
+F9 Outlet temperature sensor short circuit,Bool,2007
+F10 Temperatures disagree (not plausible),Bool,2007.1
+F11 Cooling prohibited due to low temperature,Bool,2007.2
+F12 Heating prohibited due to high temperature,Bool,2007.3
+F13 Pump incorrect speed,Bool,2007.4
+F14 Pump communications fault,Bool,2007.5
+F15 Pump fault (CAN),Bool,2007.6
+F16 Compressor circuit breaker,Bool,2007.7
+F17 Heater circuit breaker,Bool,2008
+F18 Fan 1 circuit breaker,Bool,2008.1
+F19 Not implemented,Bool,2008.2
+F20 Coolant level fault (Level sensor switch),Bool,2008.3
+F21 Fan 2 Over-temperature,Bool,2008.4
+F22 Fan 2 circuit breaker,Bool,2008.5
+F23 Not implemented,Bool,2008.6
+F24 Pump circuit breaker,Bool,2008.7
+F25 Flow rate fault (Pump Pressure_Flow Switch Fault),Bool,2009
+F26 Not implemented,Bool,2009.1
+Tx,BTMS_transmit,2010
+ModeRequest,USInt,2010
+SetpointRequestDegC,Int,2012
+PumpSpeedRequestPercent,Int,2014
+Battery Stacks[5],Battery Stack,2016
+BMS,"Array[1..4] of ""BMS(Xerotech)""",2016
+BMS[1],BMS(Xerotech),2016
+CAN interface,USInt,2016
+Device ID,USInt,2017
+Rx,BMS_receive,2018
+Hardware Version,UInt,2018
+Software Version,Array[0..5] of Byte,2020
+Software Version[0],Byte,2020
+Software Version[1],Byte,2021
+Software Version[2],Byte,2022
+Software Version[3],Byte,2023
+Software Version[4],Byte,2024
+Software Version[5],Byte,2025
+CAN ID of the device,USInt,2026
+Maximum number of BMS per stack,USInt,2027
+Number of active BMS per stack,USInt,2028
+BMS System State,USInt,2029
+System Fault,USInt,2030
+CAN1 Status,USInt,2031
+CAN3 Status,USInt,2032
+Contactor State (neg bus bar),USInt,2033
+Contactor State (pos bus bar),USInt,2034
+Contactor State (pre-charge contactor),USInt,2035
+Battery Health in percent,USInt,2036
+State of Charge,Real,2038
+DC Bus Voltage in V,Real,2042
+Total Pack Current in A,Real,2046
+Pack Voltage in V,Real,2050
+Average Cell Temperature in C,Real,2054
+Highest Cell Temperature in C,Real,2058
+Lowest Cell Temperature in C,Real,2062
+Inlet Coolant Pressure in PSI,Real,2066
+Outlet Coolant Pressure in PSI,Real,2070
+Remaining Energy in kWh,Real,2074
+Maximum Charge Current (Motoring),Real,2078
+Maximum Discharge Current (Motoring),Real,2082
+Maximum Charge Power (Plug-in Charging),Real,2086
+Maximum Charge Current (Plug-in Charging),Real,2090
+Maximum Charge Power (Motoring),Real,2094
+Maximum Discharge Power (Motoring),Real,2098
+Battery in Charge State accumulator in minutes,UInt,2102
+Expected time to empty in minutes,UInt,2104
+Full Charge cycle counter,UInt,2106
+Battery in Operational State accumulator in minutes,UInt,2108
+Expected time to fully charged in minutes,UInt,2110
+Request for heating,Bool,2112
+Request for cooling,Bool,2112.1
+Charging complete,Bool,2112.2
+ISO active,Bool,2112.3
+LED active,Bool,2112.4
+CAN3 baud rate reduction,Bool,2112.5
+Heartbeat,Bool,2112.6
+Cell overvoltage fault,Bool,2112.7
+Cell overvoltage warning,Bool,2113
+Cell undervoltage fault,Bool,2113.1
+Cell undervoltage warning,Bool,2113.2
+End-of-life fault,Bool,2113.3
+End-of-life warning,Bool,2113.4
+HVIL fault,Bool,2113.5
+BMS 24V supply overvoltage fault,Bool,2113.6
+BMS 24V supply undervoltage fault,Bool,2113.7
+Pack overcurrent fault while charging,Bool,2114
+Pack overcurrent warning while charging,Bool,2114.1
+Pack overcurrent fault while discharging,Bool,2114.2
+Pack overcurrent warning while discharging,Bool,2114.3
+Pack overtemperature fault,Bool,2114.4
+Pack overtemperature warning,Bool,2114.5
+Pack undertemperature warning,Bool,2114.6
+Pack overvoltage fault,Bool,2114.7
+Pack overvoltage warning,Bool,2115
+Pack undervoltage fault,Bool,2115.1
+Pack undervoltage warning,Bool,2115.2
+Temperature difference fault,Bool,2115.3
+Loss of power control fault,Bool,2115.4
+Loss of power control warning,Bool,2115.5
+Isolation fault,Bool,2115.6
+Isolation warning,Bool,2115.7
+Pack overcharge fault,Bool,2116
+Pack overdischarge fault,Bool,2116.1
+Inlet coolant overpressure warning,Bool,2116.2
+Inlet coolant overpressure fault,Bool,2116.3
+Outlet coolant overpressure warning,Bool,2116.4
+Outlet coolant overpressure fault,Bool,2116.5
+Tx,BMS_transmit,2118
+Ambient Temperature in C,SInt,2118
+State of Charge setpoint in percent,SInt,2119
+Pack Voltage setpoint in V,Int,2120
+Command BMS sleep mode,Bool,2122
+Command BMS power up,Bool,2122.1
+Command BMS power down,Bool,2122.2
+Command BMS emergency,Bool,2122.3
+Command BMS plug-in charge,Bool,2122.4
+Command BMS stop charging,Bool,2122.5
+Isolation disable,Bool,2122.6
+LED mode,Bool,2122.7
+Change LED mode,Bool,2123
+New pack ID,USInt,2124
+Change pack ID,Bool,2125
+CAN3 baud rate reduction,Bool,2125.1
+Change baud rate,Bool,2125.2
+Maximum number of packs per stack,USInt,2126
+Change max number of packs per stack,Bool,2127
+Passcode,USInt,2128
+BMS[2],BMS(Xerotech),2130
+CAN interface,USInt,2130
+Device ID,USInt,2131
+Rx,BMS_receive,2132
+Hardware Version,UInt,2132
+Software Version,Array[0..5] of Byte,2134
+Software Version[0],Byte,2134
+Software Version[1],Byte,2135
+Software Version[2],Byte,2136
+Software Version[3],Byte,2137
+Software Version[4],Byte,2138
+Software Version[5],Byte,2139
+CAN ID of the device,USInt,2140
+Maximum number of BMS per stack,USInt,2141
+Number of active BMS per stack,USInt,2142
+BMS System State,USInt,2143
+System Fault,USInt,2144
+CAN1 Status,USInt,2145
+CAN3 Status,USInt,2146
+Contactor State (neg bus bar),USInt,2147
+Contactor State (pos bus bar),USInt,2148
+Contactor State (pre-charge contactor),USInt,2149
+Battery Health in percent,USInt,2150
+State of Charge,Real,2152
+DC Bus Voltage in V,Real,2156
+Total Pack Current in A,Real,2160
+Pack Voltage in V,Real,2164
+Average Cell Temperature in C,Real,2168
+Highest Cell Temperature in C,Real,2172
+Lowest Cell Temperature in C,Real,2176
+Inlet Coolant Pressure in PSI,Real,2180
+Outlet Coolant Pressure in PSI,Real,2184
+Remaining Energy in kWh,Real,2188
+Maximum Charge Current (Motoring),Real,2192
+Maximum Discharge Current (Motoring),Real,2196
+Maximum Charge Power (Plug-in Charging),Real,2200
+Maximum Charge Current (Plug-in Charging),Real,2204
+Maximum Charge Power (Motoring),Real,2208
+Maximum Discharge Power (Motoring),Real,2212
+Battery in Charge State accumulator in minutes,UInt,2216
+Expected time to empty in minutes,UInt,2218
+Full Charge cycle counter,UInt,2220
+Battery in Operational State accumulator in minutes,UInt,2222
+Expected time to fully charged in minutes,UInt,2224
+Request for heating,Bool,2226
+Request for cooling,Bool,2226.1
+Charging complete,Bool,2226.2
+ISO active,Bool,2226.3
+LED active,Bool,2226.4
+CAN3 baud rate reduction,Bool,2226.5
+Heartbeat,Bool,2226.6
+Cell overvoltage fault,Bool,2226.7
+Cell overvoltage warning,Bool,2227
+Cell undervoltage fault,Bool,2227.1
+Cell undervoltage warning,Bool,2227.2
+End-of-life fault,Bool,2227.3
+End-of-life warning,Bool,2227.4
+HVIL fault,Bool,2227.5
+BMS 24V supply overvoltage fault,Bool,2227.6
+BMS 24V supply undervoltage fault,Bool,2227.7
+Pack overcurrent fault while charging,Bool,2228
+Pack overcurrent warning while charging,Bool,2228.1
+Pack overcurrent fault while discharging,Bool,2228.2
+Pack overcurrent warning while discharging,Bool,2228.3
+Pack overtemperature fault,Bool,2228.4
+Pack overtemperature warning,Bool,2228.5
+Pack undertemperature warning,Bool,2228.6
+Pack overvoltage fault,Bool,2228.7
+Pack overvoltage warning,Bool,2229
+Pack undervoltage fault,Bool,2229.1
+Pack undervoltage warning,Bool,2229.2
+Temperature difference fault,Bool,2229.3
+Loss of power control fault,Bool,2229.4
+Loss of power control warning,Bool,2229.5
+Isolation fault,Bool,2229.6
+Isolation warning,Bool,2229.7
+Pack overcharge fault,Bool,2230
+Pack overdischarge fault,Bool,2230.1
+Inlet coolant overpressure warning,Bool,2230.2
+Inlet coolant overpressure fault,Bool,2230.3
+Outlet coolant overpressure warning,Bool,2230.4
+Outlet coolant overpressure fault,Bool,2230.5
+Tx,BMS_transmit,2232
+Ambient Temperature in C,SInt,2232
+State of Charge setpoint in percent,SInt,2233
+Pack Voltage setpoint in V,Int,2234
+Command BMS sleep mode,Bool,2236
+Command BMS power up,Bool,2236.1
+Command BMS power down,Bool,2236.2
+Command BMS emergency,Bool,2236.3
+Command BMS plug-in charge,Bool,2236.4
+Command BMS stop charging,Bool,2236.5
+Isolation disable,Bool,2236.6
+LED mode,Bool,2236.7
+Change LED mode,Bool,2237
+New pack ID,USInt,2238
+Change pack ID,Bool,2239
+CAN3 baud rate reduction,Bool,2239.1
+Change baud rate,Bool,2239.2
+Maximum number of packs per stack,USInt,2240
+Change max number of packs per stack,Bool,2241
+Passcode,USInt,2242
+BMS[3],BMS(Xerotech),2244
+CAN interface,USInt,2244
+Device ID,USInt,2245
+Rx,BMS_receive,2246
+Hardware Version,UInt,2246
+Software Version,Array[0..5] of Byte,2248
+Software Version[0],Byte,2248
+Software Version[1],Byte,2249
+Software Version[2],Byte,2250
+Software Version[3],Byte,2251
+Software Version[4],Byte,2252
+Software Version[5],Byte,2253
+CAN ID of the device,USInt,2254
+Maximum number of BMS per stack,USInt,2255
+Number of active BMS per stack,USInt,2256
+BMS System State,USInt,2257
+System Fault,USInt,2258
+CAN1 Status,USInt,2259
+CAN3 Status,USInt,2260
+Contactor State (neg bus bar),USInt,2261
+Contactor State (pos bus bar),USInt,2262
+Contactor State (pre-charge contactor),USInt,2263
+Battery Health in percent,USInt,2264
+State of Charge,Real,2266
+DC Bus Voltage in V,Real,2270
+Total Pack Current in A,Real,2274
+Pack Voltage in V,Real,2278
+Average Cell Temperature in C,Real,2282
+Highest Cell Temperature in C,Real,2286
+Lowest Cell Temperature in C,Real,2290
+Inlet Coolant Pressure in PSI,Real,2294
+Outlet Coolant Pressure in PSI,Real,2298
+Remaining Energy in kWh,Real,2302
+Maximum Charge Current (Motoring),Real,2306
+Maximum Discharge Current (Motoring),Real,2310
+Maximum Charge Power (Plug-in Charging),Real,2314
+Maximum Charge Current (Plug-in Charging),Real,2318
+Maximum Charge Power (Motoring),Real,2322
+Maximum Discharge Power (Motoring),Real,2326
+Battery in Charge State accumulator in minutes,UInt,2330
+Expected time to empty in minutes,UInt,2332
+Full Charge cycle counter,UInt,2334
+Battery in Operational State accumulator in minutes,UInt,2336
+Expected time to fully charged in minutes,UInt,2338
+Request for heating,Bool,2340
+Request for cooling,Bool,2340.1
+Charging complete,Bool,2340.2
+ISO active,Bool,2340.3
+LED active,Bool,2340.4
+CAN3 baud rate reduction,Bool,2340.5
+Heartbeat,Bool,2340.6
+Cell overvoltage fault,Bool,2340.7
+Cell overvoltage warning,Bool,2341
+Cell undervoltage fault,Bool,2341.1
+Cell undervoltage warning,Bool,2341.2
+End-of-life fault,Bool,2341.3
+End-of-life warning,Bool,2341.4
+HVIL fault,Bool,2341.5
+BMS 24V supply overvoltage fault,Bool,2341.6
+BMS 24V supply undervoltage fault,Bool,2341.7
+Pack overcurrent fault while charging,Bool,2342
+Pack overcurrent warning while charging,Bool,2342.1
+Pack overcurrent fault while discharging,Bool,2342.2
+Pack overcurrent warning while discharging,Bool,2342.3
+Pack overtemperature fault,Bool,2342.4
+Pack overtemperature warning,Bool,2342.5
+Pack undertemperature warning,Bool,2342.6
+Pack overvoltage fault,Bool,2342.7
+Pack overvoltage warning,Bool,2343
+Pack undervoltage fault,Bool,2343.1
+Pack undervoltage warning,Bool,2343.2
+Temperature difference fault,Bool,2343.3
+Loss of power control fault,Bool,2343.4
+Loss of power control warning,Bool,2343.5
+Isolation fault,Bool,2343.6
+Isolation warning,Bool,2343.7
+Pack overcharge fault,Bool,2344
+Pack overdischarge fault,Bool,2344.1
+Inlet coolant overpressure warning,Bool,2344.2
+Inlet coolant overpressure fault,Bool,2344.3
+Outlet coolant overpressure warning,Bool,2344.4
+Outlet coolant overpressure fault,Bool,2344.5
+Tx,BMS_transmit,2346
+Ambient Temperature in C,SInt,2346
+State of Charge setpoint in percent,SInt,2347
+Pack Voltage setpoint in V,Int,2348
+Command BMS sleep mode,Bool,2350
+Command BMS power up,Bool,2350.1
+Command BMS power down,Bool,2350.2
+Command BMS emergency,Bool,2350.3
+Command BMS plug-in charge,Bool,2350.4
+Command BMS stop charging,Bool,2350.5
+Isolation disable,Bool,2350.6
+LED mode,Bool,2350.7
+Change LED mode,Bool,2351
+New pack ID,USInt,2352
+Change pack ID,Bool,2353
+CAN3 baud rate reduction,Bool,2353.1
+Change baud rate,Bool,2353.2
+Maximum number of packs per stack,USInt,2354
+Change max number of packs per stack,Bool,2355
+Passcode,USInt,2356
+BMS[4],BMS(Xerotech),2358
+CAN interface,USInt,2358
+Device ID,USInt,2359
+Rx,BMS_receive,2360
+Hardware Version,UInt,2360
+Software Version,Array[0..5] of Byte,2362
+Software Version[0],Byte,2362
+Software Version[1],Byte,2363
+Software Version[2],Byte,2364
+Software Version[3],Byte,2365
+Software Version[4],Byte,2366
+Software Version[5],Byte,2367
+CAN ID of the device,USInt,2368
+Maximum number of BMS per stack,USInt,2369
+Number of active BMS per stack,USInt,2370
+BMS System State,USInt,2371
+System Fault,USInt,2372
+CAN1 Status,USInt,2373
+CAN3 Status,USInt,2374
+Contactor State (neg bus bar),USInt,2375
+Contactor State (pos bus bar),USInt,2376
+Contactor State (pre-charge contactor),USInt,2377
+Battery Health in percent,USInt,2378
+State of Charge,Real,2380
+DC Bus Voltage in V,Real,2384
+Total Pack Current in A,Real,2388
+Pack Voltage in V,Real,2392
+Average Cell Temperature in C,Real,2396
+Highest Cell Temperature in C,Real,2400
+Lowest Cell Temperature in C,Real,2404
+Inlet Coolant Pressure in PSI,Real,2408
+Outlet Coolant Pressure in PSI,Real,2412
+Remaining Energy in kWh,Real,2416
+Maximum Charge Current (Motoring),Real,2420
+Maximum Discharge Current (Motoring),Real,2424
+Maximum Charge Power (Plug-in Charging),Real,2428
+Maximum Charge Current (Plug-in Charging),Real,2432
+Maximum Charge Power (Motoring),Real,2436
+Maximum Discharge Power (Motoring),Real,2440
+Battery in Charge State accumulator in minutes,UInt,2444
+Expected time to empty in minutes,UInt,2446
+Full Charge cycle counter,UInt,2448
+Battery in Operational State accumulator in minutes,UInt,2450
+Expected time to fully charged in minutes,UInt,2452
+Request for heating,Bool,2454
+Request for cooling,Bool,2454.1
+Charging complete,Bool,2454.2
+ISO active,Bool,2454.3
+LED active,Bool,2454.4
+CAN3 baud rate reduction,Bool,2454.5
+Heartbeat,Bool,2454.6
+Cell overvoltage fault,Bool,2454.7
+Cell overvoltage warning,Bool,2455
+Cell undervoltage fault,Bool,2455.1
+Cell undervoltage warning,Bool,2455.2
+End-of-life fault,Bool,2455.3
+End-of-life warning,Bool,2455.4
+HVIL fault,Bool,2455.5
+BMS 24V supply overvoltage fault,Bool,2455.6
+BMS 24V supply undervoltage fault,Bool,2455.7
+Pack overcurrent fault while charging,Bool,2456
+Pack overcurrent warning while charging,Bool,2456.1
+Pack overcurrent fault while discharging,Bool,2456.2
+Pack overcurrent warning while discharging,Bool,2456.3
+Pack overtemperature fault,Bool,2456.4
+Pack overtemperature warning,Bool,2456.5
+Pack undertemperature warning,Bool,2456.6
+Pack overvoltage fault,Bool,2456.7
+Pack overvoltage warning,Bool,2457
+Pack undervoltage fault,Bool,2457.1
+Pack undervoltage warning,Bool,2457.2
+Temperature difference fault,Bool,2457.3
+Loss of power control fault,Bool,2457.4
+Loss of power control warning,Bool,2457.5
+Isolation fault,Bool,2457.6
+Isolation warning,Bool,2457.7
+Pack overcharge fault,Bool,2458
+Pack overdischarge fault,Bool,2458.1
+Inlet coolant overpressure warning,Bool,2458.2
+Inlet coolant overpressure fault,Bool,2458.3
+Outlet coolant overpressure warning,Bool,2458.4
+Outlet coolant overpressure fault,Bool,2458.5
+Tx,BMS_transmit,2460
+Ambient Temperature in C,SInt,2460
+State of Charge setpoint in percent,SInt,2461
+Pack Voltage setpoint in V,Int,2462
+Command BMS sleep mode,Bool,2464
+Command BMS power up,Bool,2464.1
+Command BMS power down,Bool,2464.2
+Command BMS emergency,Bool,2464.3
+Command BMS plug-in charge,Bool,2464.4
+Command BMS stop charging,Bool,2464.5
+Isolation disable,Bool,2464.6
+LED mode,Bool,2464.7
+Change LED mode,Bool,2465
+New pack ID,USInt,2466
+Change pack ID,Bool,2467
+CAN3 baud rate reduction,Bool,2467.1
+Change baud rate,Bool,2467.2
+Maximum number of packs per stack,USInt,2468
+Change max number of packs per stack,Bool,2469
+Passcode,USInt,2470
+BTMS,BTMS(Grayson),2472
+Device ID,USInt,2472
+Rx,BTMS_receive,2474
+Operating Mode,USInt,2474
+Pump Speed,USInt,2475
+Fan Speed,USInt,2476
+Inlet Temperature,Int,2478
+Outlet Temperature,Int,2480
+Target Temperature,Int,2482
+Compressor Timer,USInt,2484
+Protect Lock State,USInt,2485
+Protect Timer,USInt,2486
+Lock Timer,USInt,2487
+Software Version,USInt,2488
+Compressor HTCO State,USInt,2489
+LPCO State,USInt,2490
+HPCO State,USInt,2491
+CPS State,USInt,2492
+Fan1 HTCO State,USInt,2493
+Heater HTCO State,USInt,2494
+Level Sensor Switch State,USInt,2495
+Fan1 MCB State,USInt,2496
+Heater MCB State,USInt,2497
+Compressor MCB State,USInt,2498
+Pump MCB State,USInt,2499
+Fan2 MCB State,USInt,2500
+Fan2 HTCO State,USInt,2501
+Pump Pressure Flow Switch,USInt,2502
+Pump State,USInt,2503
+Fan State,USInt,2504
+Heater State,USInt,2505
+Compressor State,USInt,2506
+Inlet Temp Sensor State,USInt,2507
+Outlet Temp Sensor State,USInt,2508
+Temp Plausibility Error,USInt,2509
+F1 Refrigerant circuit over-pressure,Bool,2510
+F2 Refrigerant circuit under-pressure,Bool,2510.1
+F3 Compressor over-temperature,Bool,2510.2
+F4 Heater over-temperature,Bool,2510.3
+F5 Fan 1 over-temperature,Bool,2510.4
+F6 Inlet temperature sensor open circuit,Bool,2510.5
+F7 Inlet temperature sensor short circuit,Bool,2510.6
+F8 Outlet temperature sensor open circuit,Bool,2510.7
+F9 Outlet temperature sensor short circuit,Bool,2511
+F10 Temperatures disagree (not plausible),Bool,2511.1
+F11 Cooling prohibited due to low temperature,Bool,2511.2
+F12 Heating prohibited due to high temperature,Bool,2511.3
+F13 Pump incorrect speed,Bool,2511.4
+F14 Pump communications fault,Bool,2511.5
+F15 Pump fault (CAN),Bool,2511.6
+F16 Compressor circuit breaker,Bool,2511.7
+F17 Heater circuit breaker,Bool,2512
+F18 Fan 1 circuit breaker,Bool,2512.1
+F19 Not implemented,Bool,2512.2
+F20 Coolant level fault (Level sensor switch),Bool,2512.3
+F21 Fan 2 Over-temperature,Bool,2512.4
+F22 Fan 2 circuit breaker,Bool,2512.5
+F23 Not implemented,Bool,2512.6
+F24 Pump circuit breaker,Bool,2512.7
+F25 Flow rate fault (Pump Pressure_Flow Switch Fault),Bool,2513
+F26 Not implemented,Bool,2513.1
+Tx,BTMS_transmit,2514
+ModeRequest,USInt,2514
+SetpointRequestDegC,Int,2516
+PumpSpeedRequestPercent,Int,2518

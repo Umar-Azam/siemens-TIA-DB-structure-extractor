@@ -1,0 +1,340 @@
+Level 1,,
+Name,Data Type,Offset
+Cooling,ECP,0
+Converter,DCDCconverter,62
+Inverter,Inverter,190
+,,
+,,
+,,
+,,
+Level 2,,
+Name,Data Type,Offset
+Cooling,ECP,0
+Rx,ECP_receive,0
+Tx,ECP_transmit,38
+Converter,DCDCconverter,62
+Status,USInt,62
+Control,USInt,63
+Rx,"Array[1..2] of ""DCDCreceive""",64
+Tx,DCDCtransmit,180
+Inverter,Inverter,190
+Rx,Inverter_receive,190
+Tx,Inverter_transmit,206
+,,
+,,
+,,
+,,
+Level 3,,
+Name,Data Type,Offset
+Cooling,ECP,0
+Rx,ECP_receive,0
+FanRunning,Bool,0
+FanSpeedPercent,USInt,1
+Pump1,ECP_Pump_receive,2
+Pump2,ECP_Pump_receive,20
+Tx,ECP_transmit,38
+OperateFan,Bool,38
+FanSpeedTargetPercent,SInt,39
+CoolantTemperatureCelsius,SInt,40
+Pump1,ECP_Pump_transmit,42
+Pump2,ECP_Pump_transmit,52
+Converter,DCDCconverter,62
+Status,USInt,62
+Control,USInt,63
+Rx,"Array[1..2] of ""DCDCreceive""",64
+Rx[1],DCDCreceive,64
+Rx[2],DCDCreceive,122
+Tx,DCDCtransmit,180
+Role,Int,180
+Mode,Int,182
+RunStop,Int,184
+CurrentTarget,Int,186
+VoltageTarget,Int,188
+Inverter,Inverter,190
+Rx,Inverter_receive,190
+DC Input Current,USInt,190
+AC Output Current,USInt,191
+DC Input Voltage,USInt,192
+DC Bus Voltage,USInt,193
+Heatsink Temp,USInt,194
+Contactor State,Bool,195
+Inverter State,Bool,195.1
+Fault Byte,Struct,196
+Fault TimeSlice,Struct,198
+Tx,Inverter_transmit,206
+Heartbeat,Bool,206
+Fault Reset,Bool,206.1
+Inverter Enable,Bool,206.2
+Inverter Disable,Bool,206.3
+,,
+,,
+,,
+,,
+Level 4,,
+Name,Data Type,Offset
+Cooling,ECP,0
+Rx,ECP_receive,0
+FanRunning,Bool,0
+FanSpeedPercent,USInt,1
+Pump1,ECP_Pump_receive,2
+Running,Bool,2
+Status,USInt,3
+SpeedRPM,Real,4
+Temperature,Real,8
+Power,Real,12
+SpeedPercent,Real,16
+Pump2,ECP_Pump_receive,20
+Running,Bool,20
+Status,USInt,21
+SpeedRPM,Real,22
+Temperature,Real,26
+Power,Real,30
+SpeedPercent,Real,34
+Tx,ECP_transmit,38
+OperateFan,Bool,38
+FanSpeedTargetPercent,SInt,39
+CoolantTemperatureCelsius,SInt,40
+Pump1,ECP_Pump_transmit,42
+Run,Bool,42
+PowerHold,Bool,42.1
+TargetSpeedRPM,Real,44
+TargetSpeedPercent,Real,48
+Pump2,ECP_Pump_transmit,52
+Run,Bool,52
+PowerHold,Bool,52.1
+TargetSpeedRPM,Real,54
+TargetSpeedPercent,Real,58
+Converter,DCDCconverter,62
+Status,USInt,62
+Control,USInt,63
+Rx,"Array[1..2] of ""DCDCreceive""",64
+Rx[1],DCDCreceive,64
+Role,Int,64
+Mode,Int,66
+RunStop,Int,68
+CurrentTarget,Int,70
+VoltageTarget,Int,72
+Status,Array[0..7] of Bool,74
+MeasuredCurrent,Int,76
+VoltageTraction,Int,78
+VoltageBattery,Int,80
+CurrentIPM,Array[1..6] of Int,82
+VoltageIPM,Array[1..6] of Int,94
+TemperatureIPM,Array[1..6] of Int,106
+AmbientTemperature,Int,118
+InductorTemperature,Int,120
+Rx[2],DCDCreceive,122
+Role,Int,122
+Mode,Int,124
+RunStop,Int,126
+CurrentTarget,Int,128
+VoltageTarget,Int,130
+Status,Array[0..7] of Bool,132
+MeasuredCurrent,Int,134
+VoltageTraction,Int,136
+VoltageBattery,Int,138
+CurrentIPM,Array[1..6] of Int,140
+VoltageIPM,Array[1..6] of Int,152
+TemperatureIPM,Array[1..6] of Int,164
+AmbientTemperature,Int,176
+InductorTemperature,Int,178
+Tx,DCDCtransmit,180
+Role,Int,180
+Mode,Int,182
+RunStop,Int,184
+CurrentTarget,Int,186
+VoltageTarget,Int,188
+Inverter,Inverter,190
+Rx,Inverter_receive,190
+DC Input Current,USInt,190
+AC Output Current,USInt,191
+DC Input Voltage,USInt,192
+DC Bus Voltage,USInt,193
+Heatsink Temp,USInt,194
+Contactor State,Bool,195
+Inverter State,Bool,195.1
+Fault Byte,Struct,196
+No Fault,Bool,196
+Boost GDB Fault,Bool,196.1
+Inverter GDB Fault,Bool,196.2
+Heatsink OVT,Bool,196.3
+DC Bus Over Voltage,Bool,196.4
+DC Input Over Current,Bool,196.5
+AC Output Over Current,Bool,196.6
+CAN Fault,Bool,196.7
+Fault TimeSlice,Struct,198
+DC Input Current At Fault,USInt,198
+AC Output Current At Fault,USInt,199
+Phase A Output Current At Fault,USInt,200
+Phase B Output Current At Fault,USInt,201
+Phase C Output Current At Fault,USInt,202
+DC Input Voltage At Fault,USInt,203
+DC Bus Voltage At Fault,USInt,204
+Heatsink Temp At Fault,USInt,205
+Tx,Inverter_transmit,206
+Heartbeat,Bool,206
+Fault Reset,Bool,206.1
+Inverter Enable,Bool,206.2
+Inverter Disable,Bool,206.3
+,,
+,,
+,,
+,,
+Level 5,,
+Name,Data Type,Offset
+Cooling,ECP,0
+Rx,ECP_receive,0
+FanRunning,Bool,0
+FanSpeedPercent,USInt,1
+Pump1,ECP_Pump_receive,2
+Running,Bool,2
+Status,USInt,3
+SpeedRPM,Real,4
+Temperature,Real,8
+Power,Real,12
+SpeedPercent,Real,16
+Pump2,ECP_Pump_receive,20
+Running,Bool,20
+Status,USInt,21
+SpeedRPM,Real,22
+Temperature,Real,26
+Power,Real,30
+SpeedPercent,Real,34
+Tx,ECP_transmit,38
+OperateFan,Bool,38
+FanSpeedTargetPercent,SInt,39
+CoolantTemperatureCelsius,SInt,40
+Pump1,ECP_Pump_transmit,42
+Run,Bool,42
+PowerHold,Bool,42.1
+TargetSpeedRPM,Real,44
+TargetSpeedPercent,Real,48
+Pump2,ECP_Pump_transmit,52
+Run,Bool,52
+PowerHold,Bool,52.1
+TargetSpeedRPM,Real,54
+TargetSpeedPercent,Real,58
+Converter,DCDCconverter,62
+Status,USInt,62
+Control,USInt,63
+Rx,"Array[1..2] of ""DCDCreceive""",64
+Rx[1],DCDCreceive,64
+Role,Int,64
+Mode,Int,66
+RunStop,Int,68
+CurrentTarget,Int,70
+VoltageTarget,Int,72
+Status,Array[0..7] of Bool,74
+Status[0],Bool,74
+Status[1],Bool,74.1
+Status[2],Bool,74.2
+Status[3],Bool,74.3
+Status[4],Bool,74.4
+Status[5],Bool,74.5
+Status[6],Bool,74.6
+Status[7],Bool,74.7
+MeasuredCurrent,Int,76
+VoltageTraction,Int,78
+VoltageBattery,Int,80
+CurrentIPM,Array[1..6] of Int,82
+CurrentIPM[1],Int,82
+CurrentIPM[2],Int,84
+CurrentIPM[3],Int,86
+CurrentIPM[4],Int,88
+CurrentIPM[5],Int,90
+CurrentIPM[6],Int,92
+VoltageIPM,Array[1..6] of Int,94
+VoltageIPM[1],Int,94
+VoltageIPM[2],Int,96
+VoltageIPM[3],Int,98
+VoltageIPM[4],Int,100
+VoltageIPM[5],Int,102
+VoltageIPM[6],Int,104
+TemperatureIPM,Array[1..6] of Int,106
+TemperatureIPM[1],Int,106
+TemperatureIPM[2],Int,108
+TemperatureIPM[3],Int,110
+TemperatureIPM[4],Int,112
+TemperatureIPM[5],Int,114
+TemperatureIPM[6],Int,116
+AmbientTemperature,Int,118
+InductorTemperature,Int,120
+Rx[2],DCDCreceive,122
+Role,Int,122
+Mode,Int,124
+RunStop,Int,126
+CurrentTarget,Int,128
+VoltageTarget,Int,130
+Status,Array[0..7] of Bool,132
+Status[0],Bool,132
+Status[1],Bool,132.1
+Status[2],Bool,132.2
+Status[3],Bool,132.3
+Status[4],Bool,132.4
+Status[5],Bool,132.5
+Status[6],Bool,132.6
+Status[7],Bool,132.7
+MeasuredCurrent,Int,134
+VoltageTraction,Int,136
+VoltageBattery,Int,138
+CurrentIPM,Array[1..6] of Int,140
+CurrentIPM[1],Int,140
+CurrentIPM[2],Int,142
+CurrentIPM[3],Int,144
+CurrentIPM[4],Int,146
+CurrentIPM[5],Int,148
+CurrentIPM[6],Int,150
+VoltageIPM,Array[1..6] of Int,152
+VoltageIPM[1],Int,152
+VoltageIPM[2],Int,154
+VoltageIPM[3],Int,156
+VoltageIPM[4],Int,158
+VoltageIPM[5],Int,160
+VoltageIPM[6],Int,162
+TemperatureIPM,Array[1..6] of Int,164
+TemperatureIPM[1],Int,164
+TemperatureIPM[2],Int,166
+TemperatureIPM[3],Int,168
+TemperatureIPM[4],Int,170
+TemperatureIPM[5],Int,172
+TemperatureIPM[6],Int,174
+AmbientTemperature,Int,176
+InductorTemperature,Int,178
+Tx,DCDCtransmit,180
+Role,Int,180
+Mode,Int,182
+RunStop,Int,184
+CurrentTarget,Int,186
+VoltageTarget,Int,188
+Inverter,Inverter,190
+Rx,Inverter_receive,190
+DC Input Current,USInt,190
+AC Output Current,USInt,191
+DC Input Voltage,USInt,192
+DC Bus Voltage,USInt,193
+Heatsink Temp,USInt,194
+Contactor State,Bool,195
+Inverter State,Bool,195.1
+Fault Byte,Struct,196
+No Fault,Bool,196
+Boost GDB Fault,Bool,196.1
+Inverter GDB Fault,Bool,196.2
+Heatsink OVT,Bool,196.3
+DC Bus Over Voltage,Bool,196.4
+DC Input Over Current,Bool,196.5
+AC Output Over Current,Bool,196.6
+CAN Fault,Bool,196.7
+Fault TimeSlice,Struct,198
+DC Input Current At Fault,USInt,198
+AC Output Current At Fault,USInt,199
+Phase A Output Current At Fault,USInt,200
+Phase B Output Current At Fault,USInt,201
+Phase C Output Current At Fault,USInt,202
+DC Input Voltage At Fault,USInt,203
+DC Bus Voltage At Fault,USInt,204
+Heatsink Temp At Fault,USInt,205
+Tx,Inverter_transmit,206
+Heartbeat,Bool,206
+Fault Reset,Bool,206.1
+Inverter Enable,Bool,206.2
+Inverter Disable,Bool,206.3
