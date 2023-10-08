@@ -3,7 +3,7 @@
 
 ## Overview
 
-This script is designed to read a CSV file containing the structure of a database and generate a JSON file that represents that structure. It is written in Python and uses the built-in `csv` and `json` modules for parsing and generating files, respectively.
+This script is designed to read a CSV file containing a copy-pasted DB table from the TIA ui and generates a JSON file that represents the nested DB structure. It is written in Python and uses the built-in `csv` and `json` modules for parsing and generating files, respectively.
 
 
 
